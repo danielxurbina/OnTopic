@@ -1,0 +1,431 @@
+[
+    {
+        "_id": {
+            "$oid": "65fc8c9e071b3fe890876045"
+        },
+        "by": "du35",
+        "user_id": 1,
+        "kids": [
+            {
+                "$oid": "65fc8fde071b3fe89087604d"
+            },
+            {
+                "$oid": "65fc90f1071b3fe89087604e"
+            }
+        ],
+        "parent": "65f9c227b6359881bf9c4941",
+        "text": "This is a significant step forward for real-time metering technology. Open source solutions can foster innovation and collaboration in this space. Excited to see where this leads!",
+        "time": {
+            "$date": "2024-03-21T19:38:06.346Z"
+        },
+        "type": "comment",
+        "lastModified": {
+            "$date": "2024-03-21T19:38:06.346Z"
+        }
+    },
+    {
+        "_id": {
+            "$oid": "65fc8cd4071b3fe890876046"
+        },
+        "by": "johnbleeker",
+        "user_id": 2,
+        "kids": [
+            {
+                "$oid": "65fc9161071b3fe89087604f"
+            }
+        ],
+        "parent": "65f9c227b6359881bf9c4942",
+        "text": "Fascinating study! Understanding how natural language can induce generalization in neural networks opens up new possibilities for AI and cognitive science. Looking forward to seeing further research in this area.",
+        "time": {
+            "$date": "2024-03-21T19:39:00.935Z"
+        },
+        "type": "comment",
+        "lastModified": {
+            "$date": "2024-03-21T19:39:00.935Z"
+        }
+    },
+    {
+        "_id": {
+            "$oid": "65fc8d2b071b3fe890876047"
+        },
+        "by": "samhunt",
+        "user_id": 3,
+        "kids": [],
+        "parent": "65f9c227b6359881bf9c4943",
+        "text": "Ah, the classic 'Harry Potter and the Methods of Rationality'! A brilliant fan fiction that takes the magical world and infuses it with rationality and logic. It's a refreshing take on the series, for sure.",
+        "time": {
+            "$date": "2024-03-21T19:40:27.842Z"
+        },
+        "type": "comment",
+        "lastModified": {
+            "$date": "2024-03-21T19:40:27.842Z"
+        }
+    },
+    {
+        "_id": {
+            "$oid": "65fc8d6f071b3fe890876048"
+        },
+        "by": "cryptotrader23",
+        "user_id": 4,
+        "kids": [
+            {
+                "$oid": "65fc91c2071b3fe890876050"
+            }
+        ],
+        "parent": "65f9c227b6359881bf9c4944",
+        "text": "Microsoft making big moves in the AI space by hiring DeepMind co-founder Suleyman! Exciting times ahead for consumer AI. Can't wait to see what innovations come out of this collaboration.",
+        "time": {
+            "$date": "2024-03-21T19:41:35.419Z"
+        },
+        "type": "comment",
+        "lastModified": {
+            "$date": "2024-03-21T19:41:35.419Z"
+        }
+    },
+    {
+        "_id": {
+            "$oid": "65fc8dbb071b3fe890876049"
+        },
+        "by": "codingmachine0931",
+        "user_id": 5,
+        "kids": [],
+        "parent": "65f9c227b6359881bf9c4945",
+        "text": "Interesting findings regarding Havana Syndrome. It's crucial to have solid research backing such claims, especially considering the implications. Looking forward to more developments in this area.",
+        "time": {
+            "$date": "2024-03-21T19:42:50.990Z"
+        },
+        "type": "comment",
+        "lastModified": {
+            "$date": "2024-03-21T19:42:50.990Z"
+        }
+    },
+    {
+        "_id": {
+            "$oid": "65fc8e2e071b3fe89087604a"
+        },
+        "by": "naturelover777",
+        "user_id": 6,
+        "kids": [],
+        "parent": "65f9c227b6359881bf9c4946",
+        "text": "Love the idea of a walkable city! It's essential to prioritize pedestrian-friendly infrastructure for healthier, more sustainable communities. Hope this proposal gains traction!",
+        "time": {
+            "$date": "2024-03-21T19:44:46.609Z"
+        },
+        "type": "comment",
+        "lastModified": {
+            "$date": "2024-03-21T19:44:46.609Z"
+        }
+    },
+    {
+        "_id": {
+            "$oid": "65fc8e64071b3fe89087604b"
+        },
+        "by": "radengineer23",
+        "user_id": 7,
+        "kids": [
+            {
+                "$oid": "65fc9215071b3fe890876051"
+            }
+        ],
+        "parent": "65f9c227b6359881bf9c4948",
+        "text": "Legacy displacement is a significant challenge in software development. Understanding these patterns can help teams navigate migrations and modernization efforts more effectively. Great read!",
+        "time": {
+            "$date": "2024-03-21T19:45:40.877Z"
+        },
+        "type": "comment",
+        "lastModified": {
+            "$date": "2024-03-21T19:45:40.877Z"
+        }
+    },
+    {
+        "_id": {
+            "$oid": "65fc8eaa071b3fe89087604c"
+        },
+        "by": "samfisher",
+        "user_id": 8,
+        "kids": [],
+        "parent": "65f9c227b6359881bf9c494a",
+        "text": "Absolutely agree that leadership involves taking risks. It's about navigating uncertainty and making tough decisions for the greater good. Inspiring read!",
+        "time": {
+            "$date": "2024-03-21T19:46:50.283Z"
+        },
+        "type": "comment",
+        "lastModified": {
+            "$date": "2024-03-21T19:46:50.283Z"
+        }
+    },
+    {
+        "_id": {
+            "$oid": "65fc8fde071b3fe89087604d"
+        },
+        "by": "loreyfisher",
+        "user_id": 9,
+        "kids": [],
+        "parent": "65fc8c9e071b3fe890876045",
+        "text": "Love seeing open source breaking into the real-time metering scene! It's about time we had more transparency and collaboration in this space. Can't wait to see how this shakes up the industry!",
+        "time": {
+            "$date": "2024-03-21T19:51:58.053Z"
+        },
+        "type": "comment",
+        "lastModified": {
+            "$date": "2024-03-21T19:51:58.053Z"
+        }
+    },
+    {
+        "_id": {
+            "$oid": "65fc90f1071b3fe89087604e"
+        },
+        "by": "socialguru",
+        "user_id": 10,
+        "kids": [
+            {
+                "$oid": "65fc92ae071b3fe890876052"
+            }
+        ],
+        "parent": "65fc8c9e071b3fe890876045",
+        "text": "While open source has its merits, I'm a bit skeptical about its application in real-time metering. Are there any potential drawbacks or concerns we should be considering?",
+        "time": {
+            "$date": "2024-03-21T19:56:33.504Z"
+        },
+        "type": "comment",
+        "lastModified": {
+            "$date": "2024-03-21T19:56:33.504Z"
+        }
+    },
+    {
+        "_id": {
+            "$oid": "65fc9161071b3fe89087604f"
+        },
+        "by": "digitalavid",
+        "user_id": 11,
+        "kids": [
+            {
+                "$oid": "65fc9305071b3fe890876053"
+            }
+        ],
+        "parent": "65fc8cd4071b3fe890876046",
+        "text": "I'm not entirely convinced about the implications of this study. Could it potentially lead to oversimplification or misinterpretation of complex data? Let's delve deeper into the potential risks.",
+        "time": {
+            "$date": "2024-03-21T19:58:25.696Z"
+        },
+        "type": "comment",
+        "lastModified": {
+            "$date": "2024-03-21T19:58:25.696Z"
+        }
+    },
+    {
+        "_id": {
+            "$oid": "65fc91c2071b3fe890876050"
+        },
+        "by": "datadreamer",
+        "user_id": 12,
+        "kids": [
+            {
+                "$oid": "65fc936c071b3fe890876054"
+            }
+        ],
+        "parent": "65fc8d6f071b3fe890876048",
+        "text": "Hmm, while Microsoft's move is indeed attention-grabbing, I wonder if it could also lead to monopolization or stifling of innovation in the AI market. What are your thoughts on the potential consequences?",
+        "time": {
+            "$date": "2024-03-21T20:00:02.317Z"
+        },
+        "type": "comment",
+        "lastModified": {
+            "$date": "2024-03-21T20:00:02.317Z"
+        }
+    },
+    {
+        "_id": {
+            "$oid": "65fc9215071b3fe890876051"
+        },
+        "by": "bytebard",
+        "user_id": 13,
+        "kids": [
+            {
+                "$oid": "65fc93dc071b3fe890876055"
+            }
+        ],
+        "parent": "65fc8e64071b3fe89087604b",
+        "text": "I'm not entirely sold on the idea that understanding legacy displacement patterns is the key to successful modernization. Sometimes, it feels like we're just rearranging the deck chairs on the Titanic. Are there alternative approaches worth exploring?",
+        "time": {
+            "$date": "2024-03-21T20:01:25.116Z"
+        },
+        "type": "comment",
+        "lastModified": {
+            "$date": "2024-03-21T20:01:25.116Z"
+        }
+    },
+    {
+        "_id": {
+            "$oid": "65fc92ae071b3fe890876052"
+        },
+        "by": "du35",
+        "user_id": 1,
+        "kids": [
+            {
+                "$oid": "65fc94d7071b3fe890876056"
+            }
+        ],
+        "parent": "65fc90f1071b3fe89087604e",
+        "text": "I understand your skepticism, but I believe open source offers transparency and community-driven development, which can lead to more robust and adaptable solutions. Perhaps the benefits outweigh the potential drawbacks in this case?",
+        "time": {
+            "$date": "2024-03-21T20:03:58.133Z"
+        },
+        "type": "comment",
+        "lastModified": {
+            "$date": "2024-03-21T20:03:58.133Z"
+        }
+    },
+    {
+        "_id": {
+            "$oid": "65fc9305071b3fe890876053"
+        },
+        "by": "johnbleeker",
+        "user_id": 2,
+        "kids": [
+            {
+                "$oid": "65fc9523071b3fe890876057"
+            }
+        ],
+        "parent": "65fc9161071b3fe89087604f",
+        "text": "Valid point! However, I think it's crucial to acknowledge the groundbreaking nature of this study. It opens up avenues for further exploration and refinement, which could ultimately lead to significant advancements in AI research and applications.",
+        "time": {
+            "$date": "2024-03-21T20:05:25.214Z"
+        },
+        "type": "comment",
+        "lastModified": {
+            "$date": "2024-03-21T20:05:25.214Z"
+        }
+    },
+    {
+        "_id": {
+            "$oid": "65fc936c071b3fe890876054"
+        },
+        "by": "cryptotrader23",
+        "user_id": 4,
+        "kids": [
+            {
+                "$oid": "65fc9575071b3fe890876058"
+            },
+            {
+                "$oid": "65fc99a3a6779e59bfe70050"
+            }
+        ],
+        "parent": "65fc91c2071b3fe890876050",
+        "text": "While monopolization is a valid concern, I believe Microsoft's hiring of Suleyman signifies a commitment to pushing the boundaries of AI technology. It's a testament to their dedication to innovation and collaboration, rather than stifling competition.",
+        "time": {
+            "$date": "2024-03-21T20:07:08.857Z"
+        },
+        "type": "comment",
+        "lastModified": {
+            "$date": "2024-03-21T20:07:08.857Z"
+        }
+    },
+    {
+        "_id": {
+            "$oid": "65fc93dc071b3fe890876055"
+        },
+        "by": "sambarkley",
+        "user_id": 14,
+        "kids": [
+            {
+                "$oid": "65fc95b1071b3fe890876059"
+            }
+        ],
+        "parent": "65fc9215071b3fe890876051",
+        "text": "I appreciate your skepticism, but I think understanding legacy displacement patterns is essential for mitigating risks and ensuring successful modernization efforts. It's about learning from past mistakes and charting a more informed path forward.",
+        "time": {
+            "$date": "2024-03-21T20:09:00.318Z"
+        },
+        "type": "comment",
+        "lastModified": {
+            "$date": "2024-03-21T20:10:24.529Z"
+        }
+    },
+    {
+        "_id": {
+            "$oid": "65fc94d7071b3fe890876056"
+        },
+        "by": "socialguru",
+        "user_id": 10,
+        "kids": [],
+        "parent": "65fc92ae071b3fe890876052",
+        "text": "While transparency and community-driven development are commendable aspects of open source, we can't ignore the potential risks, such as security vulnerabilities or lack of centralized support. It's essential to weigh these factors carefully before fully embracing open source in critical systems.",
+        "time": {
+            "$date": "2024-03-21T20:13:11.868Z"
+        },
+        "type": "comment",
+        "lastModified": {
+            "$date": "2024-03-21T20:13:11.868Z"
+        }
+    },
+    {
+        "_id": {
+            "$oid": "65fc9523071b3fe890876057"
+        },
+        "by": "techtitan",
+        "user_id": 15,
+        "kids": [],
+        "parent": "65fc9305071b3fe890876053",
+        "text": "While the study may be groundbreaking, we shouldn't overlook the potential ethical implications or unintended consequences of implementing natural language instructions in neural networks. It's essential to proceed cautiously and consider the broader societal impacts.",
+        "time": {
+            "$date": "2024-03-21T20:14:27.111Z"
+        },
+        "type": "comment",
+        "lastModified": {
+            "$date": "2024-03-21T20:14:27.111Z"
+        }
+    },
+    {
+        "_id": {
+            "$oid": "65fc9575071b3fe890876058"
+        },
+        "by": "nocode20",
+        "user_id": 16,
+        "kids": [],
+        "parent": "65fc936c071b3fe890876054",
+        "text": "While Microsoft's intentions may be noble, the concentration of talent in a few tech giants could indeed stifle competition and innovation in the long run. We should remain vigilant and advocate for policies that promote a more diverse and decentralized AI ecosystem.",
+        "time": {
+            "$date": "2024-03-21T20:15:49.483Z"
+        },
+        "type": "comment",
+        "lastModified": {
+            "$date": "2024-03-21T20:15:49.483Z"
+        }
+    },
+    {
+        "_id": {
+            "$oid": "65fc95b1071b3fe890876059"
+        },
+        "by": "techtitan",
+        "user_id": 15,
+        "kids": [],
+        "parent": "65fc93dc071b3fe890876055",
+        "text": "While learning from past mistakes is important, dwelling too much on legacy displacement patterns could hinder innovation and progress. Sometimes, it's necessary to break free from legacy systems altogether and embrace entirely new approaches to drive true transformation.",
+        "time": {
+            "$date": "2024-03-21T20:16:49.823Z"
+        },
+        "type": "comment",
+        "lastModified": {
+            "$date": "2024-03-21T20:16:49.823Z"
+        }
+    },
+    {
+        "_id": {
+            "$oid": "65fc99a3a6779e59bfe70050"
+        },
+        "by": "KlDvceEngnr",
+        "user_id": 17,
+        "kids": [],
+        "parent": "65fc936c071b3fe890876054",
+        "text": "I agree that a more diverse and decentralized AI ecosystem is desirable for fostering innovation and preventing monopolization. However, we shouldn't overlook the potential benefits of pooling talent and resources in larger tech companies. Perhaps a hybrid approach, combining the strengths of both centralized and decentralized models, could offer a more balanced solution to promoting innovation while mitigating monopolistic risks.",
+        "time": {
+            "$date": "2024-03-21T20:33:38.981Z"
+        },
+        "type": "comment",
+        "lastModified": {
+            "$date": "2024-03-21T20:40:18.536Z"
+        },
+        "deleted": true
+    }
+]

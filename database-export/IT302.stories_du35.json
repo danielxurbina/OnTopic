@@ -1,391 +1,414 @@
-[{
-  "_id": {
-    "$oid": "65c42e644dbd87e1000d9262"
+[
+  {
+    "_id": {
+      "$oid": "65f9c227b6359881bf9c4941"
+    },
+    "by": "jdenquin",
+    "descendants": 6,
+    "score": 1,
+    "time": {
+      "$date": "2024-03-19T16:47:57.000Z"
+    },
+    "title": "Open source comes to real-time metering",
+    "type": "story",
+    "url": "https://www.infoworld.com/article/3714620/open-source-comes-to-real-time-metering.html",
+    "image": "https://i.postimg.cc/wBG7mLnC/amr-taha-BSV8-Tv-Xos94-unsplash.jpg",
+    "lastUpdated": {
+      "$date": "2024-03-19T16:49:42.773Z"
+    },
+    "kids": [
+      {
+        "$oid": "65fc8c9e071b3fe890876045"
+      }
+    ]
   },
-  "by": "soheil",
-  "descendants": 0,
-  "id": 39311089,
-  "score": 1,
-  "text": "Have conversations with hundreds of subject matter experts.<p>interaict.com",
-  "time": {
-    "$date": "2024-02-09T03:37:48.000Z"
+  {
+    "_id": {
+      "$oid": "65f9c227b6359881bf9c4942"
+    },
+    "by": "birriel",
+    "descendants": 4,
+    "score": 1,
+    "time": {
+      "$date": "2024-03-19T16:47:29.000Z"
+    },
+    "title": "Natural language instructions induce generalization in networks of neurons",
+    "type": "story",
+    "url": "https://www.nature.com/articles/s41593-024-01607-5",
+    "image": "https://i.postimg.cc/gJ1Xf8DV/becca-tapert-tam80n-XFv-L4-unsplash.jpg",
+    "lastUpdated": {
+      "$date": "2024-03-19T16:49:42.773Z"
+    },
+    "kids": [
+      {
+        "$oid": "65fc8cd4071b3fe890876046"
+      }
+    ]
   },
-  "title": "Show HN: Interact with Any AI Character",
-  "type": "story",
-  "image": "https://i.postimg.cc/BbGZTgpV/samuel-sianipar-Mad2smyk-ZU0-unsplash.jpg",
-  "lastUpdated": {
-    "$date": "2024-02-08T01:29:08.548Z"
+  {
+    "_id": {
+      "$oid": "65f9c227b6359881bf9c4943"
+    },
+    "by": "tosh",
+    "descendants": 1,
+    "score": 1,
+    "time": {
+      "$date": "2024-03-19T16:47:10.000Z"
+    },
+    "title": "Harry Potter and the Methods of Rationality",
+    "type": "story",
+    "url": "https://en.wikipedia.org/wiki/Harry_Potter_and_the_Methods_of_Rationality",
+    "image": "https://i.postimg.cc/ZK8BM9yN/declan-sun-p-YLuh6f-Rdhw-unsplash.jpg",
+    "lastUpdated": {
+      "$date": "2024-03-19T16:49:42.773Z"
+    },
+    "kids": [
+      {
+        "$oid": "65fc8d2b071b3fe890876047"
+      }
+    ]
+  },
+  {
+    "_id": {
+      "$oid": "65f9c227b6359881bf9c4944"
+    },
+    "by": "low_tech_punk",
+    "descendants": 5,
+    "score": 2,
+    "time": {
+      "$date": "2024-03-19T16:46:09.000Z"
+    },
+    "title": "Microsoft hires DeepMind co-founder Suleyman",
+    "type": "story",
+    "url": "https://www.reuters.com/technology/microsoft-hires-deepmind-co-founder-suleyman-head-new-consumer-ai-organization-2024-03-19/",
+    "image": "https://i.postimg.cc/GhC9GcSm/declan-sun-tnlbm6h-F43k-unsplash.jpg",
+    "lastUpdated": {
+      "$date": "2024-03-19T16:49:42.773Z"
+    },
+    "kids": [
+      {
+        "$oid": "65fc8d6f071b3fe890876048"
+      }
+    ]
+  },
+  {
+    "_id": {
+      "$oid": "65f9c227b6359881bf9c4945"
+    },
+    "by": "bookofjoe",
+    "descendants": 1,
+    "kids": [
+      {
+        "$oid": "65fc8dbb071b3fe890876049"
+      }
+    ],
+    "score": 2,
+    "time": {
+      "$date": "2024-03-19T16:45:59.000Z"
+    },
+    "title": "New Studies Find No Evidence of Brain Injury in Havana Syndrome Cases",
+    "type": "story",
+    "url": "https://www.nytimes.com/2024/03/18/us/politics/havana-syndrome-brain-studies-nih.html",
+    "image": "https://i.postimg.cc/QC59sC4R/gabriel-castles-w-IFnw-Bb-Qtv-I-unsplash.jpg",
+    "lastUpdated": {
+      "$date": "2024-03-19T16:49:42.773Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "65f9c227b6359881bf9c4946"
+    },
+    "by": "skadamat",
+    "descendants": 1,
+    "score": 1,
+    "time": {
+      "$date": "2024-03-19T16:44:42.000Z"
+    },
+    "title": "New Walkable City Proposal in California",
+    "type": "story",
+    "url": "https://devonzuegel.com/the-new-city-in-california",
+    "image": "https://i.postimg.cc/yY43jhWB/ilyuza-mingazova-Ha-TIYO87q-WQ-unsplash.jpg",
+    "lastUpdated": {
+      "$date": "2024-03-19T16:49:42.773Z"
+    },
+    "kids": [
+      {
+        "$oid": "65fc8e2e071b3fe89087604a"
+      }
+    ]
+  },
+  {
+    "_id": {
+      "$oid": "65f9c227b6359881bf9c4947"
+    },
+    "by": "sklargh",
+    "descendants": 0,
+    "score": 2,
+    "time": {
+      "$date": "2024-03-19T16:43:05.000Z"
+    },
+    "title": "Northrop Grumman to Develop Concept for Lunar Railroad",
+    "type": "story",
+    "url": "https://news.northropgrumman.com/news/releases/northrop-grumman-to-develop-concept-for-lunar-railroad",
+    "image": "https://i.postimg.cc/52pHfZgN/jack-dong-YRo-Jea0x-GVY-unsplash.jpg",
+    "lastUpdated": {
+      "$date": "2024-03-19T16:49:42.773Z"
+    },
+    "kids": []
+  },
+  {
+    "_id": {
+      "$oid": "65f9c227b6359881bf9c4948"
+    },
+    "by": "acossta",
+    "descendants": 4,
+    "score": 1,
+    "time": {
+      "$date": "2024-03-19T16:40:47.000Z"
+    },
+    "title": "Patterns of Legacy Displacement",
+    "type": "story",
+    "url": "https://martinfowler.com/articles/patterns-legacy-displacement/",
+    "image": "https://i.postimg.cc/sXG191rv/jakob-owens-ab0-D6-So-Bn3w-unsplash.jpg",
+    "lastUpdated": {
+      "$date": "2024-03-19T16:49:42.773Z"
+    },
+    "kids": [
+      {
+        "$oid": "65fc8e64071b3fe89087604b"
+      }
+    ]
+  },
+  {
+    "_id": {
+      "$oid": "65f9c227b6359881bf9c4949"
+    },
+    "by": "acossta",
+    "descendants": 0,
+    "score": 2,
+    "time": {
+      "$date": "2024-03-19T16:40:15.000Z"
+    },
+    "title": "The Builder's Guide to Better Mousetraps",
+    "type": "story",
+    "url": "https://brooker.co.za/blog/2024/03/04/mousetrap.html",
+    "image": "https://i.postimg.cc/kGrGj9Jw/jiawei-zhao-l-Hg-HO7-IBVFg-unsplash.jpg",
+    "lastUpdated": {
+      "$date": "2024-03-19T16:49:42.773Z"
+    },
+    "kids": []
+  },
+  {
+    "_id": {
+      "$oid": "65f9c227b6359881bf9c494a"
+    },
+    "by": "acossta",
+    "descendants": 1,
+    "score": 2,
+    "time": {
+      "$date": "2024-03-19T16:39:55.000Z"
+    },
+    "title": "Leadership requires taking some risk",
+    "type": "story",
+    "url": "https://lethain.com/leadership-requires-risk/",
+    "image": "https://i.postimg.cc/x8KCh7qQ/joanna-kosinska-RE-8-Wsw-W95o-unsplash.jpg",
+    "lastUpdated": {
+      "$date": "2024-03-19T16:49:42.773Z"
+    },
+    "kids": [
+      {
+        "$oid": "65fc8eaa071b3fe89087604c"
+      }
+    ]
+  },
+  {
+    "_id": {
+      "$oid": "65f9c227b6359881bf9c494c"
+    },
+    "by": "nonfamous",
+    "descendants": 0,
+    "score": 1,
+    "time": {
+      "$date": "2024-03-19T16:36:07.000Z"
+    },
+    "title": "Microsoft Hires DeepMind Co-Founder Suleyman to Run Consumer AI",
+    "type": "story",
+    "url": "https://finance.yahoo.com/news/microsoft-hires-deepmind-co-founder-160026504.html",
+    "image": "https://i.postimg.cc/xT38PWWy/kyle-glenn-AR74-Eo-Wdy0-unsplash.jpg",
+    "lastUpdated": {
+      "$date": "2024-03-19T16:49:42.773Z"
+    },
+    "kids": []
+  },
+  {
+    "_id": {
+      "$oid": "65f9c227b6359881bf9c494d"
+    },
+    "by": "Pokerface777",
+    "descendants": 0,
+    "score": 1,
+    "time": {
+      "$date": "2024-03-19T16:34:40.000Z"
+    },
+    "title": "'Now you're a terrorist': Atlanta's Cop City crackdown",
+    "type": "story",
+    "url": "https://www.aljazeera.com/program/fault-lines/2023/9/28/now-youre-a-terrorist-atlantas-cop-city-crackdown",
+    "image": "https://i.postimg.cc/NGT5KyDn/marissa-grootes-Lh-Qc-DPf-Gj2-Q-unsplash.jpg",
+    "lastUpdated": {
+      "$date": "2024-03-19T16:49:42.773Z"
+    },
+    "kids": []
+  },
+  {
+    "_id": {
+      "$oid": "65f9c227b6359881bf9c494e"
+    },
+    "by": "siaminga",
+    "descendants": 0,
+    "kids": [],
+    "score": 2,
+    "text": "which platform allows to build ai chatbots and have chat sdks to deploy the chatbot into a mobile app? (both android and ios)",
+    "time": {
+      "$date": "2024-03-19T16:32:29.000Z"
+    },
+    "title": "AI Chatbot with Chat SDKs",
+    "type": "story",
+    "image": "https://i.postimg.cc/gcv2YCkF/mostafa-turkey-n-Vg-U7s-NDRg0-unsplash.jpg",
+    "lastUpdated": {
+      "$date": "2024-03-19T16:49:42.773Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "65f9c227b6359881bf9c494f"
+    },
+    "by": "marianoguerra",
+    "descendants": 0,
+    "score": 1,
+    "time": {
+      "$date": "2024-03-19T16:32:11.000Z"
+    },
+    "title": "Playing with Code: Programming-Adjacent Games",
+    "type": "story",
+    "url": "https://marianoguerra.org/posts/playing-with-code-programming-adjacent-games/",
+    "image": "https://i.postimg.cc/yNt8dBZB/pankaj-patel-b-Yiw48-KLbmw-unsplash.jpg",
+    "lastUpdated": {
+      "$date": "2024-03-19T16:49:42.773Z"
+    },
+    "kids": []
+  },
+  {
+    "_id": {
+      "$oid": "65f9c227b6359881bf9c4950"
+    },
+    "by": "LukeEF",
+    "descendants": 0,
+    "score": 3,
+    "time": {
+      "$date": "2024-03-19T16:30:59.000Z"
+    },
+    "title": "The Semantic Web Is Dead – Long Live the Semantic Web",
+    "type": "story",
+    "url": "https://github.com/GavinMendelGleason/blog/blob/main/entries/semantic_future.md",
+    "image": "https://i.postimg.cc/sgfXHTzF/patrick-perkins-e-VGGg-Qm-DJl-Q-unsplash.jpg",
+    "lastUpdated": {
+      "$date": "2024-03-19T16:49:42.773Z"
+    },
+    "kids": []
+  },
+  {
+    "_id": {
+      "$oid": "65f9c227b6359881bf9c4951"
+    },
+    "by": "sarupbanskota",
+    "descendants": 0,
+    "score": 1,
+    "time": {
+      "$date": "2024-03-19T16:29:02.000Z"
+    },
+    "title": "DHH: Ruby on Rails, 37signals, and the future of web development",
+    "type": "story",
+    "url": "https://www.devtools.fm/episode/90?view=TRANSCRIPT",
+    "image": "https://i.postimg.cc/MTBKf47B/rodeo-project-management-software-b2-L3f7edn-YE-unsplash.jpg",
+    "lastUpdated": {
+      "$date": "2024-03-19T16:49:42.773Z"
+    },
+    "kids": []
+  },
+  {
+    "_id": {
+      "$oid": "65f9c227b6359881bf9c4952"
+    },
+    "by": "covi",
+    "descendants": 0,
+    "score": 5,
+    "time": {
+      "$date": "2024-03-19T16:28:16.000Z"
+    },
+    "title": "Inflection CEO Left, Became CEO of Microsoft AI",
+    "type": "story",
+    "url": "https://twitter.com/mustafasuleyman/status/1770123596121432351",
+    "image": "https://i.postimg.cc/BbGZTgpV/samuel-sianipar-Mad2smyk-ZU0-unsplash.jpg",
+    "lastUpdated": {
+      "$date": "2024-03-19T16:49:42.773Z"
+    },
+    "kids": []
+  },
+  {
+    "_id": {
+      "$oid": "65f9c227b6359881bf9c4953"
+    },
+    "by": "confoundcofound",
+    "descendants": 0,
+    "score": 2,
+    "text": "Much of YC’s content and outreach is clearly targeted towards college students and younger generations. There is little to no acknowledgement of those who may have gotten into tech later in life with aspirations to eventually start a venture.<p>It’s incredibly deflating, particularly with every new YC company that comes out of stealth reaffirming the idea that it’s almost entirely a young person’s game.",
+    "time": {
+      "$date": "2024-03-19T16:27:59.000Z"
+    },
+    "title": "Ask HN: Is there a bias against older founders? How to remain hopeful?",
+    "type": "story",
+    "image": "https://i.postimg.cc/T3kPzn2K/standsome-worklifestyle-Ukx-A41-Zv-Apo-unsplash.jpg",
+    "lastUpdated": {
+      "$date": "2024-03-19T16:49:42.773Z"
+    },
+    "kids": []
+  },
+  {
+    "_id": {
+      "$oid": "65f9c227b6359881bf9c4954"
+    },
+    "by": "PaulHoule",
+    "descendants": 0,
+    "score": 1,
+    "time": {
+      "$date": "2024-03-19T16:27:46.000Z"
+    },
+    "title": "CO2 Storage Resource Estimation for the Central Gulf of Mexico",
+    "type": "story",
+    "url": "https://www.mdpi.com/1996-1073/17/6/1349",
+    "image": "https://i.postimg.cc/x8yftzFT/zeng-yili-ew-XXx-Vw4-ID4-unsplash.jpg",
+    "lastUpdated": {
+      "$date": "2024-03-19T16:49:42.773Z"
+    },
+    "kids": []
+  },
+  {
+    "_id": {
+      "$oid": "65fc8aa7071b3fe890876044"
+    },
+    "by": "giuliomagnifico",
+    "descendants": 0,
+    "score": 1,
+    "text": "",
+    "time": {
+      "$date": "2024-03-21T19:29:43.166Z"
+    },
+    "title": "Archaeologists Keep Finding Preserved Human Brains",
+    "type": "story",
+    "url": "https://www.smithsonianmag.com/smart-news/archaeologists-keep-finding-preserved-human-brains-but-how-do-the-organs-remain-intact-180983995/",
+    "lastUpdated": {
+      "$date": "2024-03-21T19:29:43.166Z"
+    },
+    "kids": []
   }
-},
-{
-  "_id": {
-    "$oid": "65c42e644dbd87e1000d9258"
-  },
-  "by": "mlejva",
-  "descendants": 0,
-  "id": 39311277,
-  "kids": [
-    39311290,
-    39311298
-  ],
-  "score": 5,
-  "time": {
-    "$date": "2024-02-09T04:08:41.000Z"
-  },
-  "title": "Show HN: Open-Source Infrastructure for AI Code Interpreters",
-  "type": "story",
-  "url": "https://e2b.dev/docs",
-  "image": "https://i.postimg.cc/sXG191rv/jakob-owens-ab0-D6-So-Bn3w-unsplash.jpg",
-  "lastUpdated": {
-    "$date": "2024-02-08T01:29:08.548Z"
-  }
-},
-{
-  "_id": {
-    "$oid": "65c42e644dbd87e1000d9251"
-  },
-  "by": "pinkmuffinere",
-  "descendants": 0,
-  "id": 39311444,
-  "score": 1,
-  "time": {
-    "$date": "2024-02-09T04:36:22.000Z"
-  },
-  "title": "A Brief History of Sudo",
-  "type": "story",
-  "url": "https://www.sudo.ws/about/history/",
-  "image": "https://i.postimg.cc/wBG7mLnC/amr-taha-BSV8-Tv-Xos94-unsplash.jpg",
-  "lastUpdated": {
-    "$date": "2024-02-08T01:29:08.548Z"
-  }
-},
-{
-  "_id": {
-    "$oid": "65c42e644dbd87e1000d9261"
-  },
-  "by": "PaulHoule",
-  "descendants": 0,
-  "id": 39311093,
-  "score": 1,
-  "time": {
-    "$date": "2024-02-09T03:38:58.000Z"
-  },
-  "title": "Iron-Air Technology: A Sustainable Energy Storage Solution",
-  "type": "story",
-  "url": "https://oilprice.com/Energy/Energy-General/Iron-Air-Technology-A-Sustainable-Energy-Storage-Solution.html",
-  "image": "https://i.postimg.cc/MTBKf47B/rodeo-project-management-software-b2-L3f7edn-YE-unsplash.jpg",
-  "lastUpdated": {
-    "$date": "2024-02-08T01:29:08.548Z"
-  }
-},
-{
-  "_id": {
-    "$oid": "65c42e644dbd87e1000d9263"
-  },
-  "by": "paulpauper",
-  "descendants": 2,
-  "id": 39311087,
-  "kids": [
-    39311167,
-    39311329
-  ],
-  "score": 1,
-  "time": {
-    "$date": "2024-02-09T03:36:58.000Z"
-  },
-  "title": "The Rise of Anti-Heroes",
-  "type": "story",
-  "url": "https://eriktorenberg.substack.com/p/the-rise-of-anti-heroes",
-  "image": "https://i.postimg.cc/T3kPzn2K/standsome-worklifestyle-Ukx-A41-Zv-Apo-unsplash.jpg",
-  "lastUpdated": {
-    "$date": "2024-02-08T01:29:08.548Z"
-  }
-},
-{
-  "_id": {
-    "$oid": "65c42e644dbd87e1000d9255"
-  },
-  "by": "dominicfahey",
-  "descendants": 1,
-  "id": 39311344,
-  "kids": [
-    39311345
-  ],
-  "score": 1,
-  "time": {
-    "$date": "2024-02-09T04:20:40.000Z"
-  },
-  "title": "Personal Digital Security Guide",
-  "type": "story",
-  "url": "https://github.com/domfahey/personal_digital_security",
-  "image": "https://i.postimg.cc/QC59sC4R/gabriel-castles-w-IFnw-Bb-Qtv-I-unsplash.jpg",
-  "lastUpdated": {
-    "$date": "2024-02-08T01:29:08.548Z"
-  }
-},
-{
-  "_id": {
-    "$oid": "65c42e644dbd87e1000d925b"
-  },
-  "by": "eklitzke",
-  "descendants": 0,
-  "id": 39311197,
-  "score": 1,
-  "time": {
-    "$date": "2024-02-09T03:53:42.000Z"
-  },
-  "title": "Tortured Poets' or Poets? Taylor Swift Meets the Apostrophe Police",
-  "type": "story",
-  "url": "https://www.nytimes.com/2024/02/07/arts/music/tortured-poets-department-apostrophe-taylor-swift.html",
-  "image": "https://i.postimg.cc/7LfLwbbm/jon-tyson-Os-WS1-Qe-Run-E-unsplash.jpg",
-  "lastUpdated": {
-    "$date": "2024-02-08T01:29:08.548Z"
-  }
-},
-{
-  "_id": {
-    "$oid": "65c42e644dbd87e1000d9252"
-  },
-  "by": "worez",
-  "descendants": 0,
-  "id": 39311373,
-  "score": 1,
-  "time": {
-    "$date": "2024-02-09T04:25:32.000Z"
-  },
-  "title": "We now self-host our support email",
-  "type": "story",
-  "url": "https://mullvad.net/en/blog/2024/2/8/we-now-self-host-our-support-email",
-  "image": "https://i.postimg.cc/gJ1Xf8DV/becca-tapert-tam80n-XFv-L4-unsplash.jpg",
-  "lastUpdated": {
-    "$date": "2024-02-08T01:29:08.548Z"
-  }
-},
-{
-  "_id": {
-    "$oid": "65c42e644dbd87e1000d925c"
-  },
-  "by": "brailsafe",
-  "descendants": 0,
-  "id": 39311162,
-  "score": 1,
-  "text": "It&#x27;s an extremely scarce market, at least in Canada and maybe the U.S at the moment, and during the last year of looking for work I&#x27;ve seen an increased proliferation of companies demanding some sort of 5-10 min video recording. Have you done one, and has it paid off? Are you responsible for vetting&#x2F;asking for this at your company?<p>There&#x27;s also been at least one case of having applied directly to a company who&#x27;s then given my email to a third-party automated technical testing company with no prior call or communication, who&#x27;s then asked I give them access to my camera during the 1 hour automated screen for the purpose of taking period screenshots, not that I went through with it.",
-  "time": {
-    "$date": "2024-02-09T03:47:59.000Z"
-  },
-  "title": "Ask HN: How has your experience been with preliminary video auditions?",
-  "type": "story",
-  "image": "https://i.postimg.cc/xT38PWWy/kyle-glenn-AR74-Eo-Wdy0-unsplash.jpg",
-  "lastUpdated": {
-    "$date": "2024-02-08T01:29:08.548Z"
-  }
-},
-{
-  "_id": {
-    "$oid": "65c42e644dbd87e1000d925e"
-  },
-  "by": "signa11",
-  "descendants": 0,
-  "id": 39311132,
-  "score": 1,
-  "time": {
-    "$date": "2024-02-09T03:44:37.000Z"
-  },
-  "title": "The things nobody wants to pay for",
-  "type": "story",
-  "url": "https://lwn.net/Articles/959069/",
-  "image": "https://i.postimg.cc/gcv2YCkF/mostafa-turkey-n-Vg-U7s-NDRg0-unsplash.jpg",
-  "lastUpdated": {
-    "$date": "2024-02-08T01:29:08.548Z"
-  }
-},
-{
-  "_id": {
-    "$oid": "65c42e644dbd87e1000d925f"
-  },
-  "by": "croes",
-  "descendants": 0,
-  "id": 39311128,
-  "score": 1,
-  "time": {
-    "$date": "2024-02-09T03:44:08.000Z"
-  },
-  "title": "Resizable BAR for almost any UEFI system",
-  "type": "story",
-  "url": "https://github.com/xCuri0/ReBarUEFI",
-  "image": "https://i.postimg.cc/yNt8dBZB/pankaj-patel-b-Yiw48-KLbmw-unsplash.jpg",
-  "lastUpdated": {
-    "$date": "2024-02-08T01:29:08.548Z"
-  }
-},
-{
-  "_id": {
-    "$oid": "65c42e644dbd87e1000d9260"
-  },
-  "by": "alexmacarthur",
-  "descendants": 0,
-  "id": 39311107,
-  "score": 1,
-  "time": {
-    "$date": "2024-02-09T03:41:31.000Z"
-  },
-  "title": "It's never been easier to performantly put images on the web",
-  "type": "story",
-  "url": "https://picperf.io/posts/images",
-  "image": "https://i.postimg.cc/sgfXHTzF/patrick-perkins-e-VGGg-Qm-DJl-Q-unsplash.jpg",
-  "lastUpdated": {
-    "$date": "2024-02-08T01:29:08.548Z"
-  }
-},
-{
-  "_id": {
-    "$oid": "65c42e644dbd87e1000d925a"
-  },
-  "by": "alexzeitler",
-  "descendants": 0,
-  "id": 39311242,
-  "score": 1,
-  "time": {
-    "$date": "2024-02-09T04:01:45.000Z"
-  },
-  "title": "Cloud Data Egress Costs",
-  "type": "story",
-  "url": "https://getdeploying.com/reference/data-egress",
-  "image": "https://i.postimg.cc/x8KCh7qQ/joanna-kosinska-RE-8-Wsw-W95o-unsplash.jpg",
-  "lastUpdated": {
-    "$date": "2024-02-08T01:29:08.548Z"
-  }
-},
-{
-  "_id": {
-    "$oid": "65c42e644dbd87e1000d9253"
-  },
-  "by": "everybodyknows",
-  "descendants": 0,
-  "id": 39311365,
-  "score": 1,
-  "time": {
-    "$date": "2024-02-09T04:23:11.000Z"
-  },
-  "title": "Oregon pioneered a drug policy. Now it's reconsidering",
-  "type": "story",
-  "url": "https://text.npr.org/1229655142",
-  "image": "https://i.postimg.cc/ZK8BM9yN/declan-sun-p-YLuh6f-Rdhw-unsplash.jpg",
-  "lastUpdated": {
-    "$date": "2024-02-08T01:29:08.548Z"
-  }
-},
-{
-  "_id": {
-    "$oid": "65c42e644dbd87e1000d9254"
-  },
-  "by": "harambae",
-  "descendants": 0,
-  "id": 39311358,
-  "score": 2,
-  "time": {
-    "$date": "2024-02-09T04:22:09.000Z"
-  },
-  "title": "Underwater drone swarm maker bids to reshape maritime surveillance missions",
-  "type": "story",
-  "url": "https://breakingdefense.com/2024/02/french-underwater-drone-swarm-maker-bids-to-reshape-maritime-surveillance-missions/",
-  "image": "https://i.postimg.cc/GhC9GcSm/declan-sun-tnlbm6h-F43k-unsplash.jpg",
-  "lastUpdated": {
-    "$date": "2024-02-08T01:29:08.548Z"
-  }
-},
-{
-  "_id": {
-    "$oid": "65c42e644dbd87e1000d9259"
-  },
-  "by": "adrian_mrd",
-  "descendants": 0,
-  "id": 39311248,
-  "score": 3,
-  "time": {
-    "$date": "2024-02-09T04:03:44.000Z"
-  },
-  "title": "Toyota – and other car brands – accused of collecting and sharing driver data",
-  "type": "story",
-  "url": "https://www.abc.net.au/news/2024-02-09/toyota-car-brands-collecting-driver-data-privacy-concerns-laws/103443500",
-  "image": "https://i.postimg.cc/kGrGj9Jw/jiawei-zhao-l-Hg-HO7-IBVFg-unsplash.jpg",
-  "lastUpdated": {
-    "$date": "2024-02-08T01:29:08.548Z"
-  }
-},
-{
-  "_id": {
-    "$oid": "65c42e644dbd87e1000d925d"
-  },
-  "by": "heironimus",
-  "descendants": 0,
-  "id": 39311138,
-  "score": 1,
-  "time": {
-    "$date": "2024-02-09T03:45:06.000Z"
-  },
-  "title": "Engineering as a Profession – Herbert Hoover (1954)",
-  "type": "story",
-  "url": "https://hooverpresidentialfoundation.org/speeches/engineering-as-a-profession/",
-  "image": "https://i.postimg.cc/NGT5KyDn/marissa-grootes-Lh-Qc-DPf-Gj2-Q-unsplash.jpg",
-  "lastUpdated": {
-    "$date": "2024-02-08T01:29:08.548Z"
-  }
-},
-{
-  "_id": {
-    "$oid": "65c42e644dbd87e1000d9264"
-  },
-  "by": "thunderbong",
-  "descendants": 0,
-  "id": 39311079,
-  "score": 2,
-  "time": {
-    "$date": "2024-02-09T03:35:55.000Z"
-  },
-  "title": "Pattern: Back ends For Front end (2015)",
-  "type": "story",
-  "url": "https://samnewman.io/patterns/architectural/bff/",
-  "image": "https://i.postimg.cc/x8yftzFT/zeng-yili-ew-XXx-Vw4-ID4-unsplash.jpg",
-  "lastUpdated": {
-    "$date": "2024-02-08T01:29:08.548Z"
-  }
-},
-{
-  "_id": {
-    "$oid": "65c42e644dbd87e1000d9256"
-  },
-  "by": "jonny_eh",
-  "descendants": 0,
-  "id": 39311326,
-  "score": 1,
-  "time": {
-    "$date": "2024-02-09T04:17:15.000Z"
-  },
-  "title": "A complete look at how the Oct. 2 Cruise crash in San Francisco unfolded",
-  "type": "story",
-  "url": "https://www.sfchronicle.com/projects/2024/cruise-sf-collision-timeline/",
-  "image": "https://i.postimg.cc/yY43jhWB/ilyuza-mingazova-Ha-TIYO87q-WQ-unsplash.jpg",
-  "lastUpdated": {
-    "$date": "2024-02-08T01:29:08.548Z"
-  }
-},
-{
-  "_id": {
-    "$oid": "65c42e644dbd87e1000d9257"
-  },
-  "by": "CharlesW",
-  "descendants": 0,
-  "id": 39311296,
-  "score": 2,
-  "time": {
-    "$date": "2024-02-09T04:11:51.000Z"
-  },
-  "title": "Apple Vision Pro Owners Are Struggling to Figure Out What They Just Bought",
-  "type": "story",
-  "url": "https://nymag.com/intelligencer/article/apple-vision-pro-owners-are-wondering-what-they-bought.html",
-  "image": "https://i.postimg.cc/52pHfZgN/jack-dong-YRo-Jea0x-GVY-unsplash.jpg",
-  "lastUpdated": {
-    "$date": "2024-02-08T01:29:08.548Z"
-  }
-}]
+]
