@@ -1,26 +1,58 @@
 [
   {
     "_id": {
-      "$oid": "65f9c227b6359881bf9c4941"
+      "$oid": "65f9c227b6359881bf9c4949"
     },
-    "by": "jdenquin",
+    "by": "acossta",
+    "descendants": 0,
+    "score": 2,
+    "time": {
+      "$date": "2024-03-19T16:40:15.000Z"
+    },
+    "title": "The Builder's Guide to Better Mousetraps",
+    "type": "story",
+    "url": "https://brooker.co.za/blog/2024/03/04/mousetrap.html",
+    "image": "",
+    "lastUpdated": {
+      "$date": "2024-04-07T22:10:46.755Z"
+    },
+    "kids": [],
+    "user_id": {
+      "$oid": "66031f0a6d936f9d333cd89a"
+    },
+    "text": "Explore insightful questions and considerations for innovators and technical leaders contemplating the development of new solutions in the face of existing alternatives. Delve into the nuances of decision-making, weighing the costs, benefits, and long-term implications of building something new versus utilizing existing solutions. Gain valuable perspectives on problem-solving, opportunity costs, operational ownership, scalability, technological advantages, and risk assessment. This comprehensive guide offers practical insights for navigating the complex landscape of innovation and decision-making."
+  },
+  {
+    "_id": {
+      "$oid": "65f9c227b6359881bf9c4943"
+    },
+    "by": "tosh",
     "descendants": 6,
     "score": 1,
     "time": {
-      "$date": "2024-03-19T16:47:57.000Z"
+      "$date": "2024-03-19T16:47:10.000Z"
     },
-    "title": "Open source comes to real-time metering",
+    "title": "Harry Potter and the Methods of Rationality",
     "type": "story",
-    "url": "https://www.infoworld.com/article/3714620/open-source-comes-to-real-time-metering.html",
-    "image": "https://i.postimg.cc/wBG7mLnC/amr-taha-BSV8-Tv-Xos94-unsplash.jpg",
+    "url": "https://en.wikipedia.org/wiki/Harry_Potter_and_the_Methods_of_Rationality",
+    "image": "https://upload.wikimedia.org/wikipedia/en/e/ec/HPMOR_Yudkowsky.jpg",
     "lastUpdated": {
-      "$date": "2024-03-19T16:49:42.773Z"
+      "$date": "2024-04-07T21:37:51.572Z"
     },
     "kids": [
       {
-        "$oid": "65fc8c9e071b3fe890876045"
+        "$oid": "65fc8d2b071b3fe890876047"
+      },
+      {
+        "$oid": "660d71ed4110ba97a64afc74"
+      },
+      {
+        "$oid": "660d72ee4110ba97a64afc76"
       }
-    ]
+    ],
+    "user_id": {
+      "$oid": "66031f186d936f9d333cd89b"
+    }
   },
   {
     "_id": {
@@ -35,38 +67,305 @@
     "title": "Natural language instructions induce generalization in networks of neurons",
     "type": "story",
     "url": "https://www.nature.com/articles/s41593-024-01607-5",
-    "image": "https://i.postimg.cc/gJ1Xf8DV/becca-tapert-tam80n-XFv-L4-unsplash.jpg",
+    "image": "https://media.springernature.com/full/springer-static/image/art%3A10.1038%2Fs41593-024-01607-5/MediaObjects/41593_2024_1607_Fig1_HTML.png",
     "lastUpdated": {
-      "$date": "2024-03-19T16:49:42.773Z"
+      "$date": "2024-04-07T21:33:04.366Z"
     },
     "kids": [
       {
         "$oid": "65fc8cd4071b3fe890876046"
       }
-    ]
+    ],
+    "user_id": {
+      "$oid": "66031f226d936f9d333cd89c"
+    },
+    "text": "Explore the cognitive processes underlying human ability to interpret linguistic instructions for novel tasks, and the neural computations involved in this process. The study employs advancements in natural language processing to develop a neural model capable of generalizing tasks based on linguistic instructions alone. Discover how language shapes sensorimotor representations, facilitating flexible cognition and zero-shot learning in neural networks. The findings provide insights into how linguistic information is represented in the brain and its role in enabling general cognitive abilities."
   },
   {
     "_id": {
-      "$oid": "65f9c227b6359881bf9c4943"
+      "$oid": "65f9c227b6359881bf9c4945"
     },
-    "by": "tosh",
+    "by": "bookofjoe",
+    "descendants": 1,
+    "kids": [
+      {
+        "$oid": "65fc8dbb071b3fe890876049"
+      }
+    ],
+    "score": 2,
+    "time": {
+      "$date": "2024-03-19T16:45:59.000Z"
+    },
+    "title": "New Studies Find No Evidence of Brain Injury in Havana Syndrome Cases",
+    "type": "story",
+    "url": "https://www.nytimes.com/2024/03/18/us/politics/havana-syndrome-brain-studies-nih.html",
+    "image": "https://static01.nyt.com/images/2024/03/18/multimedia/18dc-havana-01-lzqc/18dc-havana-01-lzqc-superJumbo.jpg?quality=75&auto=webp",
+    "lastUpdated": {
+      "$date": "2024-04-07T21:38:45.049Z"
+    },
+    "user_id": {
+      "$oid": "66031f2a6d936f9d333cd89d"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "65f9c227b6359881bf9c4953"
+    },
+    "by": "confoundcofound",
+    "descendants": 0,
+    "score": 2,
+    "text": "Much of YC’s content and outreach is clearly targeted towards college students and younger generations. There is little to no acknowledgement of those who may have gotten into tech later in life with aspirations to eventually start a venture. It’s incredibly deflating, particularly with every new YC company that comes out of stealth reaffirming the idea that it’s almost entirely a young person’s game.",
+    "time": {
+      "$date": "2024-03-19T16:27:59.000Z"
+    },
+    "title": "Ask HN: Is there a bias against older founders? How to remain hopeful?",
+    "type": "story",
+    "image": "https://cdn.aarp.net/content/dam/aarp/work/work_at_plus/2019/12/1140-ageism-promo-image.jpg",
+    "lastUpdated": {
+      "$date": "2024-04-07T21:41:31.139Z"
+    },
+    "kids": [],
+    "user_id": {
+      "$oid": "66031f3b6d936f9d333cd89e"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "65f9c227b6359881bf9c4951"
+    },
+    "by": "sarupbanskota",
+    "descendants": 0,
+    "score": 1,
+    "time": {
+      "$date": "2024-03-19T16:29:02.000Z"
+    },
+    "title": "DHH: Ruby on Rails, 37signals, and the future of web development",
+    "type": "story",
+    "url": "https://www.devtools.fm/episode/90?view=TRANSCRIPT",
+    "image": "https://i.ytimg.com/vi/rEZNbM4MUdo/maxresdefault.jpg",
+    "lastUpdated": {
+      "$date": "2024-04-07T21:42:12.406Z"
+    },
+    "kids": [],
+    "user_id": {
+      "$oid": "66031f476d936f9d333cd89f"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "65f9c227b6359881bf9c4947"
+    },
+    "by": "sklargh",
+    "descendants": 0,
+    "score": 2,
+    "time": {
+      "$date": "2024-03-19T16:43:05.000Z"
+    },
+    "title": "Northrop Grumman to Develop Concept for Lunar Railroad",
+    "type": "story",
+    "url": "https://news.northropgrumman.com/news/releases/northrop-grumman-to-develop-concept-for-lunar-railroad",
+    "image": "https://assets.newatlas.com/dims4/default/0f31cc2/2147483647/strip/true/crop/1472x828+0+11/resize/1200x675!/quality/90/?url=http%3A%2F%2Fnewatlas-brightspot.s3.amazonaws.com%2F8b%2Fa8%2F49ab592040bfb864c8d233970b6d%2Fscreenshot-2024-03-20-at-4.08.42%E2%80%AFPM.png",
+    "lastUpdated": {
+      "$date": "2024-04-07T22:11:47.177Z"
+    },
+    "kids": [],
+    "user_id": {
+      "$oid": "66031f4e6d936f9d333cd8a0"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "65f9c227b6359881bf9c4946"
+    },
+    "by": "skadamat",
     "descendants": 1,
     "score": 1,
     "time": {
-      "$date": "2024-03-19T16:47:10.000Z"
+      "$date": "2024-03-19T16:44:42.000Z"
     },
-    "title": "Harry Potter and the Methods of Rationality",
+    "title": "New Walkable City Proposal in California",
     "type": "story",
-    "url": "https://en.wikipedia.org/wiki/Harry_Potter_and_the_Methods_of_Rationality",
-    "image": "https://i.postimg.cc/ZK8BM9yN/declan-sun-p-YLuh6f-Rdhw-unsplash.jpg",
+    "url": "https://devonzuegel.com/the-new-city-in-california",
+    "image": "https://cdn-images.postach.io/0bd25fcc-8ab1-40fe-8eef-bcafaae885c1/07b34a68-a316-44f0-a93e-aa2aaf6aab3c/3764f5ab-be41-4990-9770-fd72b2a21d24.jpg",
     "lastUpdated": {
-      "$date": "2024-03-19T16:49:42.773Z"
+      "$date": "2024-04-07T22:12:19.986Z"
     },
     "kids": [
       {
-        "$oid": "65fc8d2b071b3fe890876047"
+        "$oid": "65fc8e2e071b3fe89087604a"
       }
-    ]
+    ],
+    "user_id": {
+      "$oid": "660c427f23d218f2f2b0ba8a"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "65f9c227b6359881bf9c494f"
+    },
+    "by": "marianoguerra",
+    "descendants": 0,
+    "score": 1,
+    "time": {
+      "$date": "2024-03-19T16:32:11.000Z"
+    },
+    "title": "Playing with Code: Programming-Adjacent Games",
+    "type": "story",
+    "url": "https://marianoguerra.org/posts/playing-with-code-programming-adjacent-games/",
+    "image": "https://res.cloudinary.com/dukp6c7f7/image/upload/f_auto,fl_lossy,q_auto/s3-ghost//2020/07/7-Billion-Humans.jpg",
+    "lastUpdated": {
+      "$date": "2024-04-07T22:13:23.543Z"
+    },
+    "kids": [],
+    "user_id": {
+      "$oid": "66031f636d936f9d333cd8a2"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "65f9c227b6359881bf9c4950"
+    },
+    "by": "LukeEF",
+    "descendants": 0,
+    "score": 3,
+    "time": {
+      "$date": "2024-03-19T16:30:59.000Z"
+    },
+    "title": "The Semantic Web Is Dead – Long Live the Semantic Web",
+    "type": "story",
+    "url": "https://github.com/GavinMendelGleason/blog/blob/main/entries/semantic_future.md",
+    "image": "https://github.com/GavinMendelGleason/blog/raw/main/assets/semantic_web_over_time.png",
+    "lastUpdated": {
+      "$date": "2024-04-07T22:13:42.562Z"
+    },
+    "kids": [],
+    "user_id": {
+      "$oid": "66031f6a6d936f9d333cd8a3"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "65f9c227b6359881bf9c494d"
+    },
+    "by": "Pokerface777",
+    "descendants": 0,
+    "score": 1,
+    "time": {
+      "$date": "2024-03-19T16:34:40.000Z"
+    },
+    "title": "'Now you're a terrorist': Atlanta's Cop City crackdown",
+    "type": "story",
+    "url": "https://www.aljazeera.com/program/fault-lines/2023/9/28/now-youre-a-terrorist-atlantas-cop-city-crackdown",
+    "image": "https://images.jacobinmag.com/wp-content/uploads/2023/03/07131459/FqgZigCXgAI9FOg.jpg",
+    "lastUpdated": {
+      "$date": "2024-04-07T22:14:41.584Z"
+    },
+    "kids": [],
+    "user_id": {
+      "$oid": "66031f726d936f9d333cd8a4"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "65f9c227b6359881bf9c4948"
+    },
+    "by": "acossta",
+    "descendants": 4,
+    "score": 1,
+    "time": {
+      "$date": "2024-03-19T16:40:47.000Z"
+    },
+    "title": "Patterns of Legacy Displacement",
+    "type": "story",
+    "url": "https://martinfowler.com/articles/patterns-legacy-displacement/",
+    "image": "",
+    "lastUpdated": {
+      "$date": "2024-04-07T22:16:45.496Z"
+    },
+    "kids": [
+      {
+        "$oid": "65fc8e64071b3fe89087604b"
+      }
+    ],
+    "user_id": {
+      "$oid": "66031f0a6d936f9d333cd89a"
+    },
+    "text": "Explore proven strategies for modernizing legacy software systems effectively. This article outlines common challenges faced by organizations when replacing outdated technology and offers insights into breaking the cycle of incomplete technology replacements. Learn about key patterns and approaches for successful modernization efforts, including understanding desired outcomes, breaking the problem into manageable parts, delivering changes incrementally, and fostering a culture of continuous improvement. Discover how addressing organizational dynamics and business needs alongside technological updates is crucial for achieving long-term success in legacy modernization initiatives."
+  },
+  {
+    "_id": {
+      "$oid": "65f9c227b6359881bf9c4941"
+    },
+    "by": "jdenquin",
+    "descendants": 6,
+    "score": 1,
+    "time": {
+      "$date": "2024-03-19T16:47:57.000Z"
+    },
+    "title": "Open source comes to real-time metering",
+    "type": "story",
+    "url": "https://www.infoworld.com/article/3714620/open-source-comes-to-real-time-metering.html",
+    "image": "https://images.idgesg.net/images/article/2024/02/shutterstock_1863109306-100959264-large.jpg?auto=webp&quality=85,70",
+    "lastUpdated": {
+      "$date": "2024-04-07T22:17:33.266Z"
+    },
+    "kids": [
+      {
+        "$oid": "65fc8c9e071b3fe890876045"
+      }
+    ],
+    "user_id": {
+      "$oid": "66031f816d936f9d333cd8a5"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "65f9c227b6359881bf9c494c"
+    },
+    "by": "nonfamous",
+    "descendants": 0,
+    "score": 1,
+    "time": {
+      "$date": "2024-03-19T16:36:07.000Z"
+    },
+    "title": "Microsoft Hires DeepMind Co-Founder Suleyman to Run Consumer AI",
+    "type": "story",
+    "url": "https://finance.yahoo.com/news/microsoft-hires-deepmind-co-founder-160026504.html",
+    "image": "https://s.yimg.com/ny/api/res/1.2/iKRU8DTyi0HO3EiKEAlJbw--/YXBwaWQ9aGlnaGxhbmRlcjt3PTk2MDtoPTY0MDtjZj13ZWJw/https://media.zenfs.com/en/bloomberg_technology_68/b3658b506406474e1614288641aa0a70",
+    "lastUpdated": {
+      "$date": "2024-04-07T22:17:51.817Z"
+    },
+    "kids": [],
+    "user_id": {
+      "$oid": "66031f8b6d936f9d333cd8a6"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "65f9c227b6359881bf9c4954"
+    },
+    "by": "PaulHoule",
+    "descendants": 1,
+    "score": 1,
+    "time": {
+      "$date": "2024-03-19T16:27:46.000Z"
+    },
+    "title": "CO2 Storage Resource Estimation for the Central Gulf of Mexico",
+    "type": "story",
+    "url": "https://www.mdpi.com/1996-1073/17/6/1349",
+    "image": "",
+    "lastUpdated": {
+      "$date": "2024-04-07T22:23:58.745Z"
+    },
+    "kids": [
+      {
+        "$oid": "660390bc0814f1ddcc65063a"
+      }
+    ],
+    "user_id": {
+      "$oid": "66031f926d936f9d333cd8a7"
+    },
+    "text": "Dive into an analysis of CO2 storage potential in the central Gulf of Mexico (GOM) through the assessment of producing and depleted hydrocarbon reservoirs. This study evaluates reservoir suitability for CO2 storage, estimating resources using advanced modeling techniques. Discover insights into the screening process, resource estimation methodologies, and the potential for large-scale CO2 storage projects in the region."
   },
   {
     "_id": {
@@ -89,114 +388,10 @@
       {
         "$oid": "65fc8d6f071b3fe890876048"
       }
-    ]
-  },
-  {
-    "_id": {
-      "$oid": "65f9c227b6359881bf9c4945"
-    },
-    "by": "bookofjoe",
-    "descendants": 1,
-    "kids": [
-      {
-        "$oid": "65fc8dbb071b3fe890876049"
-      }
     ],
-    "score": 2,
-    "time": {
-      "$date": "2024-03-19T16:45:59.000Z"
-    },
-    "title": "New Studies Find No Evidence of Brain Injury in Havana Syndrome Cases",
-    "type": "story",
-    "url": "https://www.nytimes.com/2024/03/18/us/politics/havana-syndrome-brain-studies-nih.html",
-    "image": "https://i.postimg.cc/QC59sC4R/gabriel-castles-w-IFnw-Bb-Qtv-I-unsplash.jpg",
-    "lastUpdated": {
-      "$date": "2024-03-19T16:49:42.773Z"
+    "user_id": {
+      "$oid": "66031f986d936f9d333cd8a8"
     }
-  },
-  {
-    "_id": {
-      "$oid": "65f9c227b6359881bf9c4946"
-    },
-    "by": "skadamat",
-    "descendants": 1,
-    "score": 1,
-    "time": {
-      "$date": "2024-03-19T16:44:42.000Z"
-    },
-    "title": "New Walkable City Proposal in California",
-    "type": "story",
-    "url": "https://devonzuegel.com/the-new-city-in-california",
-    "image": "https://i.postimg.cc/yY43jhWB/ilyuza-mingazova-Ha-TIYO87q-WQ-unsplash.jpg",
-    "lastUpdated": {
-      "$date": "2024-03-19T16:49:42.773Z"
-    },
-    "kids": [
-      {
-        "$oid": "65fc8e2e071b3fe89087604a"
-      }
-    ]
-  },
-  {
-    "_id": {
-      "$oid": "65f9c227b6359881bf9c4947"
-    },
-    "by": "sklargh",
-    "descendants": 0,
-    "score": 2,
-    "time": {
-      "$date": "2024-03-19T16:43:05.000Z"
-    },
-    "title": "Northrop Grumman to Develop Concept for Lunar Railroad",
-    "type": "story",
-    "url": "https://news.northropgrumman.com/news/releases/northrop-grumman-to-develop-concept-for-lunar-railroad",
-    "image": "https://i.postimg.cc/52pHfZgN/jack-dong-YRo-Jea0x-GVY-unsplash.jpg",
-    "lastUpdated": {
-      "$date": "2024-03-19T16:49:42.773Z"
-    },
-    "kids": []
-  },
-  {
-    "_id": {
-      "$oid": "65f9c227b6359881bf9c4948"
-    },
-    "by": "acossta",
-    "descendants": 4,
-    "score": 1,
-    "time": {
-      "$date": "2024-03-19T16:40:47.000Z"
-    },
-    "title": "Patterns of Legacy Displacement",
-    "type": "story",
-    "url": "https://martinfowler.com/articles/patterns-legacy-displacement/",
-    "image": "https://i.postimg.cc/sXG191rv/jakob-owens-ab0-D6-So-Bn3w-unsplash.jpg",
-    "lastUpdated": {
-      "$date": "2024-03-19T16:49:42.773Z"
-    },
-    "kids": [
-      {
-        "$oid": "65fc8e64071b3fe89087604b"
-      }
-    ]
-  },
-  {
-    "_id": {
-      "$oid": "65f9c227b6359881bf9c4949"
-    },
-    "by": "acossta",
-    "descendants": 0,
-    "score": 2,
-    "time": {
-      "$date": "2024-03-19T16:40:15.000Z"
-    },
-    "title": "The Builder's Guide to Better Mousetraps",
-    "type": "story",
-    "url": "https://brooker.co.za/blog/2024/03/04/mousetrap.html",
-    "image": "https://i.postimg.cc/kGrGj9Jw/jiawei-zhao-l-Hg-HO7-IBVFg-unsplash.jpg",
-    "lastUpdated": {
-      "$date": "2024-03-19T16:49:42.773Z"
-    },
-    "kids": []
   },
   {
     "_id": {
@@ -219,121 +414,10 @@
       {
         "$oid": "65fc8eaa071b3fe89087604c"
       }
-    ]
-  },
-  {
-    "_id": {
-      "$oid": "65f9c227b6359881bf9c494c"
-    },
-    "by": "nonfamous",
-    "descendants": 0,
-    "score": 1,
-    "time": {
-      "$date": "2024-03-19T16:36:07.000Z"
-    },
-    "title": "Microsoft Hires DeepMind Co-Founder Suleyman to Run Consumer AI",
-    "type": "story",
-    "url": "https://finance.yahoo.com/news/microsoft-hires-deepmind-co-founder-160026504.html",
-    "image": "https://i.postimg.cc/xT38PWWy/kyle-glenn-AR74-Eo-Wdy0-unsplash.jpg",
-    "lastUpdated": {
-      "$date": "2024-03-19T16:49:42.773Z"
-    },
-    "kids": []
-  },
-  {
-    "_id": {
-      "$oid": "65f9c227b6359881bf9c494d"
-    },
-    "by": "Pokerface777",
-    "descendants": 0,
-    "score": 1,
-    "time": {
-      "$date": "2024-03-19T16:34:40.000Z"
-    },
-    "title": "'Now you're a terrorist': Atlanta's Cop City crackdown",
-    "type": "story",
-    "url": "https://www.aljazeera.com/program/fault-lines/2023/9/28/now-youre-a-terrorist-atlantas-cop-city-crackdown",
-    "image": "https://i.postimg.cc/NGT5KyDn/marissa-grootes-Lh-Qc-DPf-Gj2-Q-unsplash.jpg",
-    "lastUpdated": {
-      "$date": "2024-03-19T16:49:42.773Z"
-    },
-    "kids": []
-  },
-  {
-    "_id": {
-      "$oid": "65f9c227b6359881bf9c494e"
-    },
-    "by": "siaminga",
-    "descendants": 0,
-    "kids": [],
-    "score": 2,
-    "text": "which platform allows to build ai chatbots and have chat sdks to deploy the chatbot into a mobile app? (both android and ios)",
-    "time": {
-      "$date": "2024-03-19T16:32:29.000Z"
-    },
-    "title": "AI Chatbot with Chat SDKs",
-    "type": "story",
-    "image": "https://i.postimg.cc/gcv2YCkF/mostafa-turkey-n-Vg-U7s-NDRg0-unsplash.jpg",
-    "lastUpdated": {
-      "$date": "2024-03-19T16:49:42.773Z"
+    ],
+    "user_id": {
+      "$oid": "66031f0a6d936f9d333cd89a"
     }
-  },
-  {
-    "_id": {
-      "$oid": "65f9c227b6359881bf9c494f"
-    },
-    "by": "marianoguerra",
-    "descendants": 0,
-    "score": 1,
-    "time": {
-      "$date": "2024-03-19T16:32:11.000Z"
-    },
-    "title": "Playing with Code: Programming-Adjacent Games",
-    "type": "story",
-    "url": "https://marianoguerra.org/posts/playing-with-code-programming-adjacent-games/",
-    "image": "https://i.postimg.cc/yNt8dBZB/pankaj-patel-b-Yiw48-KLbmw-unsplash.jpg",
-    "lastUpdated": {
-      "$date": "2024-03-19T16:49:42.773Z"
-    },
-    "kids": []
-  },
-  {
-    "_id": {
-      "$oid": "65f9c227b6359881bf9c4950"
-    },
-    "by": "LukeEF",
-    "descendants": 0,
-    "score": 3,
-    "time": {
-      "$date": "2024-03-19T16:30:59.000Z"
-    },
-    "title": "The Semantic Web Is Dead – Long Live the Semantic Web",
-    "type": "story",
-    "url": "https://github.com/GavinMendelGleason/blog/blob/main/entries/semantic_future.md",
-    "image": "https://i.postimg.cc/sgfXHTzF/patrick-perkins-e-VGGg-Qm-DJl-Q-unsplash.jpg",
-    "lastUpdated": {
-      "$date": "2024-03-19T16:49:42.773Z"
-    },
-    "kids": []
-  },
-  {
-    "_id": {
-      "$oid": "65f9c227b6359881bf9c4951"
-    },
-    "by": "sarupbanskota",
-    "descendants": 0,
-    "score": 1,
-    "time": {
-      "$date": "2024-03-19T16:29:02.000Z"
-    },
-    "title": "DHH: Ruby on Rails, 37signals, and the future of web development",
-    "type": "story",
-    "url": "https://www.devtools.fm/episode/90?view=TRANSCRIPT",
-    "image": "https://i.postimg.cc/MTBKf47B/rodeo-project-management-software-b2-L3f7edn-YE-unsplash.jpg",
-    "lastUpdated": {
-      "$date": "2024-03-19T16:49:42.773Z"
-    },
-    "kids": []
   },
   {
     "_id": {
@@ -352,45 +436,32 @@
     "lastUpdated": {
       "$date": "2024-03-19T16:49:42.773Z"
     },
-    "kids": []
+    "kids": [],
+    "user_id": {
+      "$oid": "66031f9f6d936f9d333cd8a9"
+    }
   },
   {
     "_id": {
-      "$oid": "65f9c227b6359881bf9c4953"
+      "$oid": "65f9c227b6359881bf9c494e"
     },
-    "by": "confoundcofound",
+    "by": "siaminga",
     "descendants": 0,
+    "kids": [],
     "score": 2,
-    "text": "Much of YC’s content and outreach is clearly targeted towards college students and younger generations. There is little to no acknowledgement of those who may have gotten into tech later in life with aspirations to eventually start a venture.<p>It’s incredibly deflating, particularly with every new YC company that comes out of stealth reaffirming the idea that it’s almost entirely a young person’s game.",
+    "text": "which platform allows to build ai chatbots and have chat sdks to deploy the chatbot into a mobile app? (both android and ios)",
     "time": {
-      "$date": "2024-03-19T16:27:59.000Z"
+      "$date": "2024-03-19T16:32:29.000Z"
     },
-    "title": "Ask HN: Is there a bias against older founders? How to remain hopeful?",
+    "title": "AI Chatbot with Chat SDKs",
     "type": "story",
-    "image": "https://i.postimg.cc/T3kPzn2K/standsome-worklifestyle-Ukx-A41-Zv-Apo-unsplash.jpg",
+    "image": "https://i.postimg.cc/gcv2YCkF/mostafa-turkey-n-Vg-U7s-NDRg0-unsplash.jpg",
     "lastUpdated": {
       "$date": "2024-03-19T16:49:42.773Z"
     },
-    "kids": []
-  },
-  {
-    "_id": {
-      "$oid": "65f9c227b6359881bf9c4954"
-    },
-    "by": "PaulHoule",
-    "descendants": 0,
-    "score": 1,
-    "time": {
-      "$date": "2024-03-19T16:27:46.000Z"
-    },
-    "title": "CO2 Storage Resource Estimation for the Central Gulf of Mexico",
-    "type": "story",
-    "url": "https://www.mdpi.com/1996-1073/17/6/1349",
-    "image": "https://i.postimg.cc/x8yftzFT/zeng-yili-ew-XXx-Vw4-ID4-unsplash.jpg",
-    "lastUpdated": {
-      "$date": "2024-03-19T16:49:42.773Z"
-    },
-    "kids": []
+    "user_id": {
+      "$oid": "66031fa86d936f9d333cd8aa"
+    }
   },
   {
     "_id": {
@@ -399,7 +470,7 @@
     "by": "giuliomagnifico",
     "descendants": 0,
     "score": 1,
-    "text": "",
+    "text": "Scientists have unearthed more than 4,400 human brains—some more than 12,000 years old—making them less rare than thought, a new study finds",
     "time": {
       "$date": "2024-03-21T19:29:43.166Z"
     },
@@ -407,7 +478,77 @@
     "type": "story",
     "url": "https://www.smithsonianmag.com/smart-news/archaeologists-keep-finding-preserved-human-brains-but-how-do-the-organs-remain-intact-180983995/",
     "lastUpdated": {
-      "$date": "2024-03-21T19:29:43.166Z"
+      "$date": "2024-04-07T22:24:32.268Z"
+    },
+    "kids": [],
+    "user_id": {
+      "$oid": "66031faf6d936f9d333cd8ab"
+    },
+    "image": "https://th-thumbnailer.cdn-si-edu.com/Y2qXiXwkAZNPJbIXSHhfacqlpbY=/1000x750/filters:no_upscale():focal(450x300:451x301)/https://tf-cmsv2-smithsonianmag-media.s3.amazonaws.com/filer_public/7a/0c/7a0ce4aa-4806-4cfa-be66-53d24fe02d9c/sei_196636575.png"
+  },
+  {
+    "_id": {
+      "$oid": "66038ff70814f1ddcc650639"
+    },
+    "by": "du35",
+    "descendants": 0,
+    "score": 2,
+    "text": "",
+    "time": {
+      "$date": "2024-03-27T03:18:15.957Z"
+    },
+    "title": "How to send a GET request in Node.js",
+    "type": "story",
+    "url": "",
+    "lastUpdated": {
+      "$date": "2024-03-27T03:18:15.957Z"
+    },
+    "kids": [],
+    "user_id": {
+      "$oid": "66031de3bf1beee1ccb4b9fa"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "660c60a6faafeb58282ed35a"
+    },
+    "by": "du35",
+    "user_id": {
+      "$oid": "66031de3bf1beee1ccb4b9fa"
+    },
+    "descendants": 0,
+    "score": 3,
+    "text": "",
+    "time": {
+      "$date": "2024-04-02T19:46:46.796Z"
+    },
+    "title": "Baltimore is my favorite city and here's why!",
+    "type": "story",
+    "url": "",
+    "lastUpdated": {
+      "$date": "2024-04-02T19:46:46.796Z"
+    },
+    "kids": []
+  },
+  {
+    "_id": {
+      "$oid": "6610df0d72edbb6fcea28515"
+    },
+    "by": "du35",
+    "user_id": {
+      "$oid": "66031de3bf1beee1ccb4b9fa"
+    },
+    "descendants": 0,
+    "score": 0,
+    "text": "Google’s philanthropic arm is giving a $500,000 grant to expand access to robotics and artificial intelligence education programs across Washington state middle schools, the company announced Friday.",
+    "time": {
+      "$date": "2024-04-06T05:35:09.384Z"
+    },
+    "title": "Google giving $500K to expand robotics and AI education programs in Washington state",
+    "type": "story",
+    "url": "https://www.geekwire.com/2024/google-giving-500k-to-expand-robotics-and-ai-education-programs-in-washington-state/",
+    "lastUpdated": {
+      "$date": "2024-04-06T05:35:09.384Z"
     },
     "kids": []
   }

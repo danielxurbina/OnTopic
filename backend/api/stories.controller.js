@@ -1,12 +1,13 @@
 /*
   Name: Daniel Urbina
-  Date: 3/22/2024
+  Date: 4/12/2024
   Course name and section: IT302-002
-  Assignment Name: Phase 3
+  Assignment Name: Phase 4
   Email: du35@njit.edu
 */
 
 import StoriesDAO from "../dao/storiesDAO.js";
+import UsersDAO from "../dao/usersDAO.js";
 import mongodb from "mongodb";
 const ObjectId = mongodb.ObjectId;
 
@@ -52,23 +53,29 @@ export default class StoriesControllers {
       const id = req.params.id || {};
       const story = await StoriesDAO.getStoryByID(id);
       if (!story) {
-        res.status(404).json({ error: "Not found" });
+        res.status(404).json({ success: false, error: "Not found" });
         return;
       }
-      res.json(story);
+      res.json({ success: true, story });
     } catch (e) {
       console.log(`api, ${e}`);
-      res.status(500).json({ error: e.message });
+      res.status(500).json({ sucess: false, error: e.message });
     }
   }
 
   // Method to create a story
   static async apiPostStory(req, res, next) {
     try {
+      const getUserResponse = await UsersDAO.getUserByUsername(req.body.by);
+      if(getUserResponse == null){
+        res.status(404).json({ error: "User not found" });
+        return;
+      }
       const postFields = {};
       postFields.by = req.body.by;
+      postFields.user_id = getUserResponse._id;
       postFields.descendants = 0;
-      postFields.score = req.body.score;
+      postFields.score = 0;
       postFields.text = req.body.text;
       postFields.time = new Date();
       postFields.title = req.body.title;
@@ -76,12 +83,25 @@ export default class StoriesControllers {
       postFields.url = req.body.url;
       req.body.image = req.body.image;
       postFields.lastUpdated = new Date();
-      postFields.kids = [];
+      postFields.kids = []; 
 
-      const storyResponse = await StoriesDAO.addStory(postFields);
-      res.json({ storyResponse });
+      // Check if the user is an admin
+      const persistedUser = req.user
+      // Check if the req.body.by is the same as the username, if it's not the same then check if the user is an admin
+      // If the user is not an admin and the req.body.by is not the same as the username, then return an error since
+      // the user is not authorized to create a story for another user
+      if (req.body.by !== persistedUser.username && persistedUser.role !== "admin") {
+        console.log('User is not authorized to create a story for another user')
+        res.status(401).json({ error: "User is not authorized to create a story for another user" });
+      } else {
+        console.log('User is authorized to create a story')
+        const storyResponse = await StoriesDAO.addStory(postFields);
+        // Update user with new story
+        const updateUserResponse = await UsersDAO.updateUser({ _id: new ObjectId(persistedUser._id) }, null, storyResponse.insertedId);
+        res.json({ success: true, storyResponse, updateUserResponse });
+      }
     } catch (e) {
-      res.status(500).json({ error: e.message });
+      res.status(500).json({ success: false, error: e.message });
     }
   }
 
@@ -89,20 +109,26 @@ export default class StoriesControllers {
   static async apiUpdateStory(req, res, next) {
     try {
       let query = { _id: new ObjectId(req.body.story_id) };
+      console.log(req.body)
       let updateFields = {};
-      req.body.by && req.body.by != null ? (updateFields.by = req.body.by) : null;
-      req.body.descendants && req.body.descendants != null ? (updateFields.descendants = req.body.descendants) : null;
-      req.body.score && req.body.score != null ? (updateFields.score = req.body.score) : null;
-      req.body.text && req.body.text != null ? (updateFields.text = req.body.text) : null;
-      req.body.title && req.body.title != null ? (updateFields.title = req.body.title) : null;
-      req.body.url && req.body.url != null ? (updateFields.url = req.body.url) : null;
-      req.body.image && req.body.image != null ? (updateFields.image = req.body.image) : null;
+      req.body.by ? (updateFields.by = req.body.by) : null;
+      req.body.descendants ? (updateFields.descendants = req.body.descendants) : null;
+      req.body.score ? (updateFields.score = req.body.score) : null;
+      req.body.text ? (updateFields.text = req.body.text) : null;
+      req.body.title ? (updateFields.title = req.body.title) : null;
+      req.body.url || req.body.image === "" ? (updateFields.url = req.body.url) : null;
+      req.body.image || req.body.image === ""? (updateFields.image = req.body.image) : null;
       updateFields.lastUpdated = new Date();
 
-      const updateResponse = await StoriesDAO.updateStory(query, updateFields);
-      res.json({ updateResponse });
+      const persistedUser = req.user;
+      if (persistedUser._id !== query._id && persistedUser.role !== "admin") {
+        res.status(401).json({ error: "User is not authorized to update another user's story" });
+      } else {
+        const updateResponse = await StoriesDAO.updateStory(query, updateFields);
+        res.json({ success: true, updateResponse });
+      }
     } catch (e) {
-      res.status(500).json({ error: e.message });
+      res.status(500).json({ success: false, error: e.message });
     }
   }
 
@@ -110,11 +136,18 @@ export default class StoriesControllers {
   static async apiDeleteStory(req, res, next) {
     try {
       const storyID = req.body.story_id;
-      const deleteResponse = await StoriesDAO.deleteStory(storyID);
-      res.json({ deleteResponse });
+      // Get the story from the database
+      const story = await StoriesDAO.getStoryByID(storyID);
+      const persistedUser = req.user;
+      if (persistedUser.username !== story.by && persistedUser.role !== "admin") {
+        res.status(401).json({ error: "User is not authorized to delete another user's story" });
+      } else {
+        const deleteResponse = await StoriesDAO.deleteStory(storyID);
+        res.json({ success: true, deleteResponse });
+      }
     } catch (e) {
       console.log(`api, ${e}`);
-      res.status(500).json({ error: e.message });
+      res.status(500).json({ success: false, error: e.message });
     }
   }
 }

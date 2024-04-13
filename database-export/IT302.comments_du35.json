@@ -4,7 +4,9 @@
             "$oid": "65fc8c9e071b3fe890876045"
         },
         "by": "du35",
-        "user_id": 1,
+        "user_id": {
+            "$oid": "66031de3bf1beee1ccb4b9fa"
+        },
         "kids": [
             {
                 "$oid": "65fc8fde071b3fe89087604d"
@@ -28,7 +30,9 @@
             "$oid": "65fc8cd4071b3fe890876046"
         },
         "by": "johnbleeker",
-        "user_id": 2,
+        "user_id": {
+            "$oid": "66031fbb6d936f9d333cd8ac"
+        },
         "kids": [
             {
                 "$oid": "65fc9161071b3fe89087604f"
@@ -48,8 +52,10 @@
         "_id": {
             "$oid": "65fc8d2b071b3fe890876047"
         },
-        "by": "samhunt",
-        "user_id": 3,
+        "by": "samhunt12",
+        "user_id": {
+            "$oid": "66031fc16d936f9d333cd8ad"
+        },
         "kids": [],
         "parent": "65f9c227b6359881bf9c4943",
         "text": "Ah, the classic 'Harry Potter and the Methods of Rationality'! A brilliant fan fiction that takes the magical world and infuses it with rationality and logic. It's a refreshing take on the series, for sure.",
@@ -66,7 +72,9 @@
             "$oid": "65fc8d6f071b3fe890876048"
         },
         "by": "cryptotrader23",
-        "user_id": 4,
+        "user_id": {
+            "$oid": "66031fc86d936f9d333cd8ae"
+        },
         "kids": [
             {
                 "$oid": "65fc91c2071b3fe890876050"
@@ -87,7 +95,9 @@
             "$oid": "65fc8dbb071b3fe890876049"
         },
         "by": "codingmachine0931",
-        "user_id": 5,
+        "user_id": {
+            "$oid": "66031fd06d936f9d333cd8af"
+        },
         "kids": [],
         "parent": "65f9c227b6359881bf9c4945",
         "text": "Interesting findings regarding Havana Syndrome. It's crucial to have solid research backing such claims, especially considering the implications. Looking forward to more developments in this area.",
@@ -104,7 +114,9 @@
             "$oid": "65fc8e2e071b3fe89087604a"
         },
         "by": "naturelover777",
-        "user_id": 6,
+        "user_id": {
+            "$oid": "66031fdb6d936f9d333cd8b0"
+        },
         "kids": [],
         "parent": "65f9c227b6359881bf9c4946",
         "text": "Love the idea of a walkable city! It's essential to prioritize pedestrian-friendly infrastructure for healthier, more sustainable communities. Hope this proposal gains traction!",
@@ -121,7 +133,9 @@
             "$oid": "65fc8e64071b3fe89087604b"
         },
         "by": "radengineer23",
-        "user_id": 7,
+        "user_id": {
+            "$oid": "66031fe36d936f9d333cd8b1"
+        },
         "kids": [
             {
                 "$oid": "65fc9215071b3fe890876051"
@@ -142,7 +156,9 @@
             "$oid": "65fc8eaa071b3fe89087604c"
         },
         "by": "samfisher",
-        "user_id": 8,
+        "user_id": {
+            "$oid": "66031fea6d936f9d333cd8b2"
+        },
         "kids": [],
         "parent": "65f9c227b6359881bf9c494a",
         "text": "Absolutely agree that leadership involves taking risks. It's about navigating uncertainty and making tough decisions for the greater good. Inspiring read!",
@@ -159,7 +175,9 @@
             "$oid": "65fc8fde071b3fe89087604d"
         },
         "by": "loreyfisher",
-        "user_id": 9,
+        "user_id": {
+            "$oid": "66031ff46d936f9d333cd8b3"
+        },
         "kids": [],
         "parent": "65fc8c9e071b3fe890876045",
         "text": "Love seeing open source breaking into the real-time metering scene! It's about time we had more transparency and collaboration in this space. Can't wait to see how this shakes up the industry!",
@@ -176,7 +194,9 @@
             "$oid": "65fc90f1071b3fe89087604e"
         },
         "by": "socialguru",
-        "user_id": 10,
+        "user_id": {
+            "$oid": "66031ffc6d936f9d333cd8b4"
+        },
         "kids": [
             {
                 "$oid": "65fc92ae071b3fe890876052"
@@ -197,7 +217,9 @@
             "$oid": "65fc9161071b3fe89087604f"
         },
         "by": "digitalavid",
-        "user_id": 11,
+        "user_id": {
+            "$oid": "660320036d936f9d333cd8b5"
+        },
         "kids": [
             {
                 "$oid": "65fc9305071b3fe890876053"
@@ -218,7 +240,9 @@
             "$oid": "65fc91c2071b3fe890876050"
         },
         "by": "datadreamer",
-        "user_id": 12,
+        "user_id": {
+            "$oid": "6603200a6d936f9d333cd8b6"
+        },
         "kids": [
             {
                 "$oid": "65fc936c071b3fe890876054"
@@ -239,7 +263,9 @@
             "$oid": "65fc9215071b3fe890876051"
         },
         "by": "bytebard",
-        "user_id": 13,
+        "user_id": {
+            "$oid": "6603200f6d936f9d333cd8b7"
+        },
         "kids": [
             {
                 "$oid": "65fc93dc071b3fe890876055"
@@ -260,7 +286,9 @@
             "$oid": "65fc92ae071b3fe890876052"
         },
         "by": "du35",
-        "user_id": 1,
+        "user_id": {
+            "$oid": "66031de3bf1beee1ccb4b9fa"
+        },
         "kids": [
             {
                 "$oid": "65fc94d7071b3fe890876056"
@@ -281,7 +309,9 @@
             "$oid": "65fc9305071b3fe890876053"
         },
         "by": "johnbleeker",
-        "user_id": 2,
+        "user_id": {
+            "$oid": "66031fbb6d936f9d333cd8ac"
+        },
         "kids": [
             {
                 "$oid": "65fc9523071b3fe890876057"
@@ -302,7 +332,9 @@
             "$oid": "65fc936c071b3fe890876054"
         },
         "by": "cryptotrader23",
-        "user_id": 4,
+        "user_id": {
+            "$oid": "66031fc86d936f9d333cd8ae"
+        },
         "kids": [
             {
                 "$oid": "65fc9575071b3fe890876058"
@@ -326,7 +358,9 @@
             "$oid": "65fc93dc071b3fe890876055"
         },
         "by": "sambarkley",
-        "user_id": 14,
+        "user_id": {
+            "$oid": "660320186d936f9d333cd8b8"
+        },
         "kids": [
             {
                 "$oid": "65fc95b1071b3fe890876059"
@@ -347,7 +381,9 @@
             "$oid": "65fc94d7071b3fe890876056"
         },
         "by": "socialguru",
-        "user_id": 10,
+        "user_id": {
+            "$oid": "66031ffc6d936f9d333cd8b4"
+        },
         "kids": [],
         "parent": "65fc92ae071b3fe890876052",
         "text": "While transparency and community-driven development are commendable aspects of open source, we can't ignore the potential risks, such as security vulnerabilities or lack of centralized support. It's essential to weigh these factors carefully before fully embracing open source in critical systems.",
@@ -364,7 +400,9 @@
             "$oid": "65fc9523071b3fe890876057"
         },
         "by": "techtitan",
-        "user_id": 15,
+        "user_id": {
+            "$oid": "660320216d936f9d333cd8b9"
+        },
         "kids": [],
         "parent": "65fc9305071b3fe890876053",
         "text": "While the study may be groundbreaking, we shouldn't overlook the potential ethical implications or unintended consequences of implementing natural language instructions in neural networks. It's essential to proceed cautiously and consider the broader societal impacts.",
@@ -381,7 +419,9 @@
             "$oid": "65fc9575071b3fe890876058"
         },
         "by": "nocode20",
-        "user_id": 16,
+        "user_id": {
+            "$oid": "6603202b6d936f9d333cd8ba"
+        },
         "kids": [],
         "parent": "65fc936c071b3fe890876054",
         "text": "While Microsoft's intentions may be noble, the concentration of talent in a few tech giants could indeed stifle competition and innovation in the long run. We should remain vigilant and advocate for policies that promote a more diverse and decentralized AI ecosystem.",
@@ -398,7 +438,9 @@
             "$oid": "65fc95b1071b3fe890876059"
         },
         "by": "techtitan",
-        "user_id": 15,
+        "user_id": {
+            "$oid": "660320216d936f9d333cd8b9"
+        },
         "kids": [],
         "parent": "65fc93dc071b3fe890876055",
         "text": "While learning from past mistakes is important, dwelling too much on legacy displacement patterns could hinder innovation and progress. Sometimes, it's necessary to break free from legacy systems altogether and embrace entirely new approaches to drive true transformation.",
@@ -415,7 +457,9 @@
             "$oid": "65fc99a3a6779e59bfe70050"
         },
         "by": "KlDvceEngnr",
-        "user_id": 17,
+        "user_id": {
+            "$oid": "6618053a19f76a31b5b07c39"
+        },
         "kids": [],
         "parent": "65fc936c071b3fe890876054",
         "text": "I agree that a more diverse and decentralized AI ecosystem is desirable for fostering innovation and preventing monopolization. However, we shouldn't overlook the potential benefits of pooling talent and resources in larger tech companies. Perhaps a hybrid approach, combining the strengths of both centralized and decentralized models, could offer a more balanced solution to promoting innovation while mitigating monopolistic risks.",
@@ -425,7 +469,130 @@
         "type": "comment",
         "lastModified": {
             "$date": "2024-03-21T20:40:18.536Z"
+        }
+    },
+    {
+        "_id": {
+            "$oid": "660390bc0814f1ddcc65063a"
         },
-        "deleted": true
+        "by": "du35",
+        "user_id": {
+            "$oid": "66031de3bf1beee1ccb4b9fa"
+        },
+        "kids": [],
+        "parent": "65f9c227b6359881bf9c4954",
+        "text": "That's an intriguing study focusing on CO2 storage potential in the Central Gulf of Mexico. While it's essential to explore alternative solutions like CO2-enhanced oil recovery to extend the life of maturing oil fields, we must also prioritize environmental sustainability. I'm curious about the environmental impact assessments conducted for these CO2 storage projects. Are there any plans in place to ensure the long-term integrity of the storage sites and prevent any potential leakage or environmental hazards?",
+        "time": {
+            "$date": "2024-03-27T03:21:32.489Z"
+        },
+        "type": "comment",
+        "lastModified": {
+            "$date": "2024-03-27T03:21:32.489Z"
+        }
+    },
+    {
+        "_id": {
+            "$oid": "660d71ed4110ba97a64afc74"
+        },
+        "by": "du35",
+        "user_id": {
+            "$oid": "66031de3bf1beee1ccb4b9fa"
+        },
+        "kids": [
+            {
+                "$oid": "660d723a4110ba97a64afc75"
+            }
+        ],
+        "parent": "65f9c227b6359881bf9c4943",
+        "text": "I love Harry Potter",
+        "time": {
+            "$date": "2024-04-03T15:12:45.518Z"
+        },
+        "type": "comment",
+        "lastModified": {
+            "$date": "2024-04-03T15:12:45.518Z"
+        }
+    },
+    {
+        "_id": {
+            "$oid": "660d723a4110ba97a64afc75"
+        },
+        "by": "tosh",
+        "user_id": {
+            "$oid": "66031f186d936f9d333cd89b"
+        },
+        "kids": [],
+        "parent": "660d71ed4110ba97a64afc74",
+        "text": "Same, I've always had a soft spot for the Harry Potter series.",
+        "time": {
+            "$date": "2024-04-03T15:14:02.062Z"
+        },
+        "type": "comment",
+        "lastModified": {
+            "$date": "2024-04-03T15:14:02.062Z"
+        }
+    },
+    {
+        "_id": {
+            "$oid": "660d72ee4110ba97a64afc76"
+        },
+        "by": "techtitan",
+        "user_id": {
+            "$oid": "660320216d936f9d333cd8b9"
+        },
+        "kids": [
+            {
+                "$oid": "660d73234110ba97a64afc77"
+            }
+        ],
+        "parent": "65f9c227b6359881bf9c4943",
+        "text": "Harry Potter is awesome.",
+        "time": {
+            "$date": "2024-04-03T15:17:02.930Z"
+        },
+        "type": "comment",
+        "lastModified": {
+            "$date": "2024-04-03T15:17:02.930Z"
+        }
+    },
+    {
+        "_id": {
+            "$oid": "660d73234110ba97a64afc77"
+        },
+        "by": "birriel",
+        "user_id": {
+            "$oid": "66031f226d936f9d333cd89c"
+        },
+        "kids": [
+            {
+                "$oid": "6619d9ac73d1eb606cda9583"
+            }
+        ],
+        "parent": "660d72ee4110ba97a64afc76",
+        "text": "Definitely agree, Harry potter is indeed awesome.",
+        "time": {
+            "$date": "2024-04-03T15:17:55.887Z"
+        },
+        "type": "comment",
+        "lastModified": {
+            "$date": "2024-04-03T15:17:55.887Z"
+        }
+    },
+    {
+        "_id": {
+            "$oid": "6619d9ac73d1eb606cda9583"
+        },
+        "by": "low_tech_punk",
+        "user_id": "66031f986d936f9d333cd8a8",
+        "kids": [],
+        "parent": "660d73234110ba97a64afc77",
+        "text": "I've always loved Harry Potter as a kid! Some of my best memories is coming back home to read the books.",
+        "time": {
+            "$date": "2024-04-13T01:02:36.545Z"
+        },
+        "type": "comment",
+        "lastModified": {
+            "$date": "2024-04-13T01:02:36.545Z"
+        }
     }
 ]

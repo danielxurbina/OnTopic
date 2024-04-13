@@ -1,8 +1,8 @@
 /*
   Name: Daniel Urbina
-  Date: 3/22/2024
+  Date: 4/12/2024
   Course name and section: IT302-002
-  Assignment Name: Phase 3
+  Assignment Name: Phase 4
   Email: du35@njit.edu
 */
 
@@ -11,6 +11,7 @@ import mongodb from "mongodb";
 import dotenv from "dotenv";
 import StoriesDAO from "./dao/storiesDAO.js";
 import CommentsDAO from "./dao/commentsDAO.js";
+import UsersDAO from "./dao/usersDAO.js";
 import UniqueID from "./lib/uniqueID.js";
 
 async function main() {
@@ -21,6 +22,7 @@ async function main() {
     await client.connect();
     await StoriesDAO.injectDB(client);
     await CommentsDAO.injectDB(client);
+    await UsersDAO.injectDB(client);
     await UniqueID.injectDB(client);
     app.listen(port, () => {
       console.log("server is running on port:" + port);

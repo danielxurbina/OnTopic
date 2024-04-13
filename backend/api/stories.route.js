@@ -1,14 +1,16 @@
 /*
   Name: Daniel Urbina
-  Date: 3/22/2024
+  Date: 4/12/2024
   Course name and section: IT302-002
-  Assignment Name: Phase 3
+  Assignment Name: Phase 4
   Email: du35@njit.edu
 */
 
 import express from "express";
 import StoriesController from "./stories.controller.js";
 import CommentsController from "./comments.controller.js";
+import UsersController from "./users.controller.js";
+import authenticate from "../middlewares/authMiddleware.js";
 
 const router = express.Router();
 
@@ -16,9 +18,9 @@ const router = express.Router();
 router
   .route("/")
   .get(StoriesController.apiGetStories)
-  .post(StoriesController.apiPostStory)
-  .put(StoriesController.apiUpdateStory)
-  .delete(StoriesController.apiDeleteStory);
+  .post(authenticate, StoriesController.apiPostStory)
+  .put(authenticate, StoriesController.apiUpdateStory)
+  .delete(authenticate, StoriesController.apiDeleteStory);
 
 router.route('/id/:id')
   .get(StoriesController.apiGetStoryByID);
@@ -27,13 +29,28 @@ router.route('/id/:id')
 router
   .route("/comments")
   .get(CommentsController.apiGetComments)
-  .post(CommentsController.apiPostComment)
-  .put(CommentsController.apiUpdateComment)
+  .post(authenticate, CommentsController.apiPostComment)
+  .put(authenticate, CommentsController.apiUpdateComment)
 
 router.route('/comments/id/:id')
   .get(CommentsController.apiGetCommentByID);
 
 router.route("/comments/soft-delete")
-  .put(CommentsController.apiSoftDeleteComment);
+  .put(authenticate, CommentsController.apiSoftDeleteComment);
+
+// User Routes
+router
+  .route("/users")
+  .get(UsersController.apiGetUsers)
+  .post(UsersController.apiPostUser)
+  .put(authenticate, UsersController.apiUpdateUser)
+  .delete(authenticate, UsersController.apiDeleteUser);
+
+router.route('/users/id/:id')
+  .get(UsersController.apiGetUserByID);
+
+// Login Route
+router.route('/users/login')
+  .post(UsersController.apiLoginUser);
 
 export default router;

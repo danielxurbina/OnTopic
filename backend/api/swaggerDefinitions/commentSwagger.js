@@ -56,6 +56,13 @@
  *     summary: Create a new comment.
  *     description: Create a new comment in the comments MongoDB collection.
  *     tags: [comments]
+ *     parameters:
+ *       - name: auth
+ *         in: header
+ *         description: The JWT token
+ *         required: true
+ *         type: string
+ *         example: "Bearer token"
  *     requestBody:
  *       required: true
  *       content:
@@ -67,8 +74,8 @@
  *                 type: string
  *                 example: "du35"
  *               user_id: 
- *                 type: integer
- *                 example: 3
+ *                 type: string
+ *                 example: 65efffc3935a10b8fea62345
  *               parent:
  *                 type: ObjectId
  *                 example: 65efffc3935a10b8fea62345

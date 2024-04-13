@@ -41,6 +41,7 @@ const options = {
   apis: [
     "./api/swaggerDefinitions/storySwagger.js",
     "./api/swaggerDefinitions/commentSwagger.js",
+    "./api/swaggerDefinitions/userSwagger.js",
   ],
 };
 

@@ -1,15 +1,15 @@
 /*
   Name: Daniel Urbina
-  Date: 3/22/2024
+  Date: 4/12/2024
   Course name and section: IT302-002
-  Assignment Name: Phase 3
+  Assignment Name: Phase 4
   Email: du35@njit.edu
 */
 
 import CommentsDAO from "../dao/commentsDAO.js";
 import StoriesDAO from "../dao/storiesDAO.js";
+import UsersDAO from "../dao/usersDAO.js";
 import mongodb from "mongodb";
-import UniqueID from "../lib/uniqueID.js";
 const ObjectId = mongodb.ObjectId;
 
 export default class CommentsController {
@@ -65,38 +65,46 @@ export default class CommentsController {
   // Method to create a comment
   static async apiPostComment(req, res, next) {
     try {
-      const postFields = {};
-      postFields.by = req.body.by;
-      req.body.user_id ? postFields.user_id = req.body.user_id : postFields.user_id = await UniqueID.getNextSequenceValue("user_id");
-      postFields.kids = [];
-      postFields.parent = req.body.parent;
-      postFields.text = req.body.text;
-      postFields.time = new Date();
-      postFields.type = "comment";
-      postFields.lastModified = new Date();
+      const postFields = {
+        by: req.body.by,
+        user_id: req.body.user_id,
+        kids: [],
+        parent: req.body.parent,
+        text: req.body.text,
+        time: new Date(),
+        type: "comment",
+        lastModified: new Date()
+      };
 
-      const parentID = req.body.parent;
-      const getCommentResponse = await CommentsDAO.getCommentByID(parentID);
-      const getStoryResponse = await StoriesDAO.getStoryByID(parentID);
-
-      if (getCommentResponse == null) {
-        // if the parentID is a story then we need to add the comment to the comments collection
-        // and update the story kids array with the newly added comment id and increment the story descendants count by 1
-        const addCommentResponse = await CommentsDAO.addComment(postFields);
-        const commentID = addCommentResponse.insertedId;
-        const updateResponse = await StoriesDAO.updateStoryWithComment(parentID, commentID);
-        res.json({ addCommentResponse, updateResponse });
-      } else if (getCommentResponse && getStoryResponse == null) {
-        // if the parentID is a comment then we need to add the comment to the comments collection
-        // and update the comment kids array with the newly added comment id and increment the story descendants count by 1 
-        // by going up the parent chain recursively to reach the story to update the descendants count
-        const addCommentResponse = await CommentsDAO.addComment(postFields);
-        const commentID = addCommentResponse.insertedId;
-        const updateCommentResponse = await CommentsDAO.updateCommentWithComment(parentID, commentID);
-        const updateStoryResponse = await StoriesDAO.updateStoryDescendants(parentID);
-        res.json({ addCommentResponse, updateCommentResponse, updateStoryResponse });
+      const persistedUser = req.user
+      if (persistedUser._id !== postFields.user_id && persistedUser.role !== "admin") {
+        res.status(401).json({ error: "User is not authorized to create a comment for another user" });
       } else {
-        res.json({ error: "ParentID is not a story or a comment" });
+        const parentID = req.body.parent;
+        const getCommentResponse = await CommentsDAO.getCommentByID(parentID);
+        const getStoryResponse = await StoriesDAO.getStoryByID(parentID);
+
+        if (getCommentResponse == null) {
+          // if the parentID is a story then we need to add the comment to the comments collection
+          // and update the story kids array with the newly added comment id and increment the story descendants count by 1
+          const addCommentResponse = await CommentsDAO.addComment(postFields);
+          const commentID = addCommentResponse.insertedId;
+          const updateResponse = await StoriesDAO.updateStoryWithComment(parentID, commentID);
+          const updateUserResponse = await UsersDAO.updateUser({ _id: new ObjectId(req.body.user_id) }, null, null, commentID);
+          res.json({ addCommentResponse, updateResponse, updateUserResponse });
+        } else if (getCommentResponse && getStoryResponse == null) {
+          // if the parentID is a comment then we need to add the comment to the comments collection
+          // and update the comment kids array with the newly added comment id and increment the story descendants count by 1 
+          // by going up the parent chain recursively to reach the story to update the descendants count
+          const addCommentResponse = await CommentsDAO.addComment(postFields);
+          const commentID = addCommentResponse.insertedId;
+          const updateCommentResponse = await CommentsDAO.updateCommentWithComment(parentID, commentID);
+          const updateStoryResponse = await StoriesDAO.updateStoryDescendants(parentID);
+          const updateUserResponse = await UsersDAO.updateUser({ _id: new ObjectId(req.body.user_id) }, null, null, commentID);
+          res.json({ addCommentResponse, updateCommentResponse, updateStoryResponse, updateUserResponse });
+        } else {
+          res.json({ error: "ParentID is not a story or a comment" });
+        }
       }
     } catch (e) {
       res.status(500).json({ error: e.message });
@@ -107,11 +115,17 @@ export default class CommentsController {
   static async apiUpdateComment(req, res, next) {
     try {
       let query = { _id: new ObjectId(req.body.comment_id), user_id: req.body.user_id };
-      let updateFields = {};
-      updateFields.text = req.body.text
-      updateFields.lastModified = new Date();
-      const updateResponse = await CommentsDAO.updateComment(query, updateFields);
-      res.json({ updateResponse: updateResponse });
+      let updateFields = {
+        text: req.body.text,
+        lastModified: new Date()
+      };
+      const persistedUser = req.user;
+      if (persistedUser._id !== query.user_id && persistedUser.role !== "admin") {
+        res.status(401).json({ error: "User is not authorized to update another user's comment" });
+      } else {
+        const updateResponse = await CommentsDAO.updateComment(query, updateFields);
+        res.json({ updateResponse: updateResponse });
+      }
     } catch (e) {
       res.status(500).json({ error: e.message });
     }
@@ -128,8 +142,13 @@ export default class CommentsController {
     try {
       let query = { _id: new ObjectId(req.body.comment_id), user_id: req.body.user_id };
       let updateFields = { deleted: true, lastModified: new Date() };
-      const commentResponse = await CommentsDAO.updateComment(query, updateFields);
-      res.json({ commentResponse });
+      const persistedUser = req.user;
+      if (persistedUser._id !== query.user_id && persistedUser.role !== "admin") {
+        res.status(401).json({ error: "User is not authorized to delete another user's comment" });
+      } else {
+        const commentResponse = await CommentsDAO.updateComment(query, updateFields);
+        res.json({ commentResponse });
+      }
     } catch (e) {
       res.status(500).json({ error: e.message });
     }
