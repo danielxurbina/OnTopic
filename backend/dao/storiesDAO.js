@@ -1,12 +1,13 @@
 /*
   Name: Daniel Urbina
-  Date: 3/22/2024
+  Date: 4/25/2024
   Course name and section: IT302-002
-  Assignment Name: Phase 3
+  Assignment Name: Phase 5
   Email: du35@njit.edu
 */
 
 import CommentsDAO from "../dao/commentsDAO.js";
+import UsersDAO from "./usersDAO.js";
 import mongodb from "mongodb";
 const ObjectId = mongodb.ObjectId;
 
@@ -53,6 +54,7 @@ export default class StoriesDAO {
     try {
       cursor = await stories
         .find(query)
+        .sort({ time: -1 })
         .limit(storiesPerPage)
         .skip(storiesPerPage * page);
       const storiesList = await cursor.toArray();
@@ -68,7 +70,9 @@ export default class StoriesDAO {
   // This function retrieves a story by its ID
   static async getStoryByID(id) {
     try {
-      return await stories.findOne({ _id: new ObjectId(id) })
+      console.log('Inside getStoryByID - Story ID: ', id)
+      const response = await stories.findOne({ _id: new ObjectId(id) })
+      return response;
     } catch (e) {
       console.error(`Unable to retrieve story: ${e}`);
       return { error: e };
@@ -153,9 +157,9 @@ export default class StoriesDAO {
   }
 
   // This function deletes a story
-  static async deleteStory(storyID) {
+  static async deleteStory(storyID, persistedUser) {
     try {
-      const story = await this.getStoryByID(storyID);
+      const story = await stories.findOne({ _id: new ObjectId(storyID) })
       let commentIDsToBeDeleted = [];
 
       // Collect all comment IDs associated with the story
@@ -169,14 +173,40 @@ export default class StoriesDAO {
         commentIDsToBeDeleted.sort()
         var query = { _id: { $in: commentIDsToBeDeleted } };
         await CommentsDAO.deleteManyComments(query)
+        await UsersDAO.deleteComments(commentIDsToBeDeleted, persistedUser)
       } else {
         console.log("No comments to delete")
       }
 
       await stories.deleteOne({ _id: new ObjectId(storyID) });
+      await UsersDAO.deleteStory(story, persistedUser)
       return { success: true };
     } catch (e) {
       console.error(`Unable to delete story: ${e}`);
+      return { error: e };
+    }
+  }
+
+  static async updateStoryDeletedCount(commentID) {
+    try {
+      const comment = await CommentsDAO.getCommentByID(commentID);
+      // if the parentID is a comment then we need to go up the parent chain recursively to reach the story to update the deletedCount field
+      // else if the parentID is a story then we need to update the deletedCount field
+      const parentID = comment.parent;
+      const commentResponse = await CommentsDAO.getCommentByID(parentID);
+      const storyResponse = await this.getStoryByID(parentID);
+      if (commentResponse) {
+        // the parentID is a comment so we need to extract the parent ID and call the function recursively
+        await this.updateStoryDeletedCount(parentID);
+      } else if (storyResponse) {
+        // the parentID is a story so we need to update the deletedCount field
+        const query = { _id: new ObjectId(parentID) }
+        const update = { $inc: { deletedCount: 1 } }
+        const updateResponse = await stories.updateOne(query, update)
+        return updateResponse
+      }
+    } catch (e) {
+      console.error(`Unable to update story deleted count: ${e}`);
       return { error: e };
     }
   }

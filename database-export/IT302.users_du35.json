@@ -14,13 +14,16 @@
         },
         "stories": [
             {
-                "$oid": "66038ff70814f1ddcc650639"
-            },
-            {
-                "$oid": "660c60a6faafeb58282ed35a"
-            },
-            {
                 "$oid": "6610df0d72edbb6fcea28515"
+            },
+            {
+                "$oid": "661f24827526c09d2622ccd2"
+            },
+            {
+                "$oid": "661f48024af3422d55ad4497"
+            },
+            {
+                "$oid": "661ff62abf80bf6a6940519d"
             }
         ],
         "comments": [
@@ -34,7 +37,25 @@
                 "$oid": "660390bc0814f1ddcc65063a"
             },
             {
-                "$oid": "660d71ed4110ba97a64afc74"
+                "$oid": "661b2a349d2011f43dc06696"
+            },
+            {
+                "$oid": "661b2a5a9d2011f43dc06698"
+            },
+            {
+                "$oid": "661f21757526c09d2622cccf"
+            },
+            {
+                "$oid": "661f21837526c09d2622ccd0"
+            },
+            {
+                "$oid": "6620014027714eecc2d371f1"
+            },
+            {
+                "$oid": "66286ac8188a1d4927651a9d"
+            },
+            {
+                "$oid": "662938d2bf170b48cf2500bb"
             }
         ]
     },
@@ -77,16 +98,8 @@
         "lastModified": {
             "$date": "2024-03-27T19:10:35.472Z"
         },
-        "stories": [
-            {
-                "$oid": "65f9c227b6359881bf9c4943"
-            }
-        ],
-        "comments": [
-            {
-                "$oid": "660d723a4110ba97a64afc75"
-            }
-        ]
+        "stories": [],
+        "comments": []
     },
     {
         "_id": {
@@ -106,11 +119,7 @@
                 "$oid": "65f9c227b6359881bf9c4942"
             }
         ],
-        "comments": [
-            {
-                "$oid": "660d73234110ba97a64afc77"
-            }
-        ]
+        "comments": []
     },
     {
         "_id": {
@@ -210,7 +219,11 @@
                 "$oid": "65f9c227b6359881bf9c4946"
             }
         ],
-        "comments": []
+        "comments": [
+            {
+                "$oid": "66293968bf170b48cf2500bd"
+            }
+        ]
     },
     {
         "_id": {
@@ -250,7 +263,11 @@
                 "$oid": "65f9c227b6359881bf9c4950"
             }
         ],
-        "comments": []
+        "comments": [
+            {
+                "$oid": "66293922bf170b48cf2500bc"
+            }
+        ]
     },
     {
         "_id": {
@@ -290,7 +307,14 @@
                 "$oid": "65f9c227b6359881bf9c4941"
             }
         ],
-        "comments": []
+        "comments": [
+            {
+                "$oid": "66293744bf170b48cf2500b8"
+            },
+            {
+                "$oid": "662937eebf170b48cf2500ba"
+            }
+        ]
     },
     {
         "_id": {
@@ -350,11 +374,7 @@
                 "$oid": "65f9c227b6359881bf9c4944"
             }
         ],
-        "comments": [
-            {
-                "$oid": "6619d9ac73d1eb606cda9583"
-            }
-        ]
+        "comments": []
     },
     {
         "_id": {
@@ -374,7 +394,11 @@
                 "$oid": "65f9c227b6359881bf9c4952"
             }
         ],
-        "comments": []
+        "comments": [
+            {
+                "$oid": "662936c9bf170b48cf2500b7"
+            }
+        ]
     },
     {
         "_id": {
@@ -389,12 +413,15 @@
         "lastModified": {
             "$date": "2024-03-27T19:21:29.414Z"
         },
-        "stories": [
+        "stories": [],
+        "comments": [
             {
-                "$oid": "65f9c227b6359881bf9c494e"
+                "$oid": "66293627bf170b48cf2500b5"
+            },
+            {
+                "$oid": "6629379ebf170b48cf2500b9"
             }
-        ],
-        "comments": []
+        ]
     },
     {
         "_id": {
@@ -414,7 +441,11 @@
                 "$oid": "65fc8aa7071b3fe890876044"
             }
         ],
-        "comments": []
+        "comments": [
+            {
+                "$oid": "6629367ebf170b48cf2500b6"
+            }
+        ]
     },
     {
         "_id": {
@@ -454,10 +485,14 @@
         },
         "comments": [
             {
-                "$oid": "65fc8d2b071b3fe890876047"
+                "$oid": "6620002327714eecc2d371ef"
             }
         ],
-        "stories": []
+        "stories": [
+            {
+                "$oid": "6620061f27714eecc2d371f5"
+            }
+        ]
     },
     {
         "_id": {
@@ -480,7 +515,14 @@
                 "$oid": "65fc936c071b3fe890876054"
             }
         ],
-        "stories": []
+        "stories": [
+            {
+                "$oid": "6620075d27714eecc2d371f7"
+            },
+            {
+                "$oid": "6620088627714eecc2d371f8"
+            }
+        ]
     },
     {
         "_id": {
@@ -558,9 +600,16 @@
         "comments": [
             {
                 "$oid": "65fc8eaa071b3fe89087604c"
+            },
+            {
+                "$oid": "662001e827714eecc2d371f2"
             }
         ],
-        "stories": []
+        "stories": [
+            {
+                "$oid": "662006a527714eecc2d371f6"
+            }
+        ]
     },
     {
         "_id": {
@@ -601,6 +650,15 @@
             },
             {
                 "$oid": "65fc94d7071b3fe890876056"
+            },
+            {
+                "$oid": "661b36731eb25a8cfd7c908f"
+            },
+            {
+                "$oid": "661b37f7eb2764890fe07c66"
+            },
+            {
+                "$oid": "661b3812eb2764890fe07c67"
             }
         ],
         "stories": []
@@ -641,6 +699,9 @@
         "comments": [
             {
                 "$oid": "65fc91c2071b3fe890876050"
+            },
+            {
+                "$oid": "6620011427714eecc2d371f0"
             }
         ],
         "stories": []
@@ -704,12 +765,13 @@
             },
             {
                 "$oid": "65fc95b1071b3fe890876059"
-            },
-            {
-                "$oid": "660d72ee4110ba97a64afc76"
             }
         ],
-        "stories": []
+        "stories": [
+            {
+                "$oid": "662005e527714eecc2d371f4"
+            }
+        ]
     },
     {
         "_id": {
@@ -727,9 +789,16 @@
         "comments": [
             {
                 "$oid": "65fc9575071b3fe890876058"
+            },
+            {
+                "$oid": "661fffb827714eecc2d371ee"
             }
         ],
-        "stories": []
+        "stories": [
+            {
+                "$oid": "662005ba27714eecc2d371f3"
+            }
+        ]
     },
     {
         "_id": {
@@ -739,29 +808,29 @@
         "password": "$2b$10$W6qszedORBPDmgE.Kai6dex65SMl9GyjdRWW/AWhpgV0KDJ/AizZC",
         "role": "user",
         "stories": [],
-        "comments": [],
+        "comments": [
+            {
+                "$oid": "661d65de4928600fb72719db"
+            },
+            {
+                "$oid": "661ff673bf80bf6a6940519e"
+            },
+            {
+                "$oid": "661ff6bcbf80bf6a6940519f"
+            },
+            {
+                "$oid": "6623cba97449bd401679aa19"
+            },
+            {
+                "$oid": "66286aab188a1d4927651a9c"
+            }
+        ],
         "createdAt": {
             "$date": "2024-03-27T16:31:46.741Z"
         },
         "lastModified": {
             "$date": "2024-03-27T16:31:46.741Z"
         }
-    },
-    {
-        "_id": {
-            "$oid": "660da6e721589332d40fb6df"
-        },
-        "username": "danielxurbina",
-        "password": "$2b$10$/REoY5pcfle00t6elf3tpuJZn/j4Rk084GLgInYbe5jUQOeKgBCAu",
-        "role": "user",
-        "createdAt": {
-            "$date": "2024-04-03T18:58:47.509Z"
-        },
-        "lastModified": {
-            "$date": "2024-04-03T18:58:47.509Z"
-        },
-        "comments": [],
-        "stories": []
     },
     {
         "_id": {
@@ -779,6 +848,49 @@
         "comments": [
             {
                 "$oid": "65fc99a3a6779e59bfe70050"
+            },
+            {
+                "$oid": "661fff5f27714eecc2d371ed"
+            }
+        ],
+        "stories": []
+    },
+    {
+        "_id": {
+            "$oid": "661d66334928600fb72719dc"
+        },
+        "username": "reneportillo",
+        "password": "$2b$10$ztmMWz/ZrrybEspGJRLbn.R1u2ODVnnEg3dWJk7ZDY7s1qHOJw7bu",
+        "role": "user",
+        "createdAt": {
+            "$date": "2024-04-15T17:38:59.621Z"
+        },
+        "lastModified": {
+            "$date": "2024-04-15T17:38:59.621Z"
+        },
+        "comments": [
+            {
+                "$oid": "661d663f4928600fb72719dd"
+            }
+        ],
+        "stories": []
+    },
+    {
+        "_id": {
+            "$oid": "662a6642d0af8d1ff4a37818"
+        },
+        "username": "danielxurbina",
+        "password": "$2b$10$87OECrNpuaYMpVB9m4w2a.NQJ0gM2YHWTtel4Y6k4lJr795NeuNca",
+        "role": "user",
+        "createdAt": {
+            "$date": "2024-04-25T14:18:42.521Z"
+        },
+        "lastModified": {
+            "$date": "2024-04-25T14:18:42.521Z"
+        },
+        "comments": [
+            {
+                "$oid": "662a6746d0af8d1ff4a3781c"
             }
         ],
         "stories": []

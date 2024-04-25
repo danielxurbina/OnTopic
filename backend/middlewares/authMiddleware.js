@@ -1,8 +1,8 @@
 /*
   Name: Daniel Urbina
-  Date: 4/12/2024
+  Date: 4/25/2024
   Course name and section: IT302-002
-  Assignment Name: Phase 4
+  Assignment Name: Phase 5
   Email: du35@njit.edu
 */
 
@@ -20,7 +20,6 @@ async function authenticate(req, res, next) {
             if (decoded) {
                 const username = decoded.username;
                 const persistedUser = await UsersDAO.getUserByUsername(username);
-                console.log(`Persisted User: ${persistedUser}`)
                 if (persistedUser) {
                     req.user = { _id: persistedUser._id, username: persistedUser.username, role: persistedUser.role }
                     next();

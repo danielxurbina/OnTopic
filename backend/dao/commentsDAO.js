@@ -1,8 +1,8 @@
 /*
   Name: Daniel Urbina
-  Date: 3/22/2024
+  Date: 4/25/2024
   Course name and section: IT302-002
-  Assignment Name: Phase 3
+  Assignment Name: Phase 5
   Email: du35@njit.edu
 */
 
@@ -75,6 +75,7 @@ export default class CommentsDAO {
   // This function updates a comment
   static async updateComment(query, updateFields) {
     try {
+      console.log('Inside updateComment: ', query, updateFields)
       return await comments.updateOne(query, { $set: updateFields, });
     } catch (e) {
       console.error(`unable to update comment: ${e}`);
@@ -101,7 +102,7 @@ export default class CommentsDAO {
 
   // This function is a helper function to the deleteStory() function in storiesDAO
   // this will only be called if a user wants to delete a story and all its comments
-  // else if a user wants to delete a comment, it will go through a soft delete to avoid deleting the whole comment chain
+  // else if a user wants to delete a single comment, it will go through a soft delete to avoid deleting the whole comment chain
   static async deleteManyComments(query) {
     try {
       return await comments.deleteMany(query);

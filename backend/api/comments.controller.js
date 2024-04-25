@@ -1,8 +1,8 @@
 /*
   Name: Daniel Urbina
-  Date: 4/12/2024
+  Date: 4/25/2024
   Course name and section: IT302-002
-  Assignment Name: Phase 4
+  Assignment Name: Phase 5
   Email: du35@njit.edu
 */
 
@@ -50,7 +50,9 @@ export default class CommentsController {
   static async apiGetCommentByID(req, res, next) {
     try {
       const id = req.params.id || {};
+      console.log('ID: ', id)
       const comment = await CommentsDAO.getCommentByID(id);
+      console.log('Comment: ', comment)
       if (!comment) {
         res.status(404).json({ error: "Not found" });
         return;
@@ -67,9 +69,9 @@ export default class CommentsController {
     try {
       const postFields = {
         by: req.body.by,
-        user_id: req.body.user_id,
+        user_id: new ObjectId(req.body.user_id),
         kids: [],
-        parent: req.body.parent,
+        parent: new ObjectId(req.body.parent),
         text: req.body.text,
         time: new Date(),
         type: "comment",
@@ -77,9 +79,7 @@ export default class CommentsController {
       };
 
       const persistedUser = req.user
-      if (persistedUser._id !== postFields.user_id && persistedUser.role !== "admin") {
-        res.status(401).json({ error: "User is not authorized to create a comment for another user" });
-      } else {
+      if (persistedUser._id.equals(postFields.user_id) || persistedUser.role === "admin") {
         const parentID = req.body.parent;
         const getCommentResponse = await CommentsDAO.getCommentByID(parentID);
         const getStoryResponse = await StoriesDAO.getStoryByID(parentID);
@@ -105,6 +105,8 @@ export default class CommentsController {
         } else {
           res.json({ error: "ParentID is not a story or a comment" });
         }
+      } else {
+        res.status(401).json({ error: "User is not authorized to create a comment for another user" });
       }
     } catch (e) {
       res.status(500).json({ error: e.message });
@@ -114,17 +116,17 @@ export default class CommentsController {
   // Method to update a comment
   static async apiUpdateComment(req, res, next) {
     try {
-      let query = { _id: new ObjectId(req.body.comment_id), user_id: req.body.user_id };
+      let query = { _id: new ObjectId(req.body.comment_id), user_id: new ObjectId(req.body.user_id) };
       let updateFields = {
         text: req.body.text,
         lastModified: new Date()
       };
       const persistedUser = req.user;
-      if (persistedUser._id !== query.user_id && persistedUser.role !== "admin") {
-        res.status(401).json({ error: "User is not authorized to update another user's comment" });
-      } else {
+      if (persistedUser._id.equals(query.user_id) || persistedUser.role === "admin") {
         const updateResponse = await CommentsDAO.updateComment(query, updateFields);
-        res.json({ updateResponse: updateResponse });
+        res.json({ updateResponse });
+      } else {
+        res.status(401).json({ error: "User is not authorized to update another user's comment" });
       }
     } catch (e) {
       res.status(500).json({ error: e.message });
@@ -140,14 +142,22 @@ export default class CommentsController {
   */
   static async apiSoftDeleteComment(req, res, next) {
     try {
-      let query = { _id: new ObjectId(req.body.comment_id), user_id: req.body.user_id };
+      let query = { _id: new ObjectId(req.body.comment_id), user_id: new ObjectId(req.body.user_id) };
       let updateFields = { deleted: true, lastModified: new Date() };
+      console.log('Query: ', query)
+      console.log('Update Fields: ', updateFields)
       const persistedUser = req.user;
-      if (persistedUser._id !== query.user_id && persistedUser.role !== "admin") {
-        res.status(401).json({ error: "User is not authorized to delete another user's comment" });
-      } else {
+      if (persistedUser._id.equals(query.user_id) || persistedUser.role === "admin") {
+        console.log('User is authorized to delete comment');
+        // After the comment is soft deleted, we need to update the deletedCount field in the stories collection
+        // So we need to go up the parent chain recursively to reach the story to update the deletedCount field
         const commentResponse = await CommentsDAO.updateComment(query, updateFields);
-        res.json({ commentResponse });
+        const updateStoryResponse = await StoriesDAO.updateStoryDeletedCount(query._id);
+        console.log('Comment Response: ', commentResponse)
+        res.json({ commentResponse, updateStoryResponse });
+      } else {
+        console.log('User is not authorized to delete comment');
+        res.status(401).json({ error: "User is not authorized to delete another user's comment" });
       }
     } catch (e) {
       res.status(500).json({ error: e.message });

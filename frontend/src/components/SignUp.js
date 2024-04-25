@@ -1,37 +1,33 @@
 /*
   Name: Daniel Urbina
-  Date: 4/12/2024
+  Date: 4/25/2024
   Course name and section: IT302-002
-  Assignment Name: Phase 4
+  Assignment Name: Phase 5
   Email: du35@njit.edu
 */
 
 import React, { useState } from "react";
+import { Form, Col, Row, Button, Container, Alert } from "react-bootstrap";
 import { useNavigate } from "react-router-dom";
-import Form from "react-bootstrap/Form";
-import Col from 'react-bootstrap/Col';
-import Row from 'react-bootstrap/Row';
-import Button from 'react-bootstrap/Button';
-import Container from 'react-bootstrap/Container';
 import storiesDataService from "../services/storiesDataService";
 
 const SignUp = ({ login }) => {
     const [username, setUsername] = useState("")
     const [password, setPassword] = useState("")
     const [isLoading, setLoading] = useState(false);
+    const [error, setError] = useState(false);
     const navigate = useNavigate();
 
-    const onChangeUsername = (e) => {
-        setUsername(e.target.value)
-    }
-
-    const onChangePassword = (e) => {
-        setPassword(e.target.value)
-    }
+    const onChangeUsername = (e) => setUsername(e.target.value)
+    const onChangePassword = (e) => setPassword(e.target.value)
 
     const handleSubmit = (e) => {
         e.preventDefault();
         setLoading(true);
+        window.localStorage.removeItem('currentUserID');
+        window.localStorage.removeItem('isLoggedIn');
+        window.localStorage.removeItem('token');
+
         const newUser = {
             username: username,
             password: password,
@@ -44,44 +40,62 @@ const SignUp = ({ login }) => {
 
         storiesDataService.createUser(newUser)
             .then(response => {
-                if(response.data.userResponse.error){
-                    console.log(`Error creating user: ${response.data.userResponse.error}`)
-                    return
-                } else {
-                    console.log('User created: ', response.data.userResponse)
+                console.log('response: ', response.data)
+                if(response.data.success === true){
+                    const token = response.data.token
+                    localStorage.setItem('token', token)
                     login({
-                        id: response.data.userResponse.insertedId,
-                        username: newUser.username,
-                        role: newUser.role,
+                        id: response.data.user._id,
+                        username: response.data.user.username,
+                        role: response.data.user.role,
                     })
-                    if(isLoading) {
+                    if (isLoading) {
                         setLoading(false)
                     }
                     navigate('/du35_stories')
+                    window.location.reload()
+                } else {
+                    console.log(`Error creating user: ${response.data.error}`)
+                    setError(true)
                 }
             })
             .catch(error => {
                 console.log('error: ', error)
             })
-        
-        setUsername("")
-        setPassword("")
+
+        setUsername(""); setPassword(""); setLoading(false)
+    }
+
+    const formStyle = {
+        maxWidth: "400px",
+        margin: "20px auto",
+        padding: "20px",
+        border: "1px solid #ddd",
+        borderRadius: "10px",
+        backgroundColor: "#f5f5f5",
     }
 
     return (
         <div>
+            {error ? (
+                <Alert variant="danger" onClose={() => setError(false)} dismissible>
+                    Something went wrong while creating your account. Please try again.
+                </Alert>
+            ) : (
+                <></>
+            )}
             <Container>
                 <Row className="justify-content-center">
                     <Col md={6}>
-                        <Form>
+                        <Form style={formStyle}>
                             <Row className="mb-3">
                                 <Form.Group as={Col} controlId="fromGroupUsername">
                                     <Form.Label>Username</Form.Label>
-                                    <Form.Control 
-                                        required type="text" 
-                                        placeholder="Enter username" 
-                                        value={username} 
-                                        onChange={onChangeUsername} 
+                                    <Form.Control
+                                        required type="text"
+                                        placeholder="Enter username"
+                                        value={username}
+                                        onChange={onChangeUsername}
                                     />
                                 </Form.Group>
                             </Row>
@@ -89,19 +103,19 @@ const SignUp = ({ login }) => {
                             <Row className="mb-3">
                                 <Form.Group as={Col} controlId="formGroupPassword">
                                     <Form.Label>Password</Form.Label>
-                                    <Form.Control 
-                                        required 
-                                        type="password" 
-                                        placeholder="Enter password" 
-                                        value={password} 
-                                        onChange={onChangePassword} 
+                                    <Form.Control
+                                        required
+                                        type="password"
+                                        placeholder="Enter password"
+                                        value={password}
+                                        onChange={onChangePassword}
                                     />
                                 </Form.Group>
                             </Row>
 
-                            <Button 
-                                variant="primary" 
-                                disabled={isLoading} 
+                            <Button
+                                variant="primary"
+                                disabled={isLoading}
                                 onClick={!isLoading ? handleSubmit : null}
                             >
                                 {isLoading ? 'Loading...' : 'Sign Up'}

@@ -15,7 +15,9 @@
                 "$oid": "65fc90f1071b3fe89087604e"
             }
         ],
-        "parent": "65f9c227b6359881bf9c4941",
+        "parent": {
+            "$oid": "65f9c227b6359881bf9c4941"
+        },
         "text": "This is a significant step forward for real-time metering technology. Open source solutions can foster innovation and collaboration in this space. Excited to see where this leads!",
         "time": {
             "$date": "2024-03-21T19:38:06.346Z"
@@ -38,7 +40,9 @@
                 "$oid": "65fc9161071b3fe89087604f"
             }
         ],
-        "parent": "65f9c227b6359881bf9c4942",
+        "parent": {
+            "$oid": "65f9c227b6359881bf9c4942"
+        },
         "text": "Fascinating study! Understanding how natural language can induce generalization in neural networks opens up new possibilities for AI and cognitive science. Looking forward to seeing further research in this area.",
         "time": {
             "$date": "2024-03-21T19:39:00.935Z"
@@ -46,25 +50,6 @@
         "type": "comment",
         "lastModified": {
             "$date": "2024-03-21T19:39:00.935Z"
-        }
-    },
-    {
-        "_id": {
-            "$oid": "65fc8d2b071b3fe890876047"
-        },
-        "by": "samhunt12",
-        "user_id": {
-            "$oid": "66031fc16d936f9d333cd8ad"
-        },
-        "kids": [],
-        "parent": "65f9c227b6359881bf9c4943",
-        "text": "Ah, the classic 'Harry Potter and the Methods of Rationality'! A brilliant fan fiction that takes the magical world and infuses it with rationality and logic. It's a refreshing take on the series, for sure.",
-        "time": {
-            "$date": "2024-03-21T19:40:27.842Z"
-        },
-        "type": "comment",
-        "lastModified": {
-            "$date": "2024-03-21T19:40:27.842Z"
         }
     },
     {
@@ -80,7 +65,9 @@
                 "$oid": "65fc91c2071b3fe890876050"
             }
         ],
-        "parent": "65f9c227b6359881bf9c4944",
+        "parent": {
+            "$oid": "65f9c227b6359881bf9c4944"
+        },
         "text": "Microsoft making big moves in the AI space by hiring DeepMind co-founder Suleyman! Exciting times ahead for consumer AI. Can't wait to see what innovations come out of this collaboration.",
         "time": {
             "$date": "2024-03-21T19:41:35.419Z"
@@ -99,7 +86,9 @@
             "$oid": "66031fd06d936f9d333cd8af"
         },
         "kids": [],
-        "parent": "65f9c227b6359881bf9c4945",
+        "parent": {
+            "$oid": "65f9c227b6359881bf9c4945"
+        },
         "text": "Interesting findings regarding Havana Syndrome. It's crucial to have solid research backing such claims, especially considering the implications. Looking forward to more developments in this area.",
         "time": {
             "$date": "2024-03-21T19:42:50.990Z"
@@ -118,7 +107,9 @@
             "$oid": "66031fdb6d936f9d333cd8b0"
         },
         "kids": [],
-        "parent": "65f9c227b6359881bf9c4946",
+        "parent": {
+            "$oid": "65f9c227b6359881bf9c4946"
+        },
         "text": "Love the idea of a walkable city! It's essential to prioritize pedestrian-friendly infrastructure for healthier, more sustainable communities. Hope this proposal gains traction!",
         "time": {
             "$date": "2024-03-21T19:44:46.609Z"
@@ -141,7 +132,9 @@
                 "$oid": "65fc9215071b3fe890876051"
             }
         ],
-        "parent": "65f9c227b6359881bf9c4948",
+        "parent": {
+            "$oid": "65f9c227b6359881bf9c4948"
+        },
         "text": "Legacy displacement is a significant challenge in software development. Understanding these patterns can help teams navigate migrations and modernization efforts more effectively. Great read!",
         "time": {
             "$date": "2024-03-21T19:45:40.877Z"
@@ -160,7 +153,9 @@
             "$oid": "66031fea6d936f9d333cd8b2"
         },
         "kids": [],
-        "parent": "65f9c227b6359881bf9c494a",
+        "parent": {
+            "$oid": "65f9c227b6359881bf9c494a"
+        },
         "text": "Absolutely agree that leadership involves taking risks. It's about navigating uncertainty and making tough decisions for the greater good. Inspiring read!",
         "time": {
             "$date": "2024-03-21T19:46:50.283Z"
@@ -179,7 +174,9 @@
             "$oid": "66031ff46d936f9d333cd8b3"
         },
         "kids": [],
-        "parent": "65fc8c9e071b3fe890876045",
+        "parent": {
+            "$oid": "65fc8c9e071b3fe890876045"
+        },
         "text": "Love seeing open source breaking into the real-time metering scene! It's about time we had more transparency and collaboration in this space. Can't wait to see how this shakes up the industry!",
         "time": {
             "$date": "2024-03-21T19:51:58.053Z"
@@ -202,7 +199,9 @@
                 "$oid": "65fc92ae071b3fe890876052"
             }
         ],
-        "parent": "65fc8c9e071b3fe890876045",
+        "parent": {
+            "$oid": "65fc8c9e071b3fe890876045"
+        },
         "text": "While open source has its merits, I'm a bit skeptical about its application in real-time metering. Are there any potential drawbacks or concerns we should be considering?",
         "time": {
             "$date": "2024-03-21T19:56:33.504Z"
@@ -225,7 +224,9 @@
                 "$oid": "65fc9305071b3fe890876053"
             }
         ],
-        "parent": "65fc8cd4071b3fe890876046",
+        "parent": {
+            "$oid": "65fc8cd4071b3fe890876046"
+        },
         "text": "I'm not entirely convinced about the implications of this study. Could it potentially lead to oversimplification or misinterpretation of complex data? Let's delve deeper into the potential risks.",
         "time": {
             "$date": "2024-03-21T19:58:25.696Z"
@@ -248,7 +249,9 @@
                 "$oid": "65fc936c071b3fe890876054"
             }
         ],
-        "parent": "65fc8d6f071b3fe890876048",
+        "parent": {
+            "$oid": "65fc8d6f071b3fe890876048"
+        },
         "text": "Hmm, while Microsoft's move is indeed attention-grabbing, I wonder if it could also lead to monopolization or stifling of innovation in the AI market. What are your thoughts on the potential consequences?",
         "time": {
             "$date": "2024-03-21T20:00:02.317Z"
@@ -271,7 +274,9 @@
                 "$oid": "65fc93dc071b3fe890876055"
             }
         ],
-        "parent": "65fc8e64071b3fe89087604b",
+        "parent": {
+            "$oid": "65fc8e64071b3fe89087604b"
+        },
         "text": "I'm not entirely sold on the idea that understanding legacy displacement patterns is the key to successful modernization. Sometimes, it feels like we're just rearranging the deck chairs on the Titanic. Are there alternative approaches worth exploring?",
         "time": {
             "$date": "2024-03-21T20:01:25.116Z"
@@ -292,16 +297,21 @@
         "kids": [
             {
                 "$oid": "65fc94d7071b3fe890876056"
+            },
+            {
+                "$oid": "661f21837526c09d2622ccd0"
             }
         ],
-        "parent": "65fc90f1071b3fe89087604e",
+        "parent": {
+            "$oid": "65fc90f1071b3fe89087604e"
+        },
         "text": "I understand your skepticism, but I believe open source offers transparency and community-driven development, which can lead to more robust and adaptable solutions. Perhaps the benefits outweigh the potential drawbacks in this case?",
         "time": {
             "$date": "2024-03-21T20:03:58.133Z"
         },
         "type": "comment",
         "lastModified": {
-            "$date": "2024-03-21T20:03:58.133Z"
+            "$date": "2024-04-16T16:15:52.883Z"
         }
     },
     {
@@ -317,7 +327,9 @@
                 "$oid": "65fc9523071b3fe890876057"
             }
         ],
-        "parent": "65fc9161071b3fe89087604f",
+        "parent": {
+            "$oid": "65fc9161071b3fe89087604f"
+        },
         "text": "Valid point! However, I think it's crucial to acknowledge the groundbreaking nature of this study. It opens up avenues for further exploration and refinement, which could ultimately lead to significant advancements in AI research and applications.",
         "time": {
             "$date": "2024-03-21T20:05:25.214Z"
@@ -343,7 +355,9 @@
                 "$oid": "65fc99a3a6779e59bfe70050"
             }
         ],
-        "parent": "65fc91c2071b3fe890876050",
+        "parent": {
+            "$oid": "65fc91c2071b3fe890876050"
+        },
         "text": "While monopolization is a valid concern, I believe Microsoft's hiring of Suleyman signifies a commitment to pushing the boundaries of AI technology. It's a testament to their dedication to innovation and collaboration, rather than stifling competition.",
         "time": {
             "$date": "2024-03-21T20:07:08.857Z"
@@ -366,7 +380,9 @@
                 "$oid": "65fc95b1071b3fe890876059"
             }
         ],
-        "parent": "65fc9215071b3fe890876051",
+        "parent": {
+            "$oid": "65fc9215071b3fe890876051"
+        },
         "text": "I appreciate your skepticism, but I think understanding legacy displacement patterns is essential for mitigating risks and ensuring successful modernization efforts. It's about learning from past mistakes and charting a more informed path forward.",
         "time": {
             "$date": "2024-03-21T20:09:00.318Z"
@@ -384,8 +400,14 @@
         "user_id": {
             "$oid": "66031ffc6d936f9d333cd8b4"
         },
-        "kids": [],
-        "parent": "65fc92ae071b3fe890876052",
+        "kids": [
+            {
+                "$oid": "661f21757526c09d2622cccf"
+            }
+        ],
+        "parent": {
+            "$oid": "65fc92ae071b3fe890876052"
+        },
         "text": "While transparency and community-driven development are commendable aspects of open source, we can't ignore the potential risks, such as security vulnerabilities or lack of centralized support. It's essential to weigh these factors carefully before fully embracing open source in critical systems.",
         "time": {
             "$date": "2024-03-21T20:13:11.868Z"
@@ -403,8 +425,14 @@
         "user_id": {
             "$oid": "660320216d936f9d333cd8b9"
         },
-        "kids": [],
-        "parent": "65fc9305071b3fe890876053",
+        "kids": [
+            {
+                "$oid": "661d663f4928600fb72719dd"
+            }
+        ],
+        "parent": {
+            "$oid": "65fc9305071b3fe890876053"
+        },
         "text": "While the study may be groundbreaking, we shouldn't overlook the potential ethical implications or unintended consequences of implementing natural language instructions in neural networks. It's essential to proceed cautiously and consider the broader societal impacts.",
         "time": {
             "$date": "2024-03-21T20:14:27.111Z"
@@ -423,7 +451,9 @@
             "$oid": "6603202b6d936f9d333cd8ba"
         },
         "kids": [],
-        "parent": "65fc936c071b3fe890876054",
+        "parent": {
+            "$oid": "65fc936c071b3fe890876054"
+        },
         "text": "While Microsoft's intentions may be noble, the concentration of talent in a few tech giants could indeed stifle competition and innovation in the long run. We should remain vigilant and advocate for policies that promote a more diverse and decentralized AI ecosystem.",
         "time": {
             "$date": "2024-03-21T20:15:49.483Z"
@@ -442,7 +472,9 @@
             "$oid": "660320216d936f9d333cd8b9"
         },
         "kids": [],
-        "parent": "65fc93dc071b3fe890876055",
+        "parent": {
+            "$oid": "65fc93dc071b3fe890876055"
+        },
         "text": "While learning from past mistakes is important, dwelling too much on legacy displacement patterns could hinder innovation and progress. Sometimes, it's necessary to break free from legacy systems altogether and embrace entirely new approaches to drive true transformation.",
         "time": {
             "$date": "2024-03-21T20:16:49.823Z"
@@ -461,7 +493,9 @@
             "$oid": "6618053a19f76a31b5b07c39"
         },
         "kids": [],
-        "parent": "65fc936c071b3fe890876054",
+        "parent": {
+            "$oid": "65fc936c071b3fe890876054"
+        },
         "text": "I agree that a more diverse and decentralized AI ecosystem is desirable for fostering innovation and preventing monopolization. However, we shouldn't overlook the potential benefits of pooling talent and resources in larger tech companies. Perhaps a hybrid approach, combining the strengths of both centralized and decentralized models, could offer a more balanced solution to promoting innovation while mitigating monopolistic risks.",
         "time": {
             "$date": "2024-03-21T20:33:38.981Z"
@@ -480,7 +514,9 @@
             "$oid": "66031de3bf1beee1ccb4b9fa"
         },
         "kids": [],
-        "parent": "65f9c227b6359881bf9c4954",
+        "parent": {
+            "$oid": "65f9c227b6359881bf9c4954"
+        },
         "text": "That's an intriguing study focusing on CO2 storage potential in the Central Gulf of Mexico. While it's essential to explore alternative solutions like CO2-enhanced oil recovery to extend the life of maturing oil fields, we must also prioritize environmental sustainability. I'm curious about the environmental impact assessments conducted for these CO2 storage projects. Are there any plans in place to ensure the long-term integrity of the storage sites and prevent any potential leakage or environmental hazards?",
         "time": {
             "$date": "2024-03-27T03:21:32.489Z"
@@ -492,7 +528,7 @@
     },
     {
         "_id": {
-            "$oid": "660d71ed4110ba97a64afc74"
+            "$oid": "661b2a349d2011f43dc06696"
         },
         "by": "du35",
         "user_id": {
@@ -500,99 +536,705 @@
         },
         "kids": [
             {
-                "$oid": "660d723a4110ba97a64afc75"
+                "$oid": "661b2a5a9d2011f43dc06698"
+            },
+            {
+                "$oid": "661b36731eb25a8cfd7c908f"
             }
         ],
-        "parent": "65f9c227b6359881bf9c4943",
-        "text": "I love Harry Potter",
+        "parent": {
+            "$oid": "65f9c227b6359881bf9c4941"
+        },
+        "text": "open source is awesome!",
         "time": {
-            "$date": "2024-04-03T15:12:45.518Z"
+            "$date": "2024-04-14T00:58:28.134Z"
         },
         "type": "comment",
         "lastModified": {
-            "$date": "2024-04-03T15:12:45.518Z"
-        }
+            "$date": "2024-04-15T21:35:21.827Z"
+        },
+        "deleted": true
     },
     {
         "_id": {
-            "$oid": "660d723a4110ba97a64afc75"
+            "$oid": "661b2a5a9d2011f43dc06698"
         },
-        "by": "tosh",
+        "by": "du35",
         "user_id": {
-            "$oid": "66031f186d936f9d333cd89b"
-        },
-        "kids": [],
-        "parent": "660d71ed4110ba97a64afc74",
-        "text": "Same, I've always had a soft spot for the Harry Potter series.",
-        "time": {
-            "$date": "2024-04-03T15:14:02.062Z"
-        },
-        "type": "comment",
-        "lastModified": {
-            "$date": "2024-04-03T15:14:02.062Z"
-        }
-    },
-    {
-        "_id": {
-            "$oid": "660d72ee4110ba97a64afc76"
-        },
-        "by": "techtitan",
-        "user_id": {
-            "$oid": "660320216d936f9d333cd8b9"
+            "$oid": "66031de3bf1beee1ccb4b9fa"
         },
         "kids": [
             {
-                "$oid": "660d73234110ba97a64afc77"
+                "$oid": "661b37f7eb2764890fe07c66"
             }
         ],
-        "parent": "65f9c227b6359881bf9c4943",
-        "text": "Harry Potter is awesome.",
+        "parent": {
+            "$oid": "661b2a349d2011f43dc06696"
+        },
+        "text": "nevermind it's actually very boring",
         "time": {
-            "$date": "2024-04-03T15:17:02.930Z"
+            "$date": "2024-04-14T00:59:06.589Z"
         },
         "type": "comment",
         "lastModified": {
-            "$date": "2024-04-03T15:17:02.930Z"
-        }
+            "$date": "2024-04-15T21:35:31.579Z"
+        },
+        "deleted": true
     },
     {
         "_id": {
-            "$oid": "660d73234110ba97a64afc77"
+            "$oid": "661b36731eb25a8cfd7c908f"
         },
-        "by": "birriel",
+        "by": "socialguru",
         "user_id": {
-            "$oid": "66031f226d936f9d333cd89c"
+            "$oid": "66031ffc6d936f9d333cd8b4"
+        },
+        "kids": [],
+        "parent": {
+            "$oid": "661b2a349d2011f43dc06696"
+        },
+        "text": "open source is indeed awesome.",
+        "time": {
+            "$date": "2024-04-14T01:50:43.427Z"
+        },
+        "type": "comment",
+        "lastModified": {
+            "$date": "2024-04-15T21:45:58.034Z"
+        },
+        "deleted": true
+    },
+    {
+        "_id": {
+            "$oid": "661b37f7eb2764890fe07c66"
+        },
+        "by": "socialguru",
+        "user_id": {
+            "$oid": "66031ffc6d936f9d333cd8b4"
+        },
+        "kids": [],
+        "parent": {
+            "$oid": "661b2a5a9d2011f43dc06698"
+        },
+        "text": "Why would you say that?",
+        "time": {
+            "$date": "2024-04-14T01:57:11.784Z"
+        },
+        "type": "comment",
+        "lastModified": {
+            "$date": "2024-04-15T21:45:53.211Z"
+        },
+        "deleted": true
+    },
+    {
+        "_id": {
+            "$oid": "661b3812eb2764890fe07c67"
+        },
+        "by": "socialguru",
+        "user_id": {
+            "$oid": "66031ffc6d936f9d333cd8b4"
         },
         "kids": [
             {
-                "$oid": "6619d9ac73d1eb606cda9583"
+                "$oid": "661d65de4928600fb72719db"
             }
         ],
-        "parent": "660d72ee4110ba97a64afc76",
-        "text": "Definitely agree, Harry potter is indeed awesome.",
+        "parent": {
+            "$oid": "65f9c227b6359881bf9c4941"
+        },
+        "text": "Open source is the future!",
         "time": {
-            "$date": "2024-04-03T15:17:55.887Z"
+            "$date": "2024-04-14T01:57:38.091Z"
         },
         "type": "comment",
         "lastModified": {
-            "$date": "2024-04-03T15:17:55.887Z"
+            "$date": "2024-04-15T21:46:01.034Z"
+        },
+        "deleted": true
+    },
+    {
+        "_id": {
+            "$oid": "661d65de4928600fb72719db"
+        },
+        "by": "emilynaomy",
+        "user_id": {
+            "$oid": "660449f270ef676494410932"
+        },
+        "kids": [],
+        "parent": {
+            "$oid": "661b3812eb2764890fe07c67"
+        },
+        "text": "Open source is not the future.",
+        "time": {
+            "$date": "2024-04-15T17:37:34.487Z"
+        },
+        "type": "comment",
+        "lastModified": {
+            "$date": "2024-04-15T18:01:49.067Z"
+        },
+        "deleted": true
+    },
+    {
+        "_id": {
+            "$oid": "661d663f4928600fb72719dd"
+        },
+        "by": "reneportillo",
+        "user_id": {
+            "$oid": "661d66334928600fb72719dc"
+        },
+        "kids": [],
+        "parent": {
+            "$oid": "65fc9523071b3fe890876057"
+        },
+        "text": "sike.",
+        "time": {
+            "$date": "2024-04-15T17:39:11.195Z"
+        },
+        "type": "comment",
+        "lastModified": {
+            "$date": "2024-04-15T21:47:54.212Z"
+        },
+        "deleted": true
+    },
+    {
+        "_id": {
+            "$oid": "661f21757526c09d2622cccf"
+        },
+        "by": "du35",
+        "user_id": {
+            "$oid": "66031de3bf1beee1ccb4b9fa"
+        },
+        "kids": [],
+        "parent": {
+            "$oid": "65fc94d7071b3fe890876056"
+        },
+        "text": "testing",
+        "time": {
+            "$date": "2024-04-17T01:10:13.594Z"
+        },
+        "type": "comment",
+        "lastModified": {
+            "$date": "2024-04-17T01:10:20.197Z"
+        },
+        "deleted": true
+    },
+    {
+        "_id": {
+            "$oid": "661f21837526c09d2622ccd0"
+        },
+        "by": "du35",
+        "user_id": {
+            "$oid": "66031de3bf1beee1ccb4b9fa"
+        },
+        "kids": [],
+        "parent": {
+            "$oid": "65fc92ae071b3fe890876052"
+        },
+        "text": "testing",
+        "time": {
+            "$date": "2024-04-17T01:10:26.972Z"
+        },
+        "type": "comment",
+        "lastModified": {
+            "$date": "2024-04-17T01:10:32.535Z"
+        },
+        "deleted": true
+    },
+    {
+        "_id": {
+            "$oid": "661ff673bf80bf6a6940519e"
+        },
+        "by": "emilynaomy",
+        "user_id": {
+            "$oid": "660449f270ef676494410932"
+        },
+        "kids": [
+            {
+                "$oid": "661ff6bcbf80bf6a6940519f"
+            },
+            {
+                "$oid": "661fff5f27714eecc2d371ed"
+            },
+            {
+                "$oid": "6620002327714eecc2d371ef"
+            }
+        ],
+        "parent": {
+            "$oid": "661ff62abf80bf6a6940519d"
+        },
+        "text": "It's understandable that many people are apprehensive about self-driving cars, especially considering the significant shift they represent in how we navigate the world. However, as the industry continues to innovate and demonstrate the safety and reliability of autonomous technology, we have the opportunity to change these perceptions. Education, transparent communication about the technology's capabilities and limitations, and rigorous testing and regulation will be key in building trust and acceptance among the public.",
+        "time": {
+            "$date": "2024-04-17T16:18:59.309Z"
+        },
+        "type": "comment",
+        "lastModified": {
+            "$date": "2024-04-17T16:19:56.135Z"
         }
     },
     {
         "_id": {
-            "$oid": "6619d9ac73d1eb606cda9583"
+            "$oid": "661ff6bcbf80bf6a6940519f"
         },
-        "by": "low_tech_punk",
-        "user_id": "66031f986d936f9d333cd8a8",
+        "by": "emilynaomy",
+        "user_id": {
+            "$oid": "660449f270ef676494410932"
+        },
         "kids": [],
-        "parent": "660d73234110ba97a64afc77",
-        "text": "I've always loved Harry Potter as a kid! Some of my best memories is coming back home to read the books.",
+        "parent": {
+            "$oid": "661ff673bf80bf6a6940519e"
+        },
+        "text": "testing",
         "time": {
-            "$date": "2024-04-13T01:02:36.545Z"
+            "$date": "2024-04-17T16:20:12.703Z"
         },
         "type": "comment",
         "lastModified": {
-            "$date": "2024-04-13T01:02:36.545Z"
+            "$date": "2024-04-17T16:20:31.059Z"
+        },
+        "deleted": true
+    },
+    {
+        "_id": {
+            "$oid": "661fff5f27714eecc2d371ed"
+        },
+        "by": "KlDvceEngnr",
+        "user_id": {
+            "$oid": "6618053a19f76a31b5b07c39"
+        },
+        "kids": [
+            {
+                "$oid": "661fffb827714eecc2d371ee"
+            }
+        ],
+        "parent": {
+            "$oid": "661ff673bf80bf6a6940519e"
+        },
+        "text": "Agreed! Building trust in self-driving cars will indeed require a collaborative effort from the industry, regulators, and the public. Transparency about how these systems work, their safety protocols, and ongoing improvements will go a long way in addressing concerns. It's exciting to see how technology and society are evolving together.",
+        "time": {
+            "$date": "2024-04-17T16:57:03.138Z"
+        },
+        "type": "comment",
+        "lastModified": {
+            "$date": "2024-04-17T16:57:03.138Z"
         }
+    },
+    {
+        "_id": {
+            "$oid": "661fffb827714eecc2d371ee"
+        },
+        "by": "nocode20",
+        "user_id": {
+            "$oid": "6603202b6d936f9d333cd8ba"
+        },
+        "kids": [],
+        "parent": {
+            "$oid": "661fff5f27714eecc2d371ed"
+        },
+        "text": "Disagree! While collaboration is crucial, we must prioritize rigorous testing and real-world data to truly build trust. Transparency alone won't mitigate all concerns; concrete evidence of safety is paramount in this evolving landscape.",
+        "time": {
+            "$date": "2024-04-17T16:58:32.321Z"
+        },
+        "type": "comment",
+        "lastModified": {
+            "$date": "2024-04-17T16:58:32.321Z"
+        }
+    },
+    {
+        "_id": {
+            "$oid": "6620002327714eecc2d371ef"
+        },
+        "by": "samhunt12",
+        "user_id": {
+            "$oid": "66031fc16d936f9d333cd8ad"
+        },
+        "kids": [],
+        "parent": {
+            "$oid": "661ff673bf80bf6a6940519e"
+        },
+        "text": "Absolutely! Education and transparent communication are crucial in dispelling fears surrounding self-driving cars. Additionally, establishing clear standards for testing and regulation will not only enhance safety but also foster confidence in the technology's capabilities. ",
+        "time": {
+            "$date": "2024-04-17T17:00:19.124Z"
+        },
+        "type": "comment",
+        "lastModified": {
+            "$date": "2024-04-17T17:00:19.124Z"
+        }
+    },
+    {
+        "_id": {
+            "$oid": "6620011427714eecc2d371f0"
+        },
+        "by": "datadreamer",
+        "user_id": {
+            "$oid": "6603200a6d936f9d333cd8b6"
+        },
+        "kids": [
+            {
+                "$oid": "6620014027714eecc2d371f1"
+            }
+        ],
+        "parent": {
+            "$oid": "661f48024af3422d55ad4497"
+        },
+        "text": "Your vivid portrayal of surviving a near-death experience and grappling with its aftermath is deeply moving. Your honesty about the complex mix of emotions you endured, from fear and regret to gratitude and acceptance, is powerful. Thank you for sharing such a personal and compelling story of resilience and introspection.",
+        "time": {
+            "$date": "2024-04-17T17:04:20.295Z"
+        },
+        "type": "comment",
+        "lastModified": {
+            "$date": "2024-04-17T17:04:20.295Z"
+        }
+    },
+    {
+        "_id": {
+            "$oid": "6620014027714eecc2d371f1"
+        },
+        "by": "du35",
+        "user_id": {
+            "$oid": "66031de3bf1beee1ccb4b9fa"
+        },
+        "kids": [],
+        "parent": {
+            "$oid": "6620011427714eecc2d371f0"
+        },
+        "text": "I appreciate your thoughtful response. It's encouraging to hear that my story resonated with you. Surviving that experience has been a journey, and sharing it feels like a step towards healing and understanding.",
+        "time": {
+            "$date": "2024-04-17T17:05:04.857Z"
+        },
+        "type": "comment",
+        "lastModified": {
+            "$date": "2024-04-17T17:05:04.857Z"
+        }
+    },
+    {
+        "_id": {
+            "$oid": "662001e827714eecc2d371f2"
+        },
+        "by": "samfisher",
+        "user_id": {
+            "$oid": "66031fea6d936f9d333cd8b2"
+        },
+        "kids": [],
+        "parent": {
+            "$oid": "661f48024af3422d55ad4497"
+        },
+        "text": "Your journey through the harrowing experience of a near-drowning is both gripping and poignant. The way you navigate the complex emotions and aftermath with raw honesty is truly commendable, offering readers a glimpse into the profound impact of such events. Thank you for bravely sharing your story, it's a reminder of the resilience of the human spirit and the power of introspection in healing.",
+        "time": {
+            "$date": "2024-04-17T17:07:52.096Z"
+        },
+        "type": "comment",
+        "lastModified": {
+            "$date": "2024-04-17T17:07:52.096Z"
+        }
+    },
+    {
+        "_id": {
+            "$oid": "6623cba97449bd401679aa19"
+        },
+        "by": "emilynaomy",
+        "user_id": {
+            "$oid": "660449f270ef676494410932"
+        },
+        "kids": [],
+        "parent": {
+            "$oid": "661f24827526c09d2622ccd2"
+        },
+        "text": "How do people create atomic bombs without exploding?",
+        "time": {
+            "$date": "2024-04-20T14:05:29.199Z"
+        },
+        "type": "comment",
+        "lastModified": {
+            "$date": "2024-04-20T14:05:29.199Z"
+        }
+    },
+    {
+        "_id": {
+            "$oid": "66286aab188a1d4927651a9c"
+        },
+        "by": "emilynaomy",
+        "user_id": {
+            "$oid": "660449f270ef676494410932"
+        },
+        "kids": [
+            {
+                "$oid": "66286ac8188a1d4927651a9d"
+            }
+        ],
+        "parent": {
+            "$oid": "6620075d27714eecc2d371f7"
+        },
+        "text": "TikTok is so dangerous for our children!",
+        "time": {
+            "$date": "2024-04-24T02:12:59.597Z"
+        },
+        "type": "comment",
+        "lastModified": {
+            "$date": "2024-04-24T16:50:18.970Z"
+        },
+        "deleted": true
+    },
+    {
+        "_id": {
+            "$oid": "66286ac8188a1d4927651a9d"
+        },
+        "by": "du35",
+        "user_id": {
+            "$oid": "66031de3bf1beee1ccb4b9fa"
+        },
+        "kids": [],
+        "parent": {
+            "$oid": "66286aab188a1d4927651a9c"
+        },
+        "text": "I agree, TikTok should be banned!",
+        "time": {
+            "$date": "2024-04-24T02:13:28.367Z"
+        },
+        "type": "comment",
+        "lastModified": {
+            "$date": "2024-04-24T16:50:24.380Z"
+        },
+        "deleted": true
+    },
+    {
+        "_id": {
+            "$oid": "66293627bf170b48cf2500b5"
+        },
+        "by": "siaminga",
+        "user_id": {
+            "$oid": "66031fa86d936f9d333cd8aa"
+        },
+        "kids": [
+            {
+                "$oid": "6629367ebf170b48cf2500b6"
+            },
+            {
+                "$oid": "66293744bf170b48cf2500b8"
+            }
+        ],
+        "parent": {
+            "$oid": "6620088627714eecc2d371f8"
+        },
+        "text": "Unbelievable how censorship is creeping into our schools! This surge in book bans is alarming and goes against the very essence of education. We need to protect our right to read and think for ourselves.",
+        "time": {
+            "$date": "2024-04-24T16:41:11.791Z"
+        },
+        "type": "comment",
+        "lastModified": {
+            "$date": "2024-04-24T16:41:11.791Z"
+        }
+    },
+    {
+        "_id": {
+            "$oid": "6629367ebf170b48cf2500b6"
+        },
+        "by": "giuliomagnifico",
+        "user_id": {
+            "$oid": "66031faf6d936f9d333cd8ab"
+        },
+        "kids": [
+            {
+                "$oid": "662936c9bf170b48cf2500b7"
+            }
+        ],
+        "parent": {
+            "$oid": "66293627bf170b48cf2500b5"
+        },
+        "text": "Absolutely agree! It's terrifying to see such a blatant attack on intellectual freedom. Education should be about broadening perspectives, not narrowing them. We can't let fear and ignorance dictate what we can and cannot read. ",
+        "time": {
+            "$date": "2024-04-24T16:42:38.590Z"
+        },
+        "type": "comment",
+        "lastModified": {
+            "$date": "2024-04-24T16:42:38.590Z"
+        }
+    },
+    {
+        "_id": {
+            "$oid": "662936c9bf170b48cf2500b7"
+        },
+        "by": "covi",
+        "user_id": {
+            "$oid": "66031f9f6d936f9d333cd8a9"
+        },
+        "kids": [],
+        "parent": {
+            "$oid": "6629367ebf170b48cf2500b6"
+        },
+        "text": "Exactly! Banning books only limits our ability to understand different viewpoints and cultures. It's essential to encourage critical thinking and open discussion in schools. How can we expect students to learn if we shield them from challenging ideas?",
+        "time": {
+            "$date": "2024-04-24T16:43:53.937Z"
+        },
+        "type": "comment",
+        "lastModified": {
+            "$date": "2024-04-24T16:43:53.937Z"
+        }
+    },
+    {
+        "_id": {
+            "$oid": "66293744bf170b48cf2500b8"
+        },
+        "by": "jdenquin",
+        "user_id": {
+            "$oid": "66031f816d936f9d333cd8a5"
+        },
+        "kids": [
+            {
+                "$oid": "6629379ebf170b48cf2500b9"
+            }
+        ],
+        "parent": {
+            "$oid": "66293627bf170b48cf2500b5"
+        },
+        "text": "Sorry, but I don't think book bans are all bad. Some material may not be appropriate for certain age groups or may contain harmful ideologies. It's about finding a balance between freedom of expression and protecting vulnerable minds. Surely, there are limits to what should be accessible in schools?",
+        "time": {
+            "$date": "2024-04-24T16:45:56.059Z"
+        },
+        "type": "comment",
+        "lastModified": {
+            "$date": "2024-04-24T16:45:56.059Z"
+        }
+    },
+    {
+        "_id": {
+            "$oid": "6629379ebf170b48cf2500b9"
+        },
+        "by": "siaminga",
+        "user_id": {
+            "$oid": "66031fa86d936f9d333cd8aa"
+        },
+        "kids": [
+            {
+                "$oid": "662937eebf170b48cf2500ba"
+            }
+        ],
+        "parent": {
+            "$oid": "66293744bf170b48cf2500b8"
+        },
+        "text": "While I understand the concern for age-appropriate material, who gets to decide what's appropriate? Banning books often stems from subjective opinions rather than objective criteria. Plus, shielding students from uncomfortable ideas doesn't prepare them for the real world. Education should challenge and provoke thought, not shelter students from reality. ",
+        "time": {
+            "$date": "2024-04-24T16:47:26.117Z"
+        },
+        "type": "comment",
+        "lastModified": {
+            "$date": "2024-04-24T16:47:26.117Z"
+        }
+    },
+    {
+        "_id": {
+            "$oid": "662937eebf170b48cf2500ba"
+        },
+        "by": "jdenquin",
+        "user_id": {
+            "$oid": "66031f816d936f9d333cd8a5"
+        },
+        "kids": [
+            {
+                "$oid": "662a6746d0af8d1ff4a3781c"
+            }
+        ],
+        "parent": {
+            "$oid": "6629379ebf170b48cf2500b9"
+        },
+        "text": "Who decides what's appropriate? Well, isn't that the million-dollar question! But here's the thing: while we can't guarantee an objective standard, we can't just throw our hands up and say anything goes either. There's a difference between challenging students with diverse perspectives and exposing them to harmful content. We need to foster critical thinking without subjecting them to unnecessary harm.",
+        "time": {
+            "$date": "2024-04-24T16:48:46.151Z"
+        },
+        "type": "comment",
+        "lastModified": {
+            "$date": "2024-04-24T16:48:46.151Z"
+        }
+    },
+    {
+        "_id": {
+            "$oid": "662938d2bf170b48cf2500bb"
+        },
+        "by": "du35",
+        "user_id": {
+            "$oid": "66031de3bf1beee1ccb4b9fa"
+        },
+        "kids": [
+            {
+                "$oid": "66293922bf170b48cf2500bc"
+            }
+        ],
+        "parent": {
+            "$oid": "6620075d27714eecc2d371f7"
+        },
+        "text": "Interesting move by the EU. It's crucial to assess the potential impact of platforms like TikTok Lite on children's mental health. How can we balance the benefits of social media with the risks it poses to younger users?",
+        "time": {
+            "$date": "2024-04-24T16:52:34.748Z"
+        },
+        "type": "comment",
+        "lastModified": {
+            "$date": "2024-04-24T16:52:34.748Z"
+        }
+    },
+    {
+        "_id": {
+            "$oid": "66293922bf170b48cf2500bc"
+        },
+        "by": "LukeEF",
+        "user_id": {
+            "$oid": "66031f6a6d936f9d333cd8a3"
+        },
+        "kids": [
+            {
+                "$oid": "66293968bf170b48cf2500bd"
+            }
+        ],
+        "parent": {
+            "$oid": "662938d2bf170b48cf2500bb"
+        },
+        "text": "Absolutely agree! Finding that balance is key. Social media offers immense benefits in terms of connectivity and expression, but we can't ignore the potential harms, especially for vulnerable users like children. It's essential for platforms to prioritize safety measures and responsible usage, without stifling the positive aspects of social media. ",
+        "time": {
+            "$date": "2024-04-24T16:53:54.283Z"
+        },
+        "type": "comment",
+        "lastModified": {
+            "$date": "2024-04-24T16:53:54.283Z"
+        }
+    },
+    {
+        "_id": {
+            "$oid": "66293968bf170b48cf2500bd"
+        },
+        "by": "skadamat",
+        "user_id": {
+            "$oid": "66031f5b6d936f9d333cd8a1"
+        },
+        "kids": [],
+        "parent": {
+            "$oid": "66293922bf170b48cf2500bc"
+        },
+        "text": "While safety measures are important, we also need to consider the role of individual responsibility. Parents and guardians play a crucial role in guiding their children's online behavior and teaching them how to navigate social media safely. Placing the burden solely on platforms may overlook the need for broader education and awareness. How can we empower users to make informed choices while still holding platforms accountable for their impact?",
+        "time": {
+            "$date": "2024-04-24T16:55:04.093Z"
+        },
+        "type": "comment",
+        "lastModified": {
+            "$date": "2024-04-24T16:55:04.093Z"
+        }
+    },
+    {
+        "_id": {
+            "$oid": "662a6746d0af8d1ff4a3781c"
+        },
+        "by": "danielxurbina",
+        "user_id": {
+            "$oid": "662a6642d0af8d1ff4a37818"
+        },
+        "kids": [],
+        "parent": {
+            "$oid": "662937eebf170b48cf2500ba"
+        },
+        "text": "I like your comment.",
+        "time": {
+            "$date": "2024-04-25T14:23:02.184Z"
+        },
+        "type": "comment",
+        "lastModified": {
+            "$date": "2024-04-25T14:23:17.905Z"
+        },
+        "deleted": true
     }
 ]

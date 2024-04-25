@@ -1,18 +1,19 @@
 /*
   Name: Daniel Urbina
-  Date: 4/12/2024
+  Date: 4/25/2024
   Course name and section: IT302-002
-  Assignment Name: Phase 4
+  Assignment Name: Phase 5
   Email: du35@njit.edu
 */
+
 import axios from 'axios';
 
 const token = localStorage.getItem('token');
 
 class StoriesDataService {
-    getAllStories(page = 0) {
+    getAllStories(page = 0, storiesPerPage = 20) {
         return axios.get(
-            `${process.env.REACT_APP_BACKEND_STORIES_URL}?page=${page}`
+            `${process.env.REACT_APP_BACKEND_STORIES_URL}?page=${page}&storiesPerPage=${storiesPerPage}`
         );
     }
 
@@ -30,26 +31,29 @@ class StoriesDataService {
 
     createStory(data) {
         return axios.post(
-            `${process.env.REACT_APP_BACKEND_STORIES_URL}`, 
-            data, 
-            { headers: { "Authorization" : `Bearer ${token}` } } 
+            `${process.env.REACT_APP_BACKEND_STORIES_URL}`,
+            data,
+            { headers: { "Authorization": `Bearer ${token}` } }
         );
     }
 
     updateStory(data) {
         return axios.put(
-            `${process.env.REACT_APP_BACKEND_STORIES_URL}`, 
-            data, 
-            { headers: { "Authorization" : `Bearer ${token}` } }
+            `${process.env.REACT_APP_BACKEND_STORIES_URL}`,
+            data,
+            { headers: { "Authorization": `Bearer ${token}` } }
         );
     }
 
-    deleteStory(id) {
-        return axios.delete(
-            `${process.env.REACT_APP_BACKEND_STORIES_URL}`, 
-            { data: { story_id: id } }, 
-            { headers: {"Authorization" : `Bearer ${token}`} }
-        );
+    deleteStory(data) {
+        // for some reason the headers used in previous methods does not work for delete but this works
+        // Source: I got the solution from https://stackoverflow.com/questions/51069552/axios-delete-request-with-request-body-and-headers
+        return axios.delete(`${process.env.REACT_APP_BACKEND_STORIES_URL}`, {
+            headers: {
+                Authorization: `Bearer ${token}`
+            },
+            data: data
+        });
     }
 
     getAllComments(page = 0) {
@@ -72,26 +76,26 @@ class StoriesDataService {
 
     createComment(data) {
         return axios.post(
-            `${process.env.REACT_APP_BACKEND_COMMENTS_URL}`, 
-            data, 
-            { headers: { "Authorization" : `Bearer ${token}` } }
+            `${process.env.REACT_APP_BACKEND_COMMENTS_URL}`,
+            data,
+            { headers: { "Authorization": `Bearer ${token}` } }
         );
     }
 
     updateComment(data) {
         return axios.put(
-            `${process.env.REACT_APP_BACKEND_COMMENTS_URL}`, 
-            data, 
-            { headers: { "Authorization" : `Bearer ${token}` } } 
+            `${process.env.REACT_APP_BACKEND_COMMENTS_URL}`,
+            data,
+            { headers: { "Authorization": `Bearer ${token}` } }
         );
     }
 
     // soft delete a comment
-    deleteComment(id, user_id) {
+    deleteComment(data) {
         return axios.put(
             `${process.env.REACT_APP_BACKEND_COMMENTS_URL}/soft-delete`,
-            { data: { comment_id: id, user_id: user_id } },
-            { headers: { "Authorization" : `Bearer ${token}` } }
+            data,
+            { headers: { "Authorization": `Bearer ${token}` } }
         );
     }
 
@@ -115,30 +119,30 @@ class StoriesDataService {
 
     createUser(data) {
         return axios.post(
-            `${process.env.REACT_APP_BACKEND_USERS_URL}`, 
+            `${process.env.REACT_APP_BACKEND_USERS_URL}`,
             data
         );
     }
 
     updateUser(data) {
         return axios.put(
-            `${process.env.REACT_APP_BACKEND_USERS_URL}`, 
-            data, 
-            { headers: { "Authorization" : `Bearer ${token}` } }
+            `${process.env.REACT_APP_BACKEND_USERS_URL}`,
+            data,
+            { headers: { "Authorization": `Bearer ${token}` } }
         );
     }
 
     deleteUser(id) {
         return axios.delete(
-            `${process.env.REACT_APP_BACKEND_USERS_URL}`, 
-            { data: { user_id: id } }, 
-            { headers: { "Authorization" : `Bearer ${token}` } }
+            `${process.env.REACT_APP_BACKEND_USERS_URL}`,
+            { data: { user_id: id } },
+            { headers: { "Authorization": `Bearer ${token}` } }
         );
     }
 
     login(data) {
         return axios.post(
-            `${process.env.REACT_APP_BACKEND_USERS_URL}/login`, 
+            `${process.env.REACT_APP_BACKEND_USERS_URL}/login`,
             data
         );
     }

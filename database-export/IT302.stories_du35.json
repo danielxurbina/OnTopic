@@ -20,46 +20,15 @@
     "user_id": {
       "$oid": "66031f0a6d936f9d333cd89a"
     },
-    "text": "Explore insightful questions and considerations for innovators and technical leaders contemplating the development of new solutions in the face of existing alternatives. Delve into the nuances of decision-making, weighing the costs, benefits, and long-term implications of building something new versus utilizing existing solutions. Gain valuable perspectives on problem-solving, opportunity costs, operational ownership, scalability, technological advantages, and risk assessment. This comprehensive guide offers practical insights for navigating the complex landscape of innovation and decision-making."
-  },
-  {
-    "_id": {
-      "$oid": "65f9c227b6359881bf9c4943"
-    },
-    "by": "tosh",
-    "descendants": 6,
-    "score": 1,
-    "time": {
-      "$date": "2024-03-19T16:47:10.000Z"
-    },
-    "title": "Harry Potter and the Methods of Rationality",
-    "type": "story",
-    "url": "https://en.wikipedia.org/wiki/Harry_Potter_and_the_Methods_of_Rationality",
-    "image": "https://upload.wikimedia.org/wikipedia/en/e/ec/HPMOR_Yudkowsky.jpg",
-    "lastUpdated": {
-      "$date": "2024-04-07T21:37:51.572Z"
-    },
-    "kids": [
-      {
-        "$oid": "65fc8d2b071b3fe890876047"
-      },
-      {
-        "$oid": "660d71ed4110ba97a64afc74"
-      },
-      {
-        "$oid": "660d72ee4110ba97a64afc76"
-      }
-    ],
-    "user_id": {
-      "$oid": "66031f186d936f9d333cd89b"
-    }
+    "text": "Explore insightful questions and considerations for innovators and technical leaders contemplating the development of new solutions in the face of existing alternatives. Delve into the nuances of decision-making, weighing the costs, benefits, and long-term implications of building something new versus utilizing existing solutions. Gain valuable perspectives on problem-solving, opportunity costs, operational ownership, scalability, technological advantages, and risk assessment. This comprehensive guide offers practical insights for navigating the complex landscape of innovation and decision-making.",
+    "deletedCount": 0
   },
   {
     "_id": {
       "$oid": "65f9c227b6359881bf9c4942"
     },
     "by": "birriel",
-    "descendants": 4,
+    "descendants": 5,
     "score": 1,
     "time": {
       "$date": "2024-03-19T16:47:29.000Z"
@@ -79,7 +48,8 @@
     "user_id": {
       "$oid": "66031f226d936f9d333cd89c"
     },
-    "text": "Explore the cognitive processes underlying human ability to interpret linguistic instructions for novel tasks, and the neural computations involved in this process. The study employs advancements in natural language processing to develop a neural model capable of generalizing tasks based on linguistic instructions alone. Discover how language shapes sensorimotor representations, facilitating flexible cognition and zero-shot learning in neural networks. The findings provide insights into how linguistic information is represented in the brain and its role in enabling general cognitive abilities."
+    "text": "Explore the cognitive processes underlying human ability to interpret linguistic instructions for novel tasks, and the neural computations involved in this process. The study employs advancements in natural language processing to develop a neural model capable of generalizing tasks based on linguistic instructions alone. Discover how language shapes sensorimotor representations, facilitating flexible cognition and zero-shot learning in neural networks. The findings provide insights into how linguistic information is represented in the brain and its role in enabling general cognitive abilities.",
+    "deletedCount": 1
   },
   {
     "_id": {
@@ -105,7 +75,8 @@
     },
     "user_id": {
       "$oid": "66031f2a6d936f9d333cd89d"
-    }
+    },
+    "deletedCount": 0
   },
   {
     "_id": {
@@ -127,7 +98,8 @@
     "kids": [],
     "user_id": {
       "$oid": "66031f3b6d936f9d333cd89e"
-    }
+    },
+    "deletedCount": 0
   },
   {
     "_id": {
@@ -149,7 +121,8 @@
     "kids": [],
     "user_id": {
       "$oid": "66031f476d936f9d333cd89f"
-    }
+    },
+    "deletedCount": 0
   },
   {
     "_id": {
@@ -171,7 +144,8 @@
     "kids": [],
     "user_id": {
       "$oid": "66031f4e6d936f9d333cd8a0"
-    }
+    },
+    "deletedCount": 0
   },
   {
     "_id": {
@@ -197,7 +171,8 @@
     ],
     "user_id": {
       "$oid": "660c427f23d218f2f2b0ba8a"
-    }
+    },
+    "deletedCount": 0
   },
   {
     "_id": {
@@ -219,7 +194,8 @@
     "kids": [],
     "user_id": {
       "$oid": "66031f636d936f9d333cd8a2"
-    }
+    },
+    "deletedCount": 0
   },
   {
     "_id": {
@@ -241,7 +217,8 @@
     "kids": [],
     "user_id": {
       "$oid": "66031f6a6d936f9d333cd8a3"
-    }
+    },
+    "deletedCount": 0
   },
   {
     "_id": {
@@ -263,7 +240,8 @@
     "kids": [],
     "user_id": {
       "$oid": "66031f726d936f9d333cd8a4"
-    }
+    },
+    "deletedCount": 0
   },
   {
     "_id": {
@@ -290,14 +268,15 @@
     "user_id": {
       "$oid": "66031f0a6d936f9d333cd89a"
     },
-    "text": "Explore proven strategies for modernizing legacy software systems effectively. This article outlines common challenges faced by organizations when replacing outdated technology and offers insights into breaking the cycle of incomplete technology replacements. Learn about key patterns and approaches for successful modernization efforts, including understanding desired outcomes, breaking the problem into manageable parts, delivering changes incrementally, and fostering a culture of continuous improvement. Discover how addressing organizational dynamics and business needs alongside technological updates is crucial for achieving long-term success in legacy modernization initiatives."
+    "text": "Explore proven strategies for modernizing legacy software systems effectively. This article outlines common challenges faced by organizations when replacing outdated technology and offers insights into breaking the cycle of incomplete technology replacements. Learn about key patterns and approaches for successful modernization efforts, including understanding desired outcomes, breaking the problem into manageable parts, delivering changes incrementally, and fostering a culture of continuous improvement. Discover how addressing organizational dynamics and business needs alongside technological updates is crucial for achieving long-term success in legacy modernization initiatives.",
+    "deletedCount": 0
   },
   {
     "_id": {
       "$oid": "65f9c227b6359881bf9c4941"
     },
     "by": "jdenquin",
-    "descendants": 6,
+    "descendants": 13,
     "score": 1,
     "time": {
       "$date": "2024-03-19T16:47:57.000Z"
@@ -312,11 +291,18 @@
     "kids": [
       {
         "$oid": "65fc8c9e071b3fe890876045"
+      },
+      {
+        "$oid": "661b2a349d2011f43dc06696"
+      },
+      {
+        "$oid": "661b3812eb2764890fe07c67"
       }
     ],
     "user_id": {
       "$oid": "66031f816d936f9d333cd8a5"
-    }
+    },
+    "deletedCount": 8
   },
   {
     "_id": {
@@ -338,7 +324,8 @@
     "kids": [],
     "user_id": {
       "$oid": "66031f8b6d936f9d333cd8a6"
-    }
+    },
+    "deletedCount": 0
   },
   {
     "_id": {
@@ -365,7 +352,8 @@
     "user_id": {
       "$oid": "66031f926d936f9d333cd8a7"
     },
-    "text": "Dive into an analysis of CO2 storage potential in the central Gulf of Mexico (GOM) through the assessment of producing and depleted hydrocarbon reservoirs. This study evaluates reservoir suitability for CO2 storage, estimating resources using advanced modeling techniques. Discover insights into the screening process, resource estimation methodologies, and the potential for large-scale CO2 storage projects in the region."
+    "text": "Dive into an analysis of CO2 storage potential in the central Gulf of Mexico (GOM) through the assessment of producing and depleted hydrocarbon reservoirs. This study evaluates reservoir suitability for CO2 storage, estimating resources using advanced modeling techniques. Discover insights into the screening process, resource estimation methodologies, and the potential for large-scale CO2 storage projects in the region.",
+    "deletedCount": 0
   },
   {
     "_id": {
@@ -380,7 +368,7 @@
     "title": "Microsoft hires DeepMind co-founder Suleyman",
     "type": "story",
     "url": "https://www.reuters.com/technology/microsoft-hires-deepmind-co-founder-suleyman-head-new-consumer-ai-organization-2024-03-19/",
-    "image": "https://i.postimg.cc/GhC9GcSm/declan-sun-tnlbm6h-F43k-unsplash.jpg",
+    "image": "https://www.reuters.com/resizer/v2/UHTFC6EERBPFZKMXYVXKC2CZYA.jpg?auth=c4f16d848bd076771d8e3d35babaa0f9dfcf2d0177cd63b79bde801b8223f565&width=1200&quality=80",
     "lastUpdated": {
       "$date": "2024-03-19T16:49:42.773Z"
     },
@@ -391,7 +379,8 @@
     ],
     "user_id": {
       "$oid": "66031f986d936f9d333cd8a8"
-    }
+    },
+    "deletedCount": 0
   },
   {
     "_id": {
@@ -406,7 +395,7 @@
     "title": "Leadership requires taking some risk",
     "type": "story",
     "url": "https://lethain.com/leadership-requires-risk/",
-    "image": "https://i.postimg.cc/x8KCh7qQ/joanna-kosinska-RE-8-Wsw-W95o-unsplash.jpg",
+    "image": "https://asset.gallup.com/p/CSFCMSEN/742a568e-cef5-48a2-a019-7eb845c43df9.jpg",
     "lastUpdated": {
       "$date": "2024-03-19T16:49:42.773Z"
     },
@@ -417,7 +406,8 @@
     ],
     "user_id": {
       "$oid": "66031f0a6d936f9d333cd89a"
-    }
+    },
+    "deletedCount": 0
   },
   {
     "_id": {
@@ -432,36 +422,15 @@
     "title": "Inflection CEO Left, Became CEO of Microsoft AI",
     "type": "story",
     "url": "https://twitter.com/mustafasuleyman/status/1770123596121432351",
-    "image": "https://i.postimg.cc/BbGZTgpV/samuel-sianipar-Mad2smyk-ZU0-unsplash.jpg",
+    "image": "https://images.fastcompany.com/image/upload/f_auto,c_fit,w_3840,q_auto/wp-cms/uploads/2024/03/p-91064850-microsoft-hires-deepmind-suleyman-1.jpg",
     "lastUpdated": {
       "$date": "2024-03-19T16:49:42.773Z"
     },
     "kids": [],
     "user_id": {
       "$oid": "66031f9f6d936f9d333cd8a9"
-    }
-  },
-  {
-    "_id": {
-      "$oid": "65f9c227b6359881bf9c494e"
     },
-    "by": "siaminga",
-    "descendants": 0,
-    "kids": [],
-    "score": 2,
-    "text": "which platform allows to build ai chatbots and have chat sdks to deploy the chatbot into a mobile app? (both android and ios)",
-    "time": {
-      "$date": "2024-03-19T16:32:29.000Z"
-    },
-    "title": "AI Chatbot with Chat SDKs",
-    "type": "story",
-    "image": "https://i.postimg.cc/gcv2YCkF/mostafa-turkey-n-Vg-U7s-NDRg0-unsplash.jpg",
-    "lastUpdated": {
-      "$date": "2024-03-19T16:49:42.773Z"
-    },
-    "user_id": {
-      "$oid": "66031fa86d936f9d333cd8aa"
-    }
+    "deletedCount": 0
   },
   {
     "_id": {
@@ -484,51 +453,8 @@
     "user_id": {
       "$oid": "66031faf6d936f9d333cd8ab"
     },
-    "image": "https://th-thumbnailer.cdn-si-edu.com/Y2qXiXwkAZNPJbIXSHhfacqlpbY=/1000x750/filters:no_upscale():focal(450x300:451x301)/https://tf-cmsv2-smithsonianmag-media.s3.amazonaws.com/filer_public/7a/0c/7a0ce4aa-4806-4cfa-be66-53d24fe02d9c/sei_196636575.png"
-  },
-  {
-    "_id": {
-      "$oid": "66038ff70814f1ddcc650639"
-    },
-    "by": "du35",
-    "descendants": 0,
-    "score": 2,
-    "text": "",
-    "time": {
-      "$date": "2024-03-27T03:18:15.957Z"
-    },
-    "title": "How to send a GET request in Node.js",
-    "type": "story",
-    "url": "",
-    "lastUpdated": {
-      "$date": "2024-03-27T03:18:15.957Z"
-    },
-    "kids": [],
-    "user_id": {
-      "$oid": "66031de3bf1beee1ccb4b9fa"
-    }
-  },
-  {
-    "_id": {
-      "$oid": "660c60a6faafeb58282ed35a"
-    },
-    "by": "du35",
-    "user_id": {
-      "$oid": "66031de3bf1beee1ccb4b9fa"
-    },
-    "descendants": 0,
-    "score": 3,
-    "text": "",
-    "time": {
-      "$date": "2024-04-02T19:46:46.796Z"
-    },
-    "title": "Baltimore is my favorite city and here's why!",
-    "type": "story",
-    "url": "",
-    "lastUpdated": {
-      "$date": "2024-04-02T19:46:46.796Z"
-    },
-    "kids": []
+    "image": "https://th-thumbnailer.cdn-si-edu.com/Y2qXiXwkAZNPJbIXSHhfacqlpbY=/1000x750/filters:no_upscale():focal(450x300:451x301)/https://tf-cmsv2-smithsonianmag-media.s3.amazonaws.com/filer_public/7a/0c/7a0ce4aa-4806-4cfa-be66-53d24fe02d9c/sei_196636575.png",
+    "deletedCount": 0
   },
   {
     "_id": {
@@ -550,6 +476,250 @@
     "lastUpdated": {
       "$date": "2024-04-06T05:35:09.384Z"
     },
+    "kids": [],
+    "deletedCount": 0,
+    "image": "https://cdn.geekwire.com/wp-content/uploads/2024/04/googlerobotics-1260x884.jpg"
+  },
+  {
+    "_id": {
+      "$oid": "661f24827526c09d2622ccd2"
+    },
+    "by": "du35",
+    "user_id": {
+      "$oid": "66031de3bf1beee1ccb4b9fa"
+    },
+    "descendants": 1,
+    "deletedCount": 0,
+    "score": 0,
+    "text": "In the years after World War Two, neutral, peace-loving Sweden embarked on an ambitious plan – build its own atomic bomb.",
+    "time": {
+      "$date": "2024-04-17T01:23:14.582Z"
+    },
+    "title": "Sweden has long opposed nuclear weapons, but once tried to build them",
+    "type": "story",
+    "url": "https://www.bbc.com/future/article/20240412-the-secret-scandinavian-a-bomb-project",
+    "lastUpdated": {
+      "$date": "2024-04-17T01:23:14.582Z"
+    },
+    "kids": [
+      {
+        "$oid": "6623cba97449bd401679aa19"
+      }
+    ],
+    "image": "https://media.hswstatic.com/eyJidWNrZXQiOiJjb250ZW50Lmhzd3N0YXRpYy5jb20iLCJrZXkiOiJnaWZcL251Y2xlYXItYm9tYi11cGRhdGUuanBnIiwiZWRpdHMiOnsicmVzaXplIjp7IndpZHRoIjoiMTIwMCJ9fX0="
+  },
+  {
+    "_id": {
+      "$oid": "661f48024af3422d55ad4497"
+    },
+    "by": "du35",
+    "user_id": {
+      "$oid": "66031de3bf1beee1ccb4b9fa"
+    },
+    "descendants": 3,
+    "deletedCount": 0,
+    "score": 0,
+    "text": "",
+    "time": {
+      "$date": "2024-04-17T03:54:42.089Z"
+    },
+    "title": "I Nearly Died Drowning. Here's What It's Like to Survive ",
+    "type": "story",
+    "url": "https://longreads.com/2024/04/02/i-nearly-died-drowning-maggie-slepian/",
+    "lastUpdated": {
+      "$date": "2024-04-17T03:54:42.089Z"
+    },
+    "kids": [
+      {
+        "$oid": "6620011427714eecc2d371f0"
+      },
+      {
+        "$oid": "662001e827714eecc2d371f2"
+      }
+    ],
+    "image": "https://i0.wp.com/longreads.com/wp-content/uploads/2024/03/Drowning.jpg?w=2400&ssl=1"
+  },
+  {
+    "_id": {
+      "$oid": "661ff62abf80bf6a6940519d"
+    },
+    "by": "du35",
+    "user_id": {
+      "$oid": "66031de3bf1beee1ccb4b9fa"
+    },
+    "descendants": 5,
+    "deletedCount": 1,
+    "score": 0,
+    "text": "The AV industry’s main lobbying group says driver-less cars need to earn the public’s trust. But what if it’s too late?",
+    "time": {
+      "$date": "2024-04-17T16:17:46.437Z"
+    },
+    "title": "People are afraid of self-driving cars — can the industry change that?",
+    "type": "story",
+    "url": "https://www.theverge.com/2024/4/16/24132026/autonomous-vehicles-fear-poll-public-trust-avia",
+    "image": "https://cdn.vox-cdn.com/thumbor/0IZNyO2mhRsz5x7hu37y-wYSpnY=/0x0:5813x3733/5813x3733/filters:focal(2907x1867:2908x1868)/cdn.vox-cdn.com/uploads/chorus_asset/file/25403144/2085264814.jpg",
+    "lastUpdated": {
+      "$date": "2024-04-17T16:17:46.437Z"
+    },
+    "kids": [
+      {
+        "$oid": "661ff673bf80bf6a6940519e"
+      }
+    ]
+  },
+  {
+    "_id": {
+      "$oid": "662005ba27714eecc2d371f3"
+    },
+    "by": "nocode20",
+    "user_id": {
+      "$oid": "6603202b6d936f9d333cd8ba"
+    },
+    "descendants": 0,
+    "deletedCount": 0,
+    "score": 0,
+    "text": "Amazon says human reviewers only annotate shopping data for its cashierless tech.",
+    "time": {
+      "$date": "2024-04-17T17:24:10.900Z"
+    },
+    "title": "Amazon insists Just Walk Out isn’t secretly run by workers watching you shop",
+    "type": "story",
+    "url": "https://www.theverge.com/2024/4/17/24133029/amazon-just-walk-out-cashierless-ai-india",
+    "image": "https://duet-cdn.vox-cdn.com/thumbor/0x0:1320x743/1200x800/filters:focal(660x372:661x373):format(webp)/cdn.vox-cdn.com/uploads/chorus_asset/file/25404889/amazon_just_walk_out.jpg",
+    "lastUpdated": {
+      "$date": "2024-04-17T17:24:10.900Z"
+    },
     "kids": []
+  },
+  {
+    "_id": {
+      "$oid": "662005e527714eecc2d371f4"
+    },
+    "by": "techtitan",
+    "user_id": {
+      "$oid": "660320216d936f9d333cd8b9"
+    },
+    "descendants": 0,
+    "deletedCount": 0,
+    "score": 0,
+    "text": "Nine employees were arrested for occupying Google’s offices in protest of Project Nimbus, an Israeli military contract.",
+    "time": {
+      "$date": "2024-04-17T17:24:53.351Z"
+    },
+    "title": "Nine Google employees arrested after eight-hour sit-in protest",
+    "type": "story",
+    "url": "https://www.theverge.com/2024/4/17/24133056/google-protests-project-nimbus-no-tech-for-apartheid",
+    "image": "https://duet-cdn.vox-cdn.com/thumbor/0x0:2040x1360/1200x800/filters:focal(1020x680:1021x681):format(webp)/cdn.vox-cdn.com/uploads/chorus_asset/file/25405025/24107812711897.jpg",
+    "lastUpdated": {
+      "$date": "2024-04-17T17:24:53.351Z"
+    },
+    "kids": []
+  },
+  {
+    "_id": {
+      "$oid": "6620061f27714eecc2d371f5"
+    },
+    "by": "samhunt12",
+    "user_id": {
+      "$oid": "66031fc16d936f9d333cd8ad"
+    },
+    "descendants": 0,
+    "deletedCount": 0,
+    "score": 0,
+    "text": "The agency has set a July 2028 launch date for its Titan-bound Dragonfly rotorcraft mission.",
+    "time": {
+      "$date": "2024-04-17T17:25:51.565Z"
+    },
+    "title": "NASA has greenlit plans to send a giant drone to Saturn’s largest moon",
+    "type": "story",
+    "url": "https://www.theverge.com/2024/4/17/24132824/nasa-dragonfly-mission-drone-saturn-moon-titan-greenlit",
+    "image": "https://duet-cdn.vox-cdn.com/thumbor/0x0:1920x1300/1200x800/filters:focal(960x650:961x651):format(webp)/cdn.vox-cdn.com/uploads/chorus_asset/file/25404241/NASA_Dragonfly.jpg",
+    "lastUpdated": {
+      "$date": "2024-04-17T17:25:51.565Z"
+    },
+    "kids": []
+  },
+  {
+    "_id": {
+      "$oid": "662006a527714eecc2d371f6"
+    },
+    "by": "samfisher",
+    "user_id": {
+      "$oid": "66031fea6d936f9d333cd8b2"
+    },
+    "descendants": 0,
+    "deletedCount": 0,
+    "score": 0,
+    "text": "Fake Drake diss track? Real Drake deepfake.",
+    "time": {
+      "$date": "2024-04-17T17:28:05.349Z"
+    },
+    "title": "Drake muddies the ‘Push Ups’ AI debate with a deepfake",
+    "type": "story",
+    "url": "https://www.theverge.com/2024/4/16/24132145/drake-ai-deepfake-diss-track-metro-boomin-drumline",
+    "image": "https://duet-cdn.vox-cdn.com/thumbor/0x0:8256x5504/1200x800/filters:focal(4128x2752:4129x2753):format(webp)/cdn.vox-cdn.com/uploads/chorus_asset/file/25403154/1448234892.jpg",
+    "lastUpdated": {
+      "$date": "2024-04-17T17:28:05.349Z"
+    },
+    "kids": []
+  },
+  {
+    "_id": {
+      "$oid": "6620075d27714eecc2d371f7"
+    },
+    "by": "cryptotrader23",
+    "user_id": {
+      "$oid": "66031fc86d936f9d333cd8ae"
+    },
+    "descendants": 5,
+    "deletedCount": 2,
+    "score": 0,
+    "text": "ByteDance's TikTok has been given 24 hours to provide a risk assessment on its new app TikTok Lite launched this month in France and Spain because of concerns about its potential impact on children and users' mental health, the European Commission said on Wednesday.",
+    "time": {
+      "$date": "2024-04-17T17:31:09.259Z"
+    },
+    "title": "TikTok asked by EU about risks of TikTok Lite to children after France, Spain launch",
+    "type": "story",
+    "url": "https://www.reuters.com/technology/tiktok-quizzed-by-eu-tiktok-lite-launch-france-spain-2024-04-17/",
+    "image": "https://www.reuters.com/resizer/v2/B5KR5GEPE5IAPN52KRVHMXOVSQ.jpg?auth=cc6052c9f7e565433be478b6db93e2df836a801182718618a873fb9430247ab7&width=1200&quality=80",
+    "lastUpdated": {
+      "$date": "2024-04-17T17:31:09.259Z"
+    },
+    "kids": [
+      {
+        "$oid": "66286aab188a1d4927651a9c"
+      },
+      {
+        "$oid": "662938d2bf170b48cf2500bb"
+      }
+    ]
+  },
+  {
+    "_id": {
+      "$oid": "6620088627714eecc2d371f8"
+    },
+    "by": "cryptotrader23",
+    "user_id": {
+      "$oid": "66031fc86d936f9d333cd8ae"
+    },
+    "descendants": 7,
+    "deletedCount": 1,
+    "score": 0,
+    "text": "According to PEN America, 4,349 books were banned from schools between July and December 2023, more than the entire previous school year. More than 3,000 of those bans were in Florida.",
+    "time": {
+      "$date": "2024-04-17T17:36:06.087Z"
+    },
+    "title": "Report: Last year ended with a surge in book bans",
+    "type": "story",
+    "url": "https://www.npr.org/2024/04/16/1245037718/book-bans-2023-pen-america",
+    "image": "https://media.npr.org/assets/img/2024/04/16/cumulative-book-bans-in-the-united-states_custom-b631e92e86a6d3a1482731a0f9b714b4473565bb-s1100-c50.png",
+    "lastUpdated": {
+      "$date": "2024-04-17T23:31:19.318Z"
+    },
+    "kids": [
+      {
+        "$oid": "66293627bf170b48cf2500b5"
+      }
+    ]
   }
 ]

@@ -1,3 +1,11 @@
+/*
+  Name: Daniel Urbina
+  Date: 4/25/2024
+  Course name and section: IT302-002
+  Assignment Name: Phase 5
+  Email: du35@njit.edu
+*/
+
 .App {
   text-align: center;
 }
@@ -35,4 +43,16 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.form-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.story-wrapper {
+  display: grid;
+  place-items: center;
 }

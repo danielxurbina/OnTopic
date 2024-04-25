@@ -1,8 +1,8 @@
 /*
   Name: Daniel Urbina
-  Date: 4/12/2024
+  Date: 4/25/2024
   Course name and section: IT302-002
-  Assignment Name: Phase 4
+  Assignment Name: Phase 5
   Email: du35@njit.edu
 */
 
@@ -74,8 +74,9 @@ export default class UsersDAO {
                 // check if the username is an empty string
                 if (query.username === "" || query.password === "") {
                     return { error: "Username or password is empty" }
+                } else {
+                    return await users.insertOne(query)
                 }
-                return await users.insertOne(query)
             }
         } catch (e) {
             console.error(`Unable to add user: ${e}`);
@@ -96,31 +97,11 @@ export default class UsersDAO {
                 push = { comments: new ObjectId(comment) }
             }
 
-            console.log(push.length)
-
             updateFields != null && push.length != 0 ? update = { $set: updateFields, $push: push } : update = { $push: push }
 
             return await users.updateOne(query, update)
         } catch (e) {
             console.error(`Unable to update user: ${e}`);
-            return { error: e };
-        }
-    }
-
-    static async updateUserStories(id, storyID) {
-        try {
-
-        } catch (e) {
-            console.error(`Unable to update user stories: ${e}`);
-            return { error: e };
-        }
-    }
-
-    static async updateUserComments(id, commentID, type = "add") {
-        try {
-
-        } catch (e) {
-            console.error(`Unable to update user comments: ${e}`);
             return { error: e };
         }
     }
@@ -158,6 +139,45 @@ export default class UsersDAO {
             }
         } catch (e) {
             console.error(`Unable to login user: ${e}`);
+            return { error: e };
+        }
+    }
+
+    static async deleteComments(storyCommentIDs) {
+        try {
+            const usersToUpdate = await users.find().toArray()
+            const listOfMatchingComments = []
+            usersToUpdate.forEach(user => {
+                const matchingComments = user.comments.filter(userCommentID =>
+                    storyCommentIDs.some(storyCommentID =>
+                        storyCommentID.equals(new ObjectId(userCommentID))
+                    )
+                )
+                if (matchingComments.length > 0) {
+                    listOfMatchingComments.push({ user: user.username, comments: matchingComments })
+                }
+            })
+
+            listOfMatchingComments.forEach(async user => {
+                const updateQuery = { username: user.user }
+                const update = { $pull: { comments: { $in: user.comments } } }
+                await users.updateOne(updateQuery, update)
+            })
+        } catch (e) {
+            console.log(`Unable to delete comments: ${e}`)
+            return { error: e }
+        }
+    }
+
+    static async deleteStory(story) {
+        try {
+            const userID = new ObjectId(story.user_id)
+            const storyID = new ObjectId(story._id)
+            const updateQuery = { _id: userID }
+            const update = { $pull: { stories: storyID } }
+            await users.updateOne(updateQuery, update)
+        } catch (e) {
+            console.error(`Unable to delete story: ${e}`);
             return { error: e };
         }
     }

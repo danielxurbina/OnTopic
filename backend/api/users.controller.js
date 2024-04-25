@@ -1,8 +1,8 @@
 /*
   Name: Daniel Urbina
-  Date: 4/12/2024
+  Date: 4/24/2024
   Course name and section: IT302-002
-  Assignment Name: Phase 4
+  Assignment Name: Phase 5
   Email: du35@njit.edu
 */
 
@@ -74,7 +74,15 @@ export default class UsersController {
                 stories: []
             };
             const userResponse = await UsersDAO.addUser(postFields);
-            res.json({ userResponse });
+            if(userResponse.error){
+                res.json({ success: false, error: userResponse.error })
+            } else {
+                const token = jwt.sign({ username: postFields.username }, 'SECRETKEY')
+                const user = await UsersDAO.getUserByID(userResponse.insertedId)
+                const exclude = ['password', 'stories', 'comments', 'createdAt', 'lastModified']
+                exclude.forEach(field => user[field] = undefined)
+                res.json({ success: true, token: token, user: user })
+            }
         } catch (e) {
             res.status(500).json({ error: e.message })
         }
@@ -93,9 +101,7 @@ export default class UsersController {
             let comment; // holds the optional comment_id
             const user = await UsersDAO.getUserByID(req.body.user_id);
             const persistedUser = req.user;
-            if(persistedUser._id !== user._id && persistedUser.role !== "admin"){
-                res.status(401).json({ success: false, error: "Unauthorized to update user" });
-            } else {
+            if(persistedUser._id.equals(user._id) || persistedUser.role === "admin"){
                 // If username is provided, update the username
                 if (req.body.username) {
                     updateFields.username = req.body.username;
@@ -135,6 +141,8 @@ export default class UsersController {
     
                 const userResponse = await UsersDAO.updateUser(query, updateFields, story, comment);
                 res.json({ userResponse });
+            } else {
+                res.status(401).json({ success: false, error: "Unauthorized to update user" });
             }
         } catch (e) {
             res.status(500).json({ error: e.message })
@@ -154,11 +162,11 @@ export default class UsersController {
                 res.status(404).json({ success: false, error: "User not found" });
             }
             const persistedUser = req.user;
-            if(persistedUser._id !== user._id && persistedUser.role !== "admin"){
-                res.status(401).json({ success: false, error: "Unauthorized to delete user" });
-            } else {
+            if(persistedUser._id.equals(user._id) || persistedUser.role === "admin"){
                 // delete the user
-                // TODO: add functionality to delete the user's stories and comments
+                // TODO add functionality to delete the user's stories and comments
+            } else {
+                res.status(401).json({ success: false, error: "Unauthorized to delete user" });
             }
         } catch (e) {
             res.status(500).json({ error: e.message })
@@ -172,8 +180,6 @@ export default class UsersController {
                 res.json({ sucesss: false, error: 'Not authenticated' })
             } else {
                 const token = jwt.sign({ username: user.username }, 'SECRETKEY')
-                // // Exclude _id from the user object
-                // delete user._id;
                 res.json({ success: true, token: token, user: user })
             }
         } catch (e) {
