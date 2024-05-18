@@ -1,11 +1,3 @@
-/*
-  Name: Daniel Urbina
-  Date: 4/25/2024
-  Course name and section: IT302-002
-  Assignment Name: Phase 5
-  Email: du35@njit.edu
-*/
-
 import "bootstrap/dist/css/bootstrap.min.css"
 import { NavLink } from "react-router-dom"
 import { Container, Navbar, Nav } from "react-bootstrap"

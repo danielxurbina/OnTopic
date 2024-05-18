@@ -1,16 +1,3 @@
-/*
-  Name: Daniel Urbina
-  Date: 4/25/2024
-  Course name and section: IT302-002
-  Assignment Name: Phase 5
-  Email: du35@njit.edu
-*/
-
-/*
-    Source:
-        Used this tutorial to help me with the pagination:
-            https://dev.to/canhamzacode/how-to-implement-pagination-with-reactjs-2b04
-*/
 import React from "react"
 import { Pagination } from "react-bootstrap"
 

@@ -1,11 +1,3 @@
-/*
-  Name: Daniel Urbina
-  Date: 3/22/2024
-  Course name and section: IT302-002
-  Assignment Name: Phase 3
-  Email: du35@njit.edu
-*/
-
 // This helper function was made to generate Unique IDs
 let sequenceDocument;
 export default class UniqueID {

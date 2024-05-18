@@ -1,11 +1,3 @@
-/*
-  Name: Daniel Urbina
-  Date: 4/25/2024
-  Course name and section: IT302-002
-  Assignment Name: Phase 5
-  Email: du35@njit.edu
-*/
-
 import React, { useState, useEffect } from "react";
 import { useParams, useNavigate } from "react-router-dom";
 import { Card, Button, Modal, Dropdown, DropdownButton, Form, Row, Col, Alert } from "react-bootstrap"

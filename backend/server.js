@@ -1,11 +1,3 @@
-/*
-  Name: Daniel Urbina
-  Date: 3/22/2024
-  Course name and section: IT302-002
-  Assignment Name: Phase 3
-  Email: du35@njit.edu
-*/
-
 import express from "express";
 import cors from "cors";
 import dotenv from "dotenv";

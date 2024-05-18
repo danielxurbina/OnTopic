@@ -1,11 +1,3 @@
-/*
-  Name: Daniel Urbina
-  Date: 4/12/2024
-  Course name and section: IT302-002
-  Assignment Name: Phase 4
-  Email: du35@njit.edu
-*/
-
 import app from "./server.js";
 import mongodb from "mongodb";
 import dotenv from "dotenv";

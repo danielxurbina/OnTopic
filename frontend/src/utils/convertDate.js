@@ -1,16 +1,3 @@
-/*
-  Name: Daniel Urbina
-  Date: 4/25/2024
-  Course name and section: IT302-002
-  Assignment Name: Phase 5
-  Email: du35@njit.edu
-*/
-
-/*
-    Source:
-        Used this blog post to help me with the date conversion:
-            https://rswpthemes.com/how-to-convert-seconds-to-years-months-days-hours-minutes-seconds/
-*/
 const convertDate = (date) => {
     const currentDate = new Date();
     const postDate = new Date(date);

@@ -1,11 +1,3 @@
-/*
-  Name: Daniel Urbina
-  Date: 4/25/2024
-  Course name and section: IT302-002
-  Assignment Name: Phase 5
-  Email: du35@njit.edu
-*/
-
 import StoriesDAO from "../dao/storiesDAO.js";
 import UsersDAO from "../dao/usersDAO.js";
 import mongodb from "mongodb";
